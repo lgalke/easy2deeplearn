@@ -1,0 +1,17 @@
+pandas
+scikit-learn
+numpy
+scipy
+wandb
+tqdm
+git+ssh://git@github.com/facebookresearch/EGG.git
+editdistance
+joblib
+typing
+statsmodels
+# pymer4
+patsy
+matplotlib
+seaborn
+seaborn-qqplot
+black

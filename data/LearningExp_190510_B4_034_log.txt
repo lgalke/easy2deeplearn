@@ -1,0 +1,250 @@
+Language learnability experiment
+Logfile written - 05/10/2019 15:40:24
+Participant ID: 034
+Language: B4
+Computer: 5
+
+Round	Task	Trial	Target	Shape	Angle	Distr1	Distr2	Distr3	Distr4	Distr5	Distr6	Distr7	SelectedItem	Correct	Input	Producer
+1	Exposure	1	7	1	315											034
+1	Exposure	2	18	3	180											034
+1	Exposure	3	11	2	45											034
+1	Exposure	4	8	2	270											034
+1	Exposure	5	26	4	225											034
+1	Exposure	6	19	3	240											034
+1	Exposure	7	3	1	360											034
+1	Exposure	8	23	4	300											034
+1	Exposure	9	16	3	135											034
+1	Exposure	10	28	4	30											034
+1	Exposure	11	9	2	90											034
+1	Exposure	12	1	1	150											034
+1	Exposure	1	1	1	150											034
+1	Exposure	2	16	3	135											034
+1	Exposure	3	11	2	45											034
+1	Exposure	4	18	3	180											034
+1	Exposure	5	3	1	360											034
+1	Exposure	6	9	2	90											034
+1	Exposure	7	26	4	225											034
+1	Exposure	8	19	3	240											034
+1	Exposure	9	7	1	315											034
+1	Exposure	10	28	4	30											034
+1	Exposure	11	8	2	270											034
+1	Exposure	12	23	4	300											034
+1	Guessing	1	3	1	360	11	28	26					3	1		034
+1	Guessing	2	26	4	225	7	9	8					26	1		034
+1	Guessing	3	16	3	135	28	3	18					18	0		034
+1	Guessing	4	1	1	150	7	16	9					9	0		034
+1	Guessing	5	23	4	300	26	18	9					23	1		034
+1	Guessing	6	19	3	240	18	8	7					8	0		034
+1	Guessing	7	8	2	270	26	23	9					8	1		034
+1	Guessing	8	9	2	90	3	8	26					9	1		034
+1	Guessing	9	28	4	30	8	1	19					28	1		034
+1	Guessing	10	7	1	315	16	3	9					16	0		034
+1	Guessing	11	11	2	45	18	8	1					18	0		034
+1	Guessing	12	18	3	180	11	7	23					23	0		034
+1	Guessing	1	11	2	45	3	9	19					11	1		034
+1	Guessing	2	3	1	360	16	28	1					3	1		034
+1	Guessing	3	26	4	225	23	1	7					26	1		034
+1	Guessing	4	19	3	240	28	26	23					19	1		034
+1	Guessing	5	23	4	300	26	16	8					16	0		034
+1	Guessing	6	9	2	90	7	18	3					9	1		034
+1	Guessing	7	8	2	270	28	7	19					7	0		034
+1	Guessing	8	1	1	150	18	7	11					18	0		034
+1	Guessing	9	28	4	30	9	11	8					28	1		034
+1	Guessing	10	18	3	180	7	11	3					7	0		034
+1	Guessing	11	16	3	135	23	8	9					23	0		034
+1	Guessing	12	7	1	315	19	23	26					23	0		034
+1	Production	1	8	2	270									1	pok-u	034
+1	Production	2	16	3	135									1	muif-e	034
+1	Production	3	9	2	90									1	pok-iii	034
+1	Production	4	11	2	45									0	fak-a	034
+1	Production	5	3	1	360									0	muif-huif	034
+1	Production	6	26	4	225									0	muif-w	034
+1	Production	7	23	4	300									0	muif-huif	034
+1	Production	8	7	1	315									0	muif-huif	034
+1	Production	9	28	4	30									1	fak-a	034
+1	Production	10	19	3	240									1	muif-huif	034
+1	Production	11	1	1	150									0	pok-w	034
+1	Production	12	18	3	180									0	pok-w	034
+1	Production	1	18	3	180									1	muif-w	034
+1	Production	2	7	1	315									0	fase-i	034
+1	Production	3	9	2	90									1	pok-iii	034
+1	Production	4	3	1	360									0	pok-e	034
+1	Production	5	19	3	240									0	muif-fuif	034
+1	Production	6	1	1	150									0	pok-w	034
+1	Production	7	11	2	45									0	fak-a	034
+1	Production	8	28	4	30									1	fak-a	034
+1	Production	9	23	4	300									0	muif-a	034
+1	Production	10	16	3	135									0	fak-i	034
+1	Production	11	26	4	225									0	muif-huif	034
+1	Production	12	8	2	270									1	pok-u	034
+2	Exposure	1	21	3	270											034
+2	Exposure	2	10	2	210											034
+2	Exposure	3	13	2	330											034
+2	Exposure	4	14	2	180											034
+2	Exposure	5	15	3	45											034
+2	Exposure	6	5	1	60											034
+2	Exposure	7	25	4	120											034
+2	Exposure	8	6	1	240											034
+2	Exposure	9	4	1	210											034
+2	Exposure	10	20	3	315											034
+2	Exposure	11	12	2	135											034
+2	Exposure	1	10	2	210											034
+2	Exposure	2	4	1	210											034
+2	Exposure	3	15	3	45											034
+2	Exposure	4	21	3	270											034
+2	Exposure	5	13	2	330											034
+2	Exposure	6	12	2	135											034
+2	Exposure	7	6	1	240											034
+2	Exposure	8	5	1	60											034
+2	Exposure	9	25	4	120											034
+2	Exposure	10	14	2	180											034
+2	Exposure	11	20	3	315											034
+2	Guessing	1	4	1	210	25	6	21					4	1		034
+2	Guessing	2	15	3	45	14	20	4					15	1		034
+2	Guessing	3	10	2	210	5	6	4					6	0		034
+2	Guessing	4	21	3	270	25	10	15					21	1		034
+2	Guessing	5	6	1	240	5	12	20					20	0		034
+2	Guessing	6	20	3	315	12	5	10					5	0		034
+2	Guessing	7	25	4	120	14	4	13					25	1		034
+2	Guessing	8	12	2	135	15	6	25					12	1		034
+2	Guessing	9	5	1	60	4	25	15					15	0		034
+2	Guessing	10	14	2	180	10	4	25					14	1		034
+2	Guessing	11	13	2	330	15	14	5					13	1		034
+2	Guessing	1	5	1	60	13	14	6					5	1		034
+2	Guessing	2	12	2	135	21	20	14					12	1		034
+2	Guessing	3	13	2	330	21	4	25					13	1		034
+2	Guessing	4	14	2	180	10	25	12					25	0		034
+2	Guessing	5	4	1	210	15	25	10					4	1		034
+2	Guessing	6	6	1	240	10	12	15					15	0		034
+2	Guessing	7	10	2	210	13	6	14					6	0		034
+2	Guessing	8	20	3	315	10	14	5					5	0		034
+2	Guessing	9	25	4	120	13	15	6					25	1		034
+2	Guessing	10	21	3	270	5	20	13					21	1		034
+2	Guessing	11	15	3	45	20	25	5					20	0		034
+2	Production	1	21	3	270									1	muif-u	034
+2	Production	2	6	1	240									0	pok-u	034
+2	Production	3	13	2	330									1	pok	034
+2	Production	4	5	1	60									0	pok-a	034
+2	Production	5	25	4	120									1	fak-e	034
+2	Production	6	10	2	210									0	pok-w-w-muif	034
+2	Production	7	15	3	45									1	muif-a	034
+2	Production	8	14	2	180									1	pok-w	034
+2	Production	9	12	2	135									0	pok-muif	034
+2	Production	10	4	1	210									0	pok-w-w-huif	034
+2	Production	11	20	3	315									1	muif-pok	034
+2	Production	1	13	2	330									1	pok	034
+2	Production	2	5	1	60									0	muif-a	034
+2	Production	3	21	3	270									1	muif-u	034
+2	Production	4	6	1	240									0	fas-u	034
+2	Production	5	10	2	210									0	fas-w-w-huif	034
+2	Production	6	15	3	45									1	muif-a	034
+2	Production	7	14	2	180									0	mfas-w	034
+2	Production	8	12	2	135									0	fak-e	034
+2	Production	9	25	4	120									1	fak-e	034
+2	Production	10	20	3	315									0	muif-huif	034
+2	Production	11	4	1	210									0	fok-w-w-huif	034
+3	Exposure	1	12	2	135											034
+3	Exposure	2	6	1	240											034
+3	Exposure	3	8	2	270											034
+3	Exposure	4	13	2	330											034
+3	Exposure	5	23	4	300											034
+3	Exposure	6	3	1	360											034
+3	Exposure	7	19	3	240											034
+3	Exposure	8	28	4	30											034
+3	Exposure	9	10	2	210											034
+3	Exposure	10	14	2	180											034
+3	Exposure	11	15	3	45											034
+3	Exposure	12	16	3	135											034
+3	Exposure	13	5	1	60											034
+3	Exposure	14	18	3	180											034
+3	Exposure	15	26	4	225											034
+3	Exposure	16	21	3	270											034
+3	Exposure	17	1	1	150											034
+3	Exposure	18	7	1	315											034
+3	Exposure	19	9	2	90											034
+3	Exposure	20	25	4	120											034
+3	Exposure	21	20	3	315											034
+3	Exposure	22	4	1	210											034
+3	Exposure	23	11	2	45											034
+3	Guessing	1	11	2	45	5	21	6	10	25	7	26	11	1		034
+3	Guessing	2	16	3	135	12	13	10	14	8	11	28	13	0		034
+3	Guessing	3	21	3	270	18	9	3	5	12	16	14	21	1		034
+3	Guessing	4	10	2	210	12	18	20	1	4	15	5	20	0		034
+3	Guessing	5	23	4	300	26	21	8	6	15	19	11	23	1		034
+3	Guessing	6	4	1	210	19	26	23	12	21	8	5	4	1		034
+3	Guessing	7	14	2	180	15	3	20	4	10	12	9	4	0		034
+3	Guessing	8	7	1	315	14	15	16	18	20	8	1	1	0		034
+3	Guessing	9	6	1	240	10	19	11	25	7	15	26	19	0		034
+3	Guessing	10	18	3	180	21	11	4	20	3	16	5	18	1		034
+3	Guessing	11	5	1	60	19	21	23	3	12	25	1	25	0		034
+3	Guessing	12	8	2	270	12	13	4	21	16	15	9	8	1		034
+3	Guessing	13	12	2	135	7	16	26	5	19	8	10	12	1		034
+3	Guessing	14	28	4	30	4	16	25	18	15	8	11	11	0		034
+3	Guessing	15	13	2	330	26	4	8	7	12	18	16	13	1		034
+3	Guessing	16	1	1	150	6	25	14	20	15	11	26	20	0		034
+3	Guessing	17	19	3	240	10	8	14	26	16	18	9	10	0		034
+3	Guessing	18	25	4	120	7	23	15	14	18	26	1	25	1		034
+3	Guessing	19	15	3	45	9	1	6	14	16	7	18	15	1		034
+3	Guessing	20	20	3	315	1	6	11	18	8	5	21	21	0		034
+3	Guessing	21	26	4	225	20	9	15	12	16	13	25	16	0		034
+3	Guessing	22	3	1	360	11	26	15	7	18	8	19	18	0		034
+3	Guessing	23	9	2	90	3	7	1	8	20	19	12	9	1		034
+3	Production	1	25	4	120									0	pok-e	034
+3	Production	2	3	1	360									0	muif-huif	034
+3	Production	3	7	1	315									0	muif-huif	034
+3	Production	4	5	1	60									0	pok-i	034
+3	Production	5	28	4	30									1	fak-a	034
+3	Production	6	16	3	135									0	pok-e	034
+3	Production	7	11	2	45									1	pok-a	034
+3	Production	8	9	2	90									1	pok-iii	034
+3	Production	9	15	3	45									0	muif-huif	034
+3	Production	10	13	2	330									1	pok	034
+3	Production	11	20	3	315									0	fas-e	034
+3	Production	12	26	4	225									0	muif-huif	034
+3	Production	13	10	2	210									0	pok-w-w-huif	034
+3	Production	14	8	2	270									1	pok-u	034
+3	Production	15	21	3	270									0	pok-u	034
+3	Production	16	18	3	180									1	muif-w	034
+3	Production	17	4	1	210									0	pok-w-w-muif	034
+3	Production	18	12	2	135									0	fak-e	034
+3	Production	19	6	1	240									0	muif-w	034
+3	Production	20	23	4	300									0	fas-u	034
+3	Production	21	14	2	180									1	pok-w	034
+3	Production	22	19	3	240									1	muif-huif	034
+3	Production	23	1	1	150									0	pok-i	034
+5	MemorizationTest	1	3	1	360									0	fas-e	034
+5	MemorizationTest	2	28	4	30									1	fak-a	034
+5	MemorizationTest	3	9	2	90									1	pok-iii	034
+5	MemorizationTest	4	6	1	240									0	muif-huif	034
+5	MemorizationTest	5	12	2	135									0	fak-e	034
+5	MemorizationTest	6	4	1	210									0	pok	034
+5	MemorizationTest	7	5	1	60									0	fas-e	034
+5	MemorizationTest	8	25	4	120									0	pok-u	034
+5	MemorizationTest	9	14	2	180									1	pok-w	034
+5	MemorizationTest	10	21	3	270									1	muif-u	034
+5	MemorizationTest	11	18	3	180									0	pok-w	034
+5	MemorizationTest	12	20	3	315									0	fas-muif	034
+5	MemorizationTest	13	13	2	330									1	pok	034
+5	MemorizationTest	14	19	3	240									1	muif-huif	034
+5	MemorizationTest	15	10	2	210									0	fas-w-w-huif	034
+5	MemorizationTest	16	1	1	150									0	pok-e	034
+5	MemorizationTest	17	26	4	225									0	muif-u	034
+5	MemorizationTest	18	11	2	45									0	pok-i	034
+5	MemorizationTest	19	7	1	315									0	fas-e	034
+5	MemorizationTest	20	23	4	300									0	muif-e	034
+5	MemorizationTest	21	16	3	135									0	fak-e	034
+5	MemorizationTest	22	8	2	270									1	pok-u	034
+5	MemorizationTest	23	15	3	45									0	fas-a	034
+5	RegularizationTest	1	32	2	300										fas-u	034
+5	RegularizationTest	2	30	1	225										muif	034
+5	RegularizationTest	3	36	4	150										huif	034
+5	RegularizationTest	4	24	4	90										pok-a	034
+5	RegularizationTest	5	29	1	120										huif-a	034
+5	RegularizationTest	6	17	3	225										muif-u	034
+5	RegularizationTest	7	31	2	360										pok-e	034
+5	RegularizationTest	8	22	4	330										muif-e	034
+5	RegularizationTest	9	27	4	150										huif-w	034
+5	RegularizationTest	10	34	3	60										huif-a	034
+5	RegularizationTest	11	35	4	60										pok-a	034
+5	RegularizationTest	12	33	3	360										pok-e	034
+5	RegularizationTest	13	2	1	30										fak-a	034

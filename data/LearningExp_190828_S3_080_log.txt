@@ -1,0 +1,250 @@
+Language learnability experiment																
+Logfile written - 08/28/2019 11:08:13																
+Participant ID: 080																
+Language: S3																
+Computer: 5																
+																
+Round	Task	Trial	Target	Shape	Angle	Distr1	Distr2	Distr3	Distr4	Distr5	Distr6	Distr7	SelectedItem	Correct	Input	Producer
+1	Exposure	1	7	1	315											80
+1	Exposure	2	9	2	90											80
+1	Exposure	3	26	4	225											80
+1	Exposure	4	18	3	180											80
+1	Exposure	5	13	2	330											80
+1	Exposure	6	5	1	60											80
+1	Exposure	7	10	2	210											80
+1	Exposure	8	16	3	135											80
+1	Exposure	9	28	4	30											80
+1	Exposure	10	25	4	120											80
+1	Exposure	11	3	1	360											80
+1	Exposure	12	21	3	270											80
+1	Exposure	1	13	2	330											80
+1	Exposure	2	16	3	135											80
+1	Exposure	3	21	3	270											80
+1	Exposure	4	9	2	90											80
+1	Exposure	5	10	2	210											80
+1	Exposure	6	7	1	315											80
+1	Exposure	7	25	4	120											80
+1	Exposure	8	26	4	225											80
+1	Exposure	9	18	3	180											80
+1	Exposure	10	5	1	60											80
+1	Exposure	11	28	4	30											80
+1	Exposure	12	3	1	360											80
+1	Guessing	1	18	3	180	9	3	26					18	1		80
+1	Guessing	2	10	2	210	9	7	28					7	0		80
+1	Guessing	3	28	4	30	3	26	9					28	1		80
+1	Guessing	4	25	4	120	21	16	7					25	1		80
+1	Guessing	5	21	3	270	13	10	3					3	0		80
+1	Guessing	6	9	2	90	13	21	18					9	1		80
+1	Guessing	7	3	1	360	5	13	18					3	1		80
+1	Guessing	8	16	3	135	21	9	10					16	1		80
+1	Guessing	9	26	4	225	18	28	5					26	1		80
+1	Guessing	10	7	1	315	18	28	10					7	1		80
+1	Guessing	11	5	1	60	10	28	18					5	1		80
+1	Guessing	12	13	2	330	5	7	16					13	1		80
+1	Guessing	1	10	2	210	28	26	3					10	1		80
+1	Guessing	2	16	3	135	9	18	28					9	0		80
+1	Guessing	3	25	4	120	13	3	18					25	1		80
+1	Guessing	4	28	4	30	9	10	18					28	1		80
+1	Guessing	5	13	2	330	7	5	21					21	0		80
+1	Guessing	6	5	1	60	18	21	7					5	1		80
+1	Guessing	7	9	2	90	21	10	25					9	1		80
+1	Guessing	8	7	1	315	25	21	28					7	1		80
+1	Guessing	9	18	3	180	21	7	10					18	1		80
+1	Guessing	10	3	1	360	16	5	10					3	1		80
+1	Guessing	11	21	3	270	28	13	16					21	1		80
+1	Guessing	12	26	4	225	7	10	28					26	1		80
+1	Production	1	28	4	30									0	fuoto	80
+1	Production	2	13	2	330									0	asko	80
+1	Production	3	25	4	120									1	fuottii	80
+1	Production	4	16	3	135									0	powwoo	80
+1	Production	5	26	4	225									0	fuoto-o	80
+1	Production	6	18	3	180									0	powwoo	80
+1	Production	7	7	1	315									1	fewoo	80
+1	Production	8	21	3	270									0	asko	80
+1	Production	9	10	2	210									0	asko-o-o	80
+1	Production	10	3	1	360									1	fewen	80
+1	Production	11	5	1	60									0	fewoo	80
+1	Production	12	9	2	90									1	askii	80
+1	Production	1	26	4	225									1	fuoto-o-o-o	80
+1	Production	2	9	2	90									1	askii	80
+1	Production	3	3	1	360									1	fewen	80
+1	Production	4	10	2	210									1	askoa	80
+1	Production	5	25	4	120									1	fuottii	80
+1	Production	6	28	4	30									1	fuoto-o-o-o	80
+1	Production	7	7	1	315									0	fewee	80
+1	Production	8	16	3	135									0	askoa	80
+1	Production	9	13	2	330									0	asko	80
+1	Production	10	18	3	180									0	powoo	80
+1	Production	11	5	1	60									1	fewee	80
+1	Production	12	21	3	270									0	powoo	80
+2	Exposure	1	14	2	180											80
+2	Exposure	2	11	2	45											80
+2	Exposure	3	8	2	270											80
+2	Exposure	4	4	1	210											80
+2	Exposure	5	19	3	240											80
+2	Exposure	6	20	3	315											80
+2	Exposure	7	23	4	300											80
+2	Exposure	8	1	1	150											80
+2	Exposure	9	6	1	240											80
+2	Exposure	10	15	3	45											80
+2	Exposure	11	12	2	135											80
+2	Exposure	1	12	2	135											80
+2	Exposure	2	11	2	45											80
+2	Exposure	3	1	1	150											80
+2	Exposure	4	8	2	270											80
+2	Exposure	5	19	3	240											80
+2	Exposure	6	20	3	315											80
+2	Exposure	7	23	4	300											80
+2	Exposure	8	6	1	240											80
+2	Exposure	9	15	3	45											80
+2	Exposure	10	4	1	210											80
+2	Exposure	11	14	2	180											80
+2	Guessing	1	6	1	240	4	20	1					6	1		80
+2	Guessing	2	12	2	135	6	1	4					12	1		80
+2	Guessing	3	20	3	315	12	4	19					20	1		80
+2	Guessing	4	11	2	45	14	20	4					11	1		80
+2	Guessing	5	4	1	210	20	12	19					4	1		80
+2	Guessing	6	8	2	270	14	4	1					8	1		80
+2	Guessing	7	14	2	180	4	8	19					14	1		80
+2	Guessing	8	1	1	150	15	14	23					1	1		80
+2	Guessing	9	23	4	300	19	14	15					23	1		80
+2	Guessing	10	19	3	240	4	23	14					19	1		80
+2	Guessing	11	15	3	45	14	20	4					20	0		80
+2	Guessing	1	6	1	240	1	12	14					6	1		80
+2	Guessing	2	19	3	240	15	8	12					19	1		80
+2	Guessing	3	20	3	315	8	19	12					20	1		80
+2	Guessing	4	12	2	135	15	14	20					14	0		80
+2	Guessing	5	8	2	270	1	19	15					8	1		80
+2	Guessing	6	11	2	45	14	4	8					8	0		80
+2	Guessing	7	14	2	180	19	12	1					12	0		80
+2	Guessing	8	15	3	45	8	4	1					15	1		80
+2	Guessing	9	1	1	150	4	11	12					4	0		80
+2	Guessing	10	23	4	300	4	15	20					23	1		80
+2	Guessing	11	4	1	210	12	20	15					4	1		80
+2	Production	1	23	4	300									1	fuotio	80
+2	Production	2	12	2	135									0	askoa	80
+2	Production	3	6	1	240									0	fewee	80
+2	Production	4	19	3	240									1	powwoo	80
+2	Production	5	4	1	210									0	fewoa	80
+2	Production	6	14	2	180									1	aski	80
+2	Production	7	11	2	45									1	asku-u-u	80
+2	Production	8	1	1	150									0	fewee	80
+2	Production	9	15	3	45									0	powo-o-o	80
+2	Production	10	20	3	315									0	powoo	80
+2	Production	11	8	2	270									1	asku-u-u-u	80
+2	Production	1	1	1	150									1	fewoa	80
+2	Production	2	19	3	240									1	powwoo	80
+2	Production	3	20	3	315									0	powwoo	80
+2	Production	4	4	1	210									0	fewoa	80
+2	Production	5	6	1	240									1	fewo-o-o	80
+2	Production	6	14	2	180									1	aski	80
+2	Production	7	15	3	45									1	powu-u-u	80
+2	Production	8	8	2	270									1	asku-u-u-u	80
+2	Production	9	23	4	300									0	fuoti	80
+2	Production	10	12	2	135									0	askee	80
+2	Production	11	11	2	45									0	asko-o-o	80
+3	Exposure	1	26	4	225											80
+3	Exposure	2	8	2	270											80
+3	Exposure	3	23	4	300											80
+3	Exposure	4	18	3	180											80
+3	Exposure	5	15	3	45											80
+3	Exposure	6	14	2	180											80
+3	Exposure	7	6	1	240											80
+3	Exposure	8	13	2	330											80
+3	Exposure	9	20	3	315											80
+3	Exposure	10	28	4	30											80
+3	Exposure	11	4	1	210											80
+3	Exposure	12	25	4	120											80
+3	Exposure	13	7	1	315											80
+3	Exposure	14	12	2	135											80
+3	Exposure	15	16	3	135											80
+3	Exposure	16	1	1	150											80
+3	Exposure	17	5	1	60											80
+3	Exposure	18	19	3	240											80
+3	Exposure	19	10	2	210											80
+3	Exposure	20	21	3	270											80
+3	Exposure	21	3	1	360											80
+3	Exposure	22	11	2	45											80
+3	Exposure	23	9	2	90											80
+3	Guessing	1	1	1	150	12	11	19	16	13	25	10	1	1		80
+3	Guessing	2	3	1	360	26	18	1	9	23	25	5	3	1		80
+3	Guessing	3	15	3	45	5	25	16	9	18	7	13	15	1		80
+3	Guessing	4	19	3	240	15	7	16	11	20	13	10	19	1		80
+3	Guessing	5	9	2	90	20	21	14	28	26	13	3	9	1		80
+3	Guessing	6	4	1	210	11	7	10	9	12	5	1	4	1		80
+3	Guessing	7	21	3	270	15	11	4	19	20	18	1	21	1		80
+3	Guessing	8	18	3	180	21	25	3	20	8	19	4	18	1		80
+3	Guessing	9	25	4	120	20	9	23	26	19	18	15	25	1		80
+3	Guessing	10	5	1	60	21	15	7	1	20	6	9	1	0		80
+3	Guessing	11	11	2	45	14	7	26	21	13	25	6	11	1		80
+3	Guessing	12	10	2	210	23	12	7	11	9	16	6	10	1		80
+3	Guessing	13	26	4	225	21	10	28	25	9	18	20	26	1		80
+3	Guessing	14	13	2	330	15	16	26	1	8	18	4	13	1		80
+3	Guessing	15	23	4	300	25	4	21	20	6	5	28	23	1		80
+3	Guessing	16	28	4	30	4	21	16	5	20	23	14	28	1		80
+3	Guessing	17	14	2	180	19	25	9	3	5	18	7	14	1		80
+3	Guessing	18	8	2	270	23	25	15	11	12	9	21	8	1		80
+3	Guessing	19	7	1	315	5	20	14	15	16	11	10	7	1		80
+3	Guessing	20	12	2	135	15	3	20	25	13	16	4	12	1		80
+3	Guessing	21	16	3	135	28	23	8	6	26	19	7	16	1		80
+3	Guessing	22	20	3	315	6	19	21	9	7	3	4	20	1		80
+3	Guessing	23	6	1	240	16	10	4	14	3	20	13	4	0		80
+3	Production	1	16	3	135									1	powoo	80
+3	Production	2	19	3	240									1	powwoo	80
+3	Production	3	7	1	315									0	fewoa	80
+3	Production	4	18	3	180									1	powii	80
+3	Production	5	9	2	90									1	askii	80
+3	Production	6	11	2	45									1	asku-u-u	80
+3	Production	7	3	1	360									0	fewee	80
+3	Production	8	6	1	240									0	fewoa	80
+3	Production	9	23	4	300									0	fuottii	80
+3	Production	10	8	2	270									1	asku-u-u-u	80
+3	Production	11	28	4	30									0	fuoti	80
+3	Production	12	20	3	315									1	powoa	80
+3	Production	13	14	2	180									1	aski	80
+3	Production	14	13	2	330									0	asku-u-u	80
+3	Production	15	26	4	225									0	fuoto	80
+3	Production	16	21	3	270									0	powoo	80
+3	Production	17	15	3	45									0	powo-o-o	80
+3	Production	18	25	4	120									0	fuoti	80
+3	Production	19	12	2	135									0	askoa	80
+3	Production	20	5	1	60									1	fewee	80
+3	Production	21	1	1	150									0	fewee	80
+3	Production	22	10	2	210									1	askoa	80
+3	Production	23	4	1	210									1	fewee	80
+5	MemorizationTest	1	6	1	240									1	fewo-o-o	80
+5	MemorizationTest	2	26	4	225									0	fuoti	80
+5	MemorizationTest	3	1	1	150									1	fewoa	80
+5	MemorizationTest	4	21	3	270									1	powwoo	80
+5	MemorizationTest	5	12	2	135									0	askoa	80
+5	MemorizationTest	6	19	3	240									0	powoo	80
+5	MemorizationTest	7	7	1	315									0	fewee	80
+5	MemorizationTest	8	18	3	180									1	powii	80
+5	MemorizationTest	9	15	3	45									1	powu-u-u	80
+5	MemorizationTest	10	4	1	210									1	fewee	80
+5	MemorizationTest	11	25	4	120									0	fuotti	80
+5	MemorizationTest	12	16	3	135									0	powo-o-o	80
+5	MemorizationTest	13	13	2	330									0	askoa	80
+5	MemorizationTest	14	23	4	300									0	fuoti	80
+5	MemorizationTest	15	11	2	45									1	asku-u-u	80
+5	MemorizationTest	16	5	1	60									1	fewee	80
+5	MemorizationTest	17	9	2	90									0	aski	80
+5	MemorizationTest	18	8	2	270									1	asku-u-u-u	80
+5	MemorizationTest	19	10	2	210									1	askoa	80
+5	MemorizationTest	20	20	3	315									0	powo-o-o	80
+5	MemorizationTest	21	3	1	360									1	fewen	80
+5	MemorizationTest	22	28	4	30									1	fuoto-o-o-o	80
+5	MemorizationTest	23	14	2	180									0	askii	80
+5	RegularizationTest	1	33	3	360										powen	80
+5	RegularizationTest	2	32	2	300										askuu	80
+5	RegularizationTest	3	27	4	150										fuotoa	80
+5	RegularizationTest	4	36	4	150										fuotoa	80
+5	RegularizationTest	5	30	1	225										fewwoo	80
+5	RegularizationTest	6	34	3	60										powu-u-u	80
+5	RegularizationTest	7	2	1	30										fewoa	80
+5	RegularizationTest	8	17	3	225										powo-o	80
+5	RegularizationTest	9	31	2	360										asken	80
+5	RegularizationTest	10	24	4	90										fuottii	80
+5	RegularizationTest	11	29	1	120										fewwio	80
+5	RegularizationTest	12	22	4	330										fuotee	80
+5	RegularizationTest	13	35	4	60										fuotu-u-u	80

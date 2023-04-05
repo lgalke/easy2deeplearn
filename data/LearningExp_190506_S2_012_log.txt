@@ -1,0 +1,250 @@
+Language learnability experiment																
+Logfile written - 05/06/2019 13:09:26																
+Participant ID: 012																
+Language: S2																
+Computer: 5																
+																
+Round	Task	Trial	Target	Shape	Angle	Distr1	Distr2	Distr3	Distr4	Distr5	Distr6	Distr7	SelectedItem	Correct	Input	Producer
+1	Exposure	1	24	4	210											12
+1	Exposure	2	9	2	45											12
+1	Exposure	3	1	1	150											12
+1	Exposure	4	23	4	135											12
+1	Exposure	5	4	1	90											12
+1	Exposure	6	10	2	225											12
+1	Exposure	7	26	4	270											12
+1	Exposure	8	15	3	60											12
+1	Exposure	9	11	2	300											12
+1	Exposure	10	6	1	360											12
+1	Exposure	11	17	3	315											12
+1	Exposure	12	16	3	180											12
+1	Exposure	1	23	4	135											12
+1	Exposure	2	11	2	300											12
+1	Exposure	3	17	3	315											12
+1	Exposure	4	4	1	90											12
+1	Exposure	5	1	1	150											12
+1	Exposure	6	9	2	45											12
+1	Exposure	7	6	1	360											12
+1	Exposure	8	26	4	270											12
+1	Exposure	9	15	3	60											12
+1	Exposure	10	10	2	225											12
+1	Exposure	11	24	4	210											12
+1	Exposure	12	16	3	180											12
+1	Guessing	1	11	2	300	10	16	24					11	1		12
+1	Guessing	2	4	1	90	17	11	24					4	1		12
+1	Guessing	3	17	3	315	1	10	23					23	0		12
+1	Guessing	4	23	4	135	26	15	9					9	0		12
+1	Guessing	5	1	1	150	9	11	26					26	0		12
+1	Guessing	6	9	2	45	23	1	6					6	0		12
+1	Guessing	7	16	3	180	1	26	4					4	0		12
+1	Guessing	8	26	4	270	15	24	10					26	1		12
+1	Guessing	9	6	1	360	10	15	11					11	0		12
+1	Guessing	10	15	3	60	16	10	26					15	1		12
+1	Guessing	11	24	4	210	15	11	26					11	0		12
+1	Guessing	12	10	2	225	23	9	26					10	1		12
+1	Guessing	1	10	2	225	4	26	17					10	1		12
+1	Guessing	2	16	3	180	24	4	15					4	0		12
+1	Guessing	3	26	4	270	17	23	4					26	1		12
+1	Guessing	4	4	1	90	1	23	10					4	1		12
+1	Guessing	5	1	1	150	17	15	4					1	1		12
+1	Guessing	6	23	4	135	16	1	10					23	1		12
+1	Guessing	7	24	4	210	11	10	6					24	1		12
+1	Guessing	8	9	2	45	6	4	24					9	1		12
+1	Guessing	9	11	2	300	24	15	26					11	1		12
+1	Guessing	10	15	3	60	4	17	9					15	1		12
+1	Guessing	11	6	1	360	4	15	24					4	0		12
+1	Guessing	12	17	3	315	23	9	4					9	0		12
+1	Production	1	15	3	60									1	weii	12
+1	Production	2	9	2	45									0	swegia	12
+1	Production	3	4	1	90									1	kioa	12
+1	Production	4	17	3	315									0	swega	12
+1	Production	5	1	1	150									1	kiona	12
+1	Production	6	16	3	180									0	koa	12
+1	Production	7	11	2	300									0	swegia	12
+1	Production	8	26	4	270									0	kiona	12
+1	Production	9	23	4	135									0	swega	12
+1	Production	10	10	2	225									0	swei	12
+1	Production	11	24	4	210									0	kione	12
+1	Production	12	6	1	360									0	kione	12
+1	Production	1	1	1	150									1	kiona	12
+1	Production	2	17	3	315									0	swega	12
+1	Production	3	11	2	300									0	swega	12
+1	Production	4	16	3	180									1	kione	12
+1	Production	5	10	2	225									0	wegia	12
+1	Production	6	26	4	270									1	kion	12
+1	Production	7	23	4	135									1	wega	12
+1	Production	8	24	4	210									1	wegia	12
+1	Production	9	6	1	360									1	kion	12
+1	Production	10	9	2	45									0	sweii	12
+1	Production	11	15	3	60									0	sweii	12
+1	Production	12	4	1	90									1	kioa	12
+2	Exposure	1	13	2	180											12
+2	Exposure	2	7	1	240											12
+2	Exposure	3	22	4	90											12
+2	Exposure	4	28	4	330											12
+2	Exposure	5	2	1	30											12
+2	Exposure	6	21	3	240											12
+2	Exposure	7	14	2	330											12
+2	Exposure	8	8	2	120											12
+2	Exposure	9	3	1	210											12
+2	Exposure	10	25	4	45											12
+2	Exposure	11	5	1	300											12
+2	Exposure	1	28	4	330											12
+2	Exposure	2	13	2	180											12
+2	Exposure	3	8	2	120											12
+2	Exposure	4	14	2	330											12
+2	Exposure	5	22	4	90											12
+2	Exposure	6	5	1	300											12
+2	Exposure	7	25	4	45											12
+2	Exposure	8	7	1	240											12
+2	Exposure	9	3	1	210											12
+2	Exposure	10	21	3	240											12
+2	Exposure	11	2	1	30											12
+2	Guessing	1	22	4	90	13	8	28					22	1		12
+2	Guessing	2	7	1	240	28	22	2					7	1		12
+2	Guessing	3	21	3	240	5	8	28					21	1		12
+2	Guessing	4	13	2	180	25	28	3					13	1		12
+2	Guessing	5	8	2	120	13	5	25					13	0		12
+2	Guessing	6	28	4	330	22	25	3					28	1		12
+2	Guessing	7	2	1	30	21	8	14					2	1		12
+2	Guessing	8	25	4	45	22	21	2					22	0		12
+2	Guessing	9	3	1	210	7	21	13					3	1		12
+2	Guessing	10	5	1	300	21	2	13					5	1		12
+2	Guessing	11	14	2	330	7	2	22					14	1		12
+2	Guessing	1	25	4	45	3	7	8					8	0		12
+2	Guessing	2	5	1	300	2	7	14					5	1		12
+2	Guessing	3	14	2	330	5	21	7					14	1		12
+2	Guessing	4	28	4	330	3	14	5					28	1		12
+2	Guessing	5	8	2	120	3	5	21					8	1		12
+2	Guessing	6	13	2	180	21	2	5					13	1		12
+2	Guessing	7	2	1	30	25	3	7					2	1		12
+2	Guessing	8	21	3	240	28	2	14					21	1		12
+2	Guessing	9	22	4	90	13	28	21					22	1		12
+2	Guessing	10	7	1	240	3	25	14					7	1		12
+2	Guessing	11	3	1	210	7	21	22					3	1		12
+2	Production	1	21	3	240									1	kiona	12
+2	Production	2	22	4	90									1	mioni	12
+2	Production	3	7	1	240									0	kioa	12
+2	Production	4	14	2	330									0	swegio	12
+2	Production	5	25	4	45									0	swega	12
+2	Production	6	8	2	120									0	wegia	12
+2	Production	7	13	2	180									0	wegia	12
+2	Production	8	5	1	300									0	kioa	12
+2	Production	9	28	4	330									0	minio	12
+2	Production	10	2	1	30									1	kioni	12
+2	Production	11	3	1	210									0	kioa	12
+2	Production	1	3	1	210									1	kiona	12
+2	Production	2	14	2	330									0	wegi	12
+2	Production	3	21	3	240									1	kiona	12
+2	Production	4	5	1	300									1	kuoi	12
+2	Production	5	25	4	45									0	swegi	12
+2	Production	6	22	4	90									1	mioni	12
+2	Production	7	28	4	330									1	mioni	12
+2	Production	8	7	1	240									1	kiona	12
+2	Production	9	2	1	30									1	kioni	12
+2	Production	10	8	2	120									1	swegi	12
+2	Production	11	13	2	180									0	wegia	12
+3	Exposure	1	3	1	210											12
+3	Exposure	2	4	1	90											12
+3	Exposure	3	17	3	315											12
+3	Exposure	4	5	1	300											12
+3	Exposure	5	16	3	180											12
+3	Exposure	6	26	4	270											12
+3	Exposure	7	6	1	360											12
+3	Exposure	8	21	3	240											12
+3	Exposure	9	24	4	210											12
+3	Exposure	10	22	4	90											12
+3	Exposure	11	11	2	300											12
+3	Exposure	12	1	1	150											12
+3	Exposure	13	7	1	240											12
+3	Exposure	14	8	2	120											12
+3	Exposure	15	9	2	45											12
+3	Exposure	16	2	1	30											12
+3	Exposure	17	23	4	135											12
+3	Exposure	18	10	2	225											12
+3	Exposure	19	25	4	45											12
+3	Exposure	20	13	2	180											12
+3	Exposure	21	14	2	330											12
+3	Exposure	22	28	4	330											12
+3	Exposure	23	15	3	60											12
+3	Guessing	1	21	3	240	2	16	3	28	10	1	24	21	1		12
+3	Guessing	2	5	1	300	7	11	8	16	4	6	14	5	1		12
+3	Guessing	3	8	2	120	9	13	6	10	21	3	11	8	1		12
+3	Guessing	4	25	4	45	8	10	15	24	11	13	9	13	0		12
+3	Guessing	5	2	1	30	7	5	10	22	8	26	14	5	0		12
+3	Guessing	6	7	1	240	28	21	11	9	3	8	22	7	1		12
+3	Guessing	7	6	1	360	25	8	21	22	2	24	9	6	1		12
+3	Guessing	8	14	2	330	5	4	16	10	13	26	8	14	1		12
+3	Guessing	9	13	2	180	6	25	22	17	11	9	15	25	0		12
+3	Guessing	10	1	1	150	22	5	28	9	10	23	26	1	1		12
+3	Guessing	11	23	4	135	21	25	6	4	16	8	15	23	1		12
+3	Guessing	12	26	4	270	5	11	1	6	3	16	15	26	1		12
+3	Guessing	13	4	1	90	26	25	10	22	28	21	17	4	1		12
+3	Guessing	14	10	2	225	9	8	3	23	24	22	26	10	1		12
+3	Guessing	15	15	3	60	21	13	23	26	5	7	22	15	1		12
+3	Guessing	16	28	4	330	6	21	23	26	24	8	25	28	1		12
+3	Guessing	17	17	3	315	6	14	28	2	8	1	21	17	1		12
+3	Guessing	18	24	4	210	28	3	15	17	6	22	21	17	0		12
+3	Guessing	19	11	2	300	8	3	13	15	9	24	10	11	1		12
+3	Guessing	20	22	4	90	16	9	2	17	15	13	25	22	1		12
+3	Guessing	21	3	1	210	16	7	23	11	14	13	6	3	1		12
+3	Guessing	22	16	3	180	17	3	1	7	8	25	15	1	0		12
+3	Guessing	23	9	2	45	10	28	26	23	6	22	7	10	0		12
+3	Production	1	11	2	300									0	swega	12
+3	Production	2	16	3	180									1	kione	12
+3	Production	3	7	1	240									1	kiona	12
+3	Production	4	23	4	135									1	wega	12
+3	Production	5	10	2	225									0	swegia	12
+3	Production	6	15	3	60									1	weii	12
+3	Production	7	28	4	330									1	mioni	12
+3	Production	8	13	2	180									1	wegio	12
+3	Production	9	5	1	300									1	kuoi	12
+3	Production	10	8	2	120									0	swegia	12
+3	Production	11	3	1	210									1	kiona	12
+3	Production	12	1	1	150									1	kiona	12
+3	Production	13	9	2	45									0	wegia	12
+3	Production	14	2	1	30									0	kione	12
+3	Production	15	6	1	360									0	kione	12
+3	Production	16	22	4	90									1	mioni	12
+3	Production	17	24	4	210									1	wegia	12
+3	Production	18	14	2	330									1	swegi	12
+3	Production	19	25	4	45									0	wega	12
+3	Production	20	21	3	240									1	kiona	12
+3	Production	21	4	1	90									0	kion	12
+3	Production	22	17	3	315									0	kuoi	12
+3	Production	23	26	4	270									1	kion	12
+5	MemorizationTest	1	8	2	120									1	swegi	12
+5	MemorizationTest	2	23	4	135									1	wega	12
+5	MemorizationTest	3	28	4	330									1	mioni	12
+5	MemorizationTest	4	21	3	240									1	kiona	12
+5	MemorizationTest	5	7	1	240									1	kiona	12
+5	MemorizationTest	6	26	4	270									1	kion	12
+5	MemorizationTest	7	4	1	90									0	kionei	12
+5	MemorizationTest	8	16	3	180									0	wegio	12
+5	MemorizationTest	9	14	2	330									1	swegi	12
+5	MemorizationTest	10	2	1	30									1	kioni	12
+5	MemorizationTest	11	5	1	300									0	kione	12
+5	MemorizationTest	12	1	1	150									0	kioni	12
+5	MemorizationTest	13	15	3	60									1	weii	12
+5	MemorizationTest	14	13	2	180									1	wegio	12
+5	MemorizationTest	15	11	2	300									1	swegi	12
+5	MemorizationTest	16	17	3	315									0	swegio	12
+5	MemorizationTest	17	9	2	45									0	wega	12
+5	MemorizationTest	18	3	1	210									0	kioa	12
+5	MemorizationTest	19	24	4	210									1	wegia	12
+5	MemorizationTest	20	25	4	45									0	swegia	12
+5	MemorizationTest	21	6	1	360									1	kion	12
+5	MemorizationTest	22	22	4	90									1	mioni	12
+5	MemorizationTest	23	10	2	225									0	swegi	12
+5	RegularizationTest	1	19	3	30										weia	12
+5	RegularizationTest	2	29	1	135										kioni	12
+5	RegularizationTest	3	27	4	60										mionii	12
+5	RegularizationTest	4	35	4	225										wega	12
+5	RegularizationTest	5	36	4	360										kion	12
+5	RegularizationTest	6	18	3	225										kiona	12
+5	RegularizationTest	7	34	3	150										kione	12
+5	RegularizationTest	8	20	3	120										kuoi	12
+5	RegularizationTest	9	31	2	360										swegia	12
+5	RegularizationTest	10	30	1	315										kuoi	12
+5	RegularizationTest	11	32	2	60										swegio	12
+5	RegularizationTest	12	12	2	270										swegion	12
+5	RegularizationTest	13	33	3	150										kuoi	12

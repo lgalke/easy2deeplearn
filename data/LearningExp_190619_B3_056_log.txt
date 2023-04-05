@@ -1,0 +1,250 @@
+Language learnability experiment
+Logfile written - 06/19/2019 14:33:09
+Participant ID: 056
+Language: B3
+Computer: 5
+
+Round	Task	Trial	Target	Shape	Angle	Distr1	Distr2	Distr3	Distr4	Distr5	Distr6	Distr7	SelectedItem	Correct	Input	Producer
+1	Exposure	1	13	2	180											056
+1	Exposure	2	8	2	120											056
+1	Exposure	3	4	1	90											056
+1	Exposure	4	6	1	360											056
+1	Exposure	5	24	4	210											056
+1	Exposure	6	5	1	300											056
+1	Exposure	7	15	3	60											056
+1	Exposure	8	21	3	240											056
+1	Exposure	9	17	3	315											056
+1	Exposure	10	25	4	45											056
+1	Exposure	11	26	4	270											056
+1	Exposure	12	9	2	45											056
+1	Exposure	1	24	4	210											056
+1	Exposure	2	4	1	90											056
+1	Exposure	3	17	3	315											056
+1	Exposure	4	25	4	45											056
+1	Exposure	5	5	1	300											056
+1	Exposure	6	15	3	60											056
+1	Exposure	7	9	2	45											056
+1	Exposure	8	21	3	240											056
+1	Exposure	9	8	2	120											056
+1	Exposure	10	26	4	270											056
+1	Exposure	11	6	1	360											056
+1	Exposure	12	13	2	180											056
+1	Guessing	1	9	2	45	26	13	24					13	0		056
+1	Guessing	2	15	3	60	6	26	25					15	1		056
+1	Guessing	3	8	2	120	15	9	4					9	0		056
+1	Guessing	4	4	1	90	26	17	5					5	0		056
+1	Guessing	5	24	4	210	25	17	15					17	0		056
+1	Guessing	6	5	1	300	6	17	25					5	1		056
+1	Guessing	7	21	3	240	24	5	6					6	0		056
+1	Guessing	8	26	4	270	25	4	17					25	0		056
+1	Guessing	9	6	1	360	5	4	15					15	0		056
+1	Guessing	10	13	2	180	17	5	21					13	1		056
+1	Guessing	11	17	3	315	6	21	25					25	0		056
+1	Guessing	12	25	4	45	26	24	17					26	0		056
+1	Guessing	1	5	1	300	24	6	8					6	0		056
+1	Guessing	2	6	1	360	25	13	9					6	1		056
+1	Guessing	3	24	4	210	15	5	8					8	0		056
+1	Guessing	4	25	4	45	5	17	4					25	1		056
+1	Guessing	5	9	2	45	4	5	13					9	1		056
+1	Guessing	6	4	1	90	8	24	5					4	1		056
+1	Guessing	7	21	3	240	9	15	5					15	0		056
+1	Guessing	8	26	4	270	13	25	15					15	0		056
+1	Guessing	9	17	3	315	8	21	4					4	0		056
+1	Guessing	10	8	2	120	13	24	15					24	0		056
+1	Guessing	11	15	3	60	4	8	24					15	1		056
+1	Guessing	12	13	2	180	15	17	8					17	0		056
+1	Production	1	25	4	45									0	woesiik	056
+1	Production	2	8	2	120									0	puniko	056
+1	Production	3	15	3	60									0	tesop	056
+1	Production	4	13	2	180									0	puni	056
+1	Production	5	9	2	45									0	ketap	056
+1	Production	6	26	4	270									0	woesikk	056
+1	Production	7	17	3	315									0	punik	056
+1	Production	8	4	1	90									0	momento	056
+1	Production	9	5	1	300									0	momenki	056
+1	Production	10	6	1	360									0	mometuk	056
+1	Production	11	24	4	210									0	woesiik	056
+1	Production	12	21	3	240									0	punn	056
+1	Production	1	5	1	300									0	momenthk	056
+1	Production	2	25	4	45									0	woesiik	056
+1	Production	3	17	3	315									0	punio	056
+1	Production	4	9	2	45									0	kunio	056
+1	Production	5	8	2	120									0	punik	056
+1	Production	6	6	1	360									0	momenk	056
+1	Production	7	24	4	210									0	woesiko	056
+1	Production	8	21	3	240									0	puni	056
+1	Production	9	13	2	180									0	hut	056
+1	Production	10	4	1	90									0	momenhtk	056
+1	Production	11	26	4	270									0	woesiki	056
+1	Production	12	15	3	60									0	puni	056
+2	Exposure	1	10	2	225											056
+2	Exposure	2	11	2	300											056
+2	Exposure	3	22	4	90											056
+2	Exposure	4	23	4	135											056
+2	Exposure	5	14	2	330											056
+2	Exposure	6	28	4	330											056
+2	Exposure	7	3	1	210											056
+2	Exposure	8	2	1	30											056
+2	Exposure	9	7	1	240											056
+2	Exposure	10	1	1	150											056
+2	Exposure	11	16	3	180											056
+2	Exposure	1	22	4	90											056
+2	Exposure	2	16	3	180											056
+2	Exposure	3	11	2	300											056
+2	Exposure	4	7	1	240											056
+2	Exposure	5	14	2	330											056
+2	Exposure	6	28	4	330											056
+2	Exposure	7	10	2	225											056
+2	Exposure	8	1	1	150											056
+2	Exposure	9	2	1	30											056
+2	Exposure	10	3	1	210											056
+2	Exposure	11	23	4	135											056
+2	Guessing	1	1	1	150	16	3	22					3	0		056
+2	Guessing	2	14	2	330	23	7	2					14	1		056
+2	Guessing	3	22	4	90	28	16	2					22	1		056
+2	Guessing	4	3	1	210	16	7	14					7	0		056
+2	Guessing	5	2	1	30	3	10	16					3	0		056
+2	Guessing	6	10	2	225	1	23	28					10	1		056
+2	Guessing	7	16	3	180	2	3	7					16	1		056
+2	Guessing	8	11	2	300	22	23	14					14	0		056
+2	Guessing	9	7	1	240	10	16	23					7	1		056
+2	Guessing	10	28	4	330	10	16	3					28	1		056
+2	Guessing	11	23	4	135	11	3	2					23	1		056
+2	Guessing	1	1	1	150	14	23	3					1	1		056
+2	Guessing	2	22	4	90	14	1	2					22	1		056
+2	Guessing	3	16	3	180	1	11	10					16	1		056
+2	Guessing	4	28	4	330	10	16	1					28	1		056
+2	Guessing	5	10	2	225	28	11	16					11	0		056
+2	Guessing	6	23	4	135	11	28	7					28	0		056
+2	Guessing	7	11	2	300	28	23	16					11	1		056
+2	Guessing	8	3	1	210	10	23	14					23	0		056
+2	Guessing	9	14	2	330	1	11	22					22	0		056
+2	Guessing	10	7	1	240	16	10	22					7	1		056
+2	Guessing	11	2	1	30	3	22	11					3	0		056
+2	Production	1	1	1	150									0	momento	056
+2	Production	2	7	1	240									0	mometuk	056
+2	Production	3	23	4	135									0	woesiko	056
+2	Production	4	10	2	225									0	putt	056
+2	Production	5	3	1	210									0	momento	056
+2	Production	6	28	4	330									0	woesiki	056
+2	Production	7	16	3	180									1	oe	056
+2	Production	8	11	2	300									0	oe	056
+2	Production	9	2	1	30									0	momenth	056
+2	Production	10	22	4	90									1	woesiki	056
+2	Production	11	14	2	330									0	oe	056
+2	Production	1	1	1	150									0	momenths	056
+2	Production	2	22	4	90									1	woesiki	056
+2	Production	3	23	4	135									0	woesana	056
+2	Production	4	3	1	210									0	momento	056
+2	Production	5	7	1	240									0	momenko	056
+2	Production	6	2	1	30									0	momenko	056
+2	Production	7	16	3	180									1	oe	056
+2	Production	8	14	2	330									0	oe	056
+2	Production	9	11	2	300									0	pnuunik	056
+2	Production	10	10	2	225									0	pnuuko	056
+2	Production	11	28	4	330									0	woesiki	056
+3	Exposure	1	24	4	210											056
+3	Exposure	2	5	1	300											056
+3	Exposure	3	14	2	330											056
+3	Exposure	4	13	2	180											056
+3	Exposure	5	25	4	45											056
+3	Exposure	6	28	4	330											056
+3	Exposure	7	9	2	45											056
+3	Exposure	8	23	4	135											056
+3	Exposure	9	3	1	210											056
+3	Exposure	10	8	2	120											056
+3	Exposure	11	26	4	270											056
+3	Exposure	12	11	2	300											056
+3	Exposure	13	22	4	90											056
+3	Exposure	14	21	3	240											056
+3	Exposure	15	15	3	60											056
+3	Exposure	16	16	3	180											056
+3	Exposure	17	6	1	360											056
+3	Exposure	18	17	3	315											056
+3	Exposure	19	10	2	225											056
+3	Exposure	20	4	1	90											056
+3	Exposure	21	7	1	240											056
+3	Exposure	22	2	1	30											056
+3	Exposure	23	1	1	150											056
+3	Guessing	1	28	4	330	2	21	6	23	9	10	22	23	0		056
+3	Guessing	2	13	2	180	23	26	14	10	22	5	24	13	1		056
+3	Guessing	3	6	1	360	24	28	26	9	10	11	7	7	0		056
+3	Guessing	4	25	4	45	4	15	22	13	7	11	23	22	0		056
+3	Guessing	5	3	1	210	15	2	28	14	23	5	13	5	0		056
+3	Guessing	6	14	2	330	15	22	26	8	25	13	7	15	0		056
+3	Guessing	7	21	3	240	8	9	17	6	15	22	24	8	0		056
+3	Guessing	8	16	3	180	6	28	15	11	10	7	21	21	0		056
+3	Guessing	9	15	3	60	4	6	5	10	7	22	26	5	0		056
+3	Guessing	10	23	4	135	8	7	15	6	10	17	24	10	0		056
+3	Guessing	11	9	2	45	3	25	1	5	17	22	24	5	0		056
+3	Guessing	12	17	3	315	9	5	23	24	26	14	16	16	0		056
+3	Guessing	13	11	2	300	5	28	14	1	7	16	2	11	1		056
+3	Guessing	14	4	1	90	3	22	15	9	6	23	28	4	1		056
+3	Guessing	15	10	2	225	16	2	17	5	26	25	1	10	1		056
+3	Guessing	16	2	1	30	9	1	16	15	22	6	26	2	1		056
+3	Guessing	17	22	4	90	13	2	11	3	7	25	4	22	1		056
+3	Guessing	18	7	1	240	8	16	24	11	9	1	5	7	1		056
+3	Guessing	19	26	4	270	10	23	9	11	15	4	17	26	1		056
+3	Guessing	20	24	4	210	3	14	6	2	21	10	22	24	1		056
+3	Guessing	21	8	2	120	4	28	17	22	11	1	10	10	0		056
+3	Guessing	22	5	1	300	4	8	26	17	28	22	1	28	0		056
+3	Guessing	23	1	1	150	25	8	13	28	23	16	3	8	0		056
+3	Production	1	15	3	60									0	pnoenik	056
+3	Production	2	21	3	240									0	oe	056
+3	Production	3	3	1	210									0	oe	056
+3	Production	4	9	2	45									0	woesiki	056
+3	Production	5	13	2	180									0	pnuuno	056
+3	Production	6	11	2	300									0	pnuunko	056
+3	Production	7	26	4	270									0	woesiki	056
+3	Production	8	2	1	30									0	momenko	056
+3	Production	9	10	2	225									0	oe	056
+3	Production	10	7	1	240									0	oe	056
+3	Production	11	14	2	330									0	pnuuko	056
+3	Production	12	5	1	300									0	oe	056
+3	Production	13	22	4	90									0	wosika	056
+3	Production	14	28	4	330									0	wosiki	056
+3	Production	15	25	4	45									0	woesik	056
+3	Production	16	6	1	360									0	momenko	056
+3	Production	17	24	4	210									0	woesiki	056
+3	Production	18	23	4	135									0	woesiok	056
+3	Production	19	1	1	150									0	momeeth	056
+3	Production	20	17	3	315									0	oe	056
+3	Production	21	8	2	120									0	oe	056
+3	Production	22	16	3	180									1	oe	056
+3	Production	23	4	1	90									0	momenko	056
+5	MemorizationTest	1	25	4	45									0	woesiki	056
+5	MemorizationTest	2	16	3	180									1	oe	056
+5	MemorizationTest	3	17	3	315									0	pnuunko	056
+5	MemorizationTest	4	23	4	135									0	woesiki	056
+5	MemorizationTest	5	11	2	300									0	puniko	056
+5	MemorizationTest	6	26	4	270									0	woenisk	056
+5	MemorizationTest	7	24	4	210									0	woesiki	056
+5	MemorizationTest	8	6	1	360									0	momenko	056
+5	MemorizationTest	9	10	2	225									0	komeeto	056
+5	MemorizationTest	10	5	1	300									0	momenth	056
+5	MemorizationTest	11	7	1	240									0	momenko	056
+5	MemorizationTest	12	22	4	90									1	woesiki	056
+5	MemorizationTest	13	14	2	330									0	oe	056
+5	MemorizationTest	14	9	2	45									0	oe	056
+5	MemorizationTest	15	4	1	90									0	momenko	056
+5	MemorizationTest	16	28	4	330									0	woesiki	056
+5	MemorizationTest	17	8	2	120									0	komeeto	056
+5	MemorizationTest	18	21	3	240									0	oe	056
+5	MemorizationTest	19	15	3	60									0	oe	056
+5	MemorizationTest	20	1	1	150									0	momenth	056
+5	MemorizationTest	21	2	1	30									1	mometko	056
+5	MemorizationTest	22	13	2	180									0	oe	056
+5	MemorizationTest	23	3	1	210									0	moment	056
+5	RegularizationTest	1	20	3	120										oeoe	056
+5	RegularizationTest	2	34	3	150										oeo	056
+5	RegularizationTest	3	35	4	225										wasaki	056
+5	RegularizationTest	4	29	1	135										momentie	056
+5	RegularizationTest	5	18	3	225										oei	056
+5	RegularizationTest	6	31	2	360										kometo	056
+5	RegularizationTest	7	12	2	270										komato	056
+5	RegularizationTest	8	33	3	150										poei	056
+5	RegularizationTest	9	30	1	315										momenta	056
+5	RegularizationTest	10	27	4	60										kosik	056
+5	RegularizationTest	11	32	2	60										kometu	056
+5	RegularizationTest	12	19	3	30										oek	056
+5	RegularizationTest	13	36	4	360										wosaka	056

@@ -1,0 +1,250 @@
+Language learnability experiment
+Logfile written - 09/18/2019 11:25:14
+Participant ID: 095
+Language: B1
+Computer: 5
+
+Round	Task	Trial	Target	Shape	Angle	Distr1	Distr2	Distr3	Distr4	Distr5	Distr6	Distr7	SelectedItem	Correct	Input	Producer
+1	Exposure	1	9	2	270											095
+1	Exposure	2	24	4	180											095
+1	Exposure	3	3	1	90											095
+1	Exposure	4	7	1	135											095
+1	Exposure	5	17	3	315											095
+1	Exposure	6	23	4	360											095
+1	Exposure	7	19	3	135											095
+1	Exposure	8	22	4	60											095
+1	Exposure	9	1	1	210											095
+1	Exposure	10	20	3	240											095
+1	Exposure	11	14	2	120											095
+1	Exposure	12	12	2	30											095
+1	Exposure	1	7	1	135											095
+1	Exposure	2	22	4	60											095
+1	Exposure	3	3	1	90											095
+1	Exposure	4	17	3	315											095
+1	Exposure	5	20	3	240											095
+1	Exposure	6	14	2	120											095
+1	Exposure	7	19	3	135											095
+1	Exposure	8	24	4	180											095
+1	Exposure	9	1	1	210											095
+1	Exposure	10	23	4	360											095
+1	Exposure	11	12	2	30											095
+1	Exposure	12	9	2	270											095
+1	Guessing	1	20	3	240	22	19	17					17	0		095
+1	Guessing	2	9	2	270	14	19	3					9	1		095
+1	Guessing	3	22	4	60	3	23	14					23	0		095
+1	Guessing	4	1	1	210	17	3	20					1	1		095
+1	Guessing	5	24	4	180	12	7	20					12	0		095
+1	Guessing	6	3	1	90	17	12	22					12	0		095
+1	Guessing	7	17	3	315	7	20	12					20	0		095
+1	Guessing	8	19	3	135	1	12	23					1	0		095
+1	Guessing	9	23	4	360	22	14	24					23	1		095
+1	Guessing	10	7	1	135	19	22	17					22	0		095
+1	Guessing	11	12	2	30	20	17	23					20	0		095
+1	Guessing	12	14	2	120	20	24	22					14	1		095
+1	Guessing	1	12	2	30	22	19	17					12	1		095
+1	Guessing	2	23	4	360	9	1	19					23	1		095
+1	Guessing	3	9	2	270	7	3	24					9	1		095
+1	Guessing	4	20	3	240	24	14	17					17	0		095
+1	Guessing	5	24	4	180	20	14	19					24	1		095
+1	Guessing	6	17	3	315	22	3	7					17	1		095
+1	Guessing	7	22	4	60	12	20	24					22	1		095
+1	Guessing	8	3	1	90	12	24	7					12	0		095
+1	Guessing	9	14	2	120	3	20	22					20	0		095
+1	Guessing	10	1	1	210	9	23	19					9	0		095
+1	Guessing	11	7	1	135	3	1	23					3	0		095
+1	Guessing	12	19	3	135	12	23	24					12	0		095
+1	Production	1	9	2	270									0	maima	095
+1	Production	2	17	3	315									1	maima	095
+1	Production	3	7	1	135									0	koi	095
+1	Production	4	14	2	120									0	koi	095
+1	Production	5	19	3	135									0	koi	095
+1	Production	6	12	2	30									0	we	095
+1	Production	7	22	4	60									1	kite	095
+1	Production	8	3	1	90									0	hui	095
+1	Production	9	1	1	210									0	ashma	095
+1	Production	10	23	4	360									1	pepepe	095
+1	Production	11	24	4	180									1	pt	095
+1	Production	12	20	3	240									0	maima	095
+1	Production	1	17	3	315									0	ki	095
+1	Production	2	22	4	60									1	kite	095
+1	Production	3	3	1	90									0	seefe	095
+1	Production	4	12	2	30									1	seefe	095
+1	Production	5	7	1	135									0	geen	095
+1	Production	6	20	3	240									0	asha	095
+1	Production	7	9	2	270									0	peeto	095
+1	Production	8	19	3	135									0	geen	095
+1	Production	9	1	1	210									0	maima	095
+1	Production	10	24	4	180									1	pt	095
+1	Production	11	23	4	360									1	pepepe	095
+1	Production	12	14	2	120									0	hiu	095
+2	Exposure	1	6	1	300											095
+2	Exposure	2	16	3	45											095
+2	Exposure	3	28	4	225											095
+2	Exposure	4	11	2	330											095
+2	Exposure	5	21	3	360											095
+2	Exposure	6	10	2	150											095
+2	Exposure	7	25	4	315											095
+2	Exposure	8	4	1	330											095
+2	Exposure	9	27	4	120											095
+2	Exposure	10	5	1	30											095
+2	Exposure	11	2	1	270											095
+2	Exposure	1	5	1	30											095
+2	Exposure	2	16	3	45											095
+2	Exposure	3	25	4	315											095
+2	Exposure	4	27	4	120											095
+2	Exposure	5	11	2	330											095
+2	Exposure	6	10	2	150											095
+2	Exposure	7	6	1	300											095
+2	Exposure	8	28	4	225											095
+2	Exposure	9	2	1	270											095
+2	Exposure	10	21	3	360											095
+2	Exposure	11	4	1	330											095
+2	Guessing	1	27	4	120	11	5	21					27	1		095
+2	Guessing	2	5	1	30	21	27	6					5	1		095
+2	Guessing	3	2	1	270	10	25	28					2	1		095
+2	Guessing	4	10	2	150	4	16	25					25	0		095
+2	Guessing	5	25	4	315	2	11	28					25	1		095
+2	Guessing	6	21	3	360	11	16	5					21	1		095
+2	Guessing	7	16	3	45	5	2	28					16	1		095
+2	Guessing	8	28	4	225	6	2	4					28	1		095
+2	Guessing	9	11	2	330	27	2	5					11	1		095
+2	Guessing	10	4	1	330	5	6	21					21	0		095
+2	Guessing	11	6	1	300	5	10	2					6	1		095
+2	Guessing	1	28	4	225	25	2	11					28	1		095
+2	Guessing	2	5	1	30	2	4	16					4	0		095
+2	Guessing	3	4	1	330	5	27	10					10	0		095
+2	Guessing	4	27	4	120	28	6	4					6	0		095
+2	Guessing	5	6	1	300	11	10	28					6	1		095
+2	Guessing	6	16	3	45	11	25	27					16	1		095
+2	Guessing	7	2	1	270	25	27	4					2	1		095
+2	Guessing	8	10	2	150	2	25	5					10	1		095
+2	Guessing	9	21	3	360	4	16	5					21	1		095
+2	Guessing	10	25	4	315	27	2	21					25	1		095
+2	Guessing	11	11	2	330	16	5	2					11	1		095
+2	Production	1	6	1	300									0	geen	095
+2	Production	2	28	4	225									0	ftft	095
+2	Production	3	25	4	315									0	foki	095
+2	Production	4	2	1	270									1	swaa	095
+2	Production	5	11	2	330									0	geen	095
+2	Production	6	10	2	150									0	geen	095
+2	Production	7	16	3	45									1	fiti	095
+2	Production	8	4	1	330									0	geen	095
+2	Production	9	5	1	30									0	geen	095
+2	Production	10	27	4	120									0	ptpt	095
+2	Production	11	21	3	360									0	nai-a	095
+2	Production	1	21	3	360									0	tak-a	095
+2	Production	2	5	1	30									0	swaia	095
+2	Production	3	25	4	315									0	ptpt	095
+2	Production	4	11	2	330									0	koi	095
+2	Production	5	6	1	300									0	geen	095
+2	Production	6	4	1	330									0	fak-toe	095
+2	Production	7	28	4	225									0	ptpt	095
+2	Production	8	27	4	120									1	ftft	095
+2	Production	9	16	3	45									1	fiti	095
+2	Production	10	2	1	270									1	swaa	095
+2	Production	11	10	2	150									0	geen	095
+3	Exposure	1	17	3	315											095
+3	Exposure	2	16	3	45											095
+3	Exposure	3	3	1	90											095
+3	Exposure	4	9	2	270											095
+3	Exposure	5	20	3	240											095
+3	Exposure	6	23	4	360											095
+3	Exposure	7	12	2	30											095
+3	Exposure	8	28	4	225											095
+3	Exposure	9	5	1	30											095
+3	Exposure	10	2	1	270											095
+3	Exposure	11	25	4	315											095
+3	Exposure	12	10	2	150											095
+3	Exposure	13	19	3	135											095
+3	Exposure	14	24	4	180											095
+3	Exposure	15	1	1	210											095
+3	Exposure	16	11	2	330											095
+3	Exposure	17	7	1	135											095
+3	Exposure	18	4	1	330											095
+3	Exposure	19	21	3	360											095
+3	Exposure	20	27	4	120											095
+3	Exposure	21	6	1	300											095
+3	Exposure	22	22	4	60											095
+3	Exposure	23	14	2	120											095
+3	Guessing	1	23	4	360	21	27	5	1	6	19	3	23	1		095
+3	Guessing	2	28	4	225	23	14	11	25	19	3	20	28	1		095
+3	Guessing	3	1	1	210	16	21	12	19	10	20	14	20	0		095
+3	Guessing	4	5	1	30	27	11	19	1	22	16	12	5	1		095
+3	Guessing	5	27	4	120	6	16	28	24	5	1	17	28	0		095
+3	Guessing	6	10	2	150	24	27	16	11	12	28	3	11	0		095
+3	Guessing	7	4	1	330	5	23	22	25	12	6	19	25	0		095
+3	Guessing	8	11	2	330	28	22	25	21	14	24	5	14	0		095
+3	Guessing	9	3	1	90	6	12	19	20	1	4	7	3	1		095
+3	Guessing	10	25	4	315	28	9	3	22	5	7	2	25	1		095
+3	Guessing	11	19	3	135	22	7	28	2	4	11	27	19	1		095
+3	Guessing	12	9	2	270	10	12	27	20	22	5	25	12	0		095
+3	Guessing	13	16	3	45	11	28	10	17	24	9	27	16	1		095
+3	Guessing	14	12	2	30	16	4	27	28	10	14	5	12	1		095
+3	Guessing	15	22	4	60	2	16	6	7	3	21	1	22	1		095
+3	Guessing	16	6	1	300	9	10	25	28	12	27	5	6	1		095
+3	Guessing	17	17	3	315	9	22	1	12	4	19	2	1	0		095
+3	Guessing	18	7	1	135	27	21	20	2	16	23	28	20	0		095
+3	Guessing	19	21	3	360	12	3	19	5	24	16	22	21	1		095
+3	Guessing	20	2	1	270	10	12	19	1	16	22	23	2	1		095
+3	Guessing	21	20	3	240	6	27	21	1	23	17	16	17	0		095
+3	Guessing	22	24	4	180	21	25	11	3	9	5	22	24	1		095
+3	Guessing	23	14	2	120	16	6	1	12	27	24	2	14	1		095
+3	Production	1	17	3	315									0	geen	095
+3	Production	2	25	4	315									0	hoi	095
+3	Production	3	5	1	30									0	hai-a	095
+3	Production	4	28	4	225									0	ftft	095
+3	Production	5	3	1	90									0	wahai	095
+3	Production	6	11	2	330									0	geen	095
+3	Production	7	19	3	135									0	geen	095
+3	Production	8	1	1	210									0	geen	095
+3	Production	9	20	3	240									0	mimi	095
+3	Production	10	14	2	120									0	geen	095
+3	Production	11	24	4	180									1	pt	095
+3	Production	12	9	2	270									0	geen	095
+3	Production	13	16	3	45									1	fiti	095
+3	Production	14	10	2	150									0	geen	095
+3	Production	15	7	1	135									0	geen	095
+3	Production	16	12	2	30									0	ftio	095
+3	Production	17	2	1	270									1	swaa	095
+3	Production	18	4	1	330									0	fak-toe	095
+3	Production	19	22	4	60									1	kite	095
+3	Production	20	27	4	120									0	ptpt	095
+3	Production	21	21	3	360									0	fak-a	095
+3	Production	22	23	4	360									1	pepepe	095
+3	Production	23	6	1	300									1	fak-toe	095
+5	MemorizationTest	1	12	2	30									0	mimi	095
+5	MemorizationTest	2	27	4	120									1	ftft	095
+5	MemorizationTest	3	23	4	360									1	pepepe	095
+5	MemorizationTest	4	1	1	210									0	maima	095
+5	MemorizationTest	5	9	2	270									0	soofi	095
+5	MemorizationTest	6	14	2	120									0	geen	095
+5	MemorizationTest	7	6	1	300									1	fak-toe	095
+5	MemorizationTest	8	25	4	315									0	hoi	095
+5	MemorizationTest	9	2	1	270									1	swaa	095
+5	MemorizationTest	10	10	2	150									0	mimi	095
+5	MemorizationTest	11	7	1	135									0	wai	095
+5	MemorizationTest	12	20	3	240									0	geen	095
+5	MemorizationTest	13	16	3	45									1	fiti	095
+5	MemorizationTest	14	22	4	60									1	kite	095
+5	MemorizationTest	15	24	4	180									1	pt	095
+5	MemorizationTest	16	21	3	360									0	fk-a	095
+5	MemorizationTest	17	5	1	30									0	hai-a	095
+5	MemorizationTest	18	3	1	90									1	hiu	095
+5	MemorizationTest	19	28	4	225									1	gtgt	095
+5	MemorizationTest	20	4	1	330									0	fak-toe	095
+5	MemorizationTest	21	11	2	330									0	ftio	095
+5	MemorizationTest	22	17	3	315									0	geen	095
+5	MemorizationTest	23	19	3	135									0	geen	095
+5	RegularizationTest	1	36	4	240										ftft	095
+5	RegularizationTest	2	29	1	180										pt-a	095
+5	RegularizationTest	3	34	3	90										gtgt-tk-a	095
+5	RegularizationTest	4	13	2	225										ftft-ftio	095
+5	RegularizationTest	5	35	4	210										gtgt	095
+5	RegularizationTest	6	30	1	225										maima	095
+5	RegularizationTest	7	26	4	45										kite	095
+5	RegularizationTest	8	32	2	60										kite--tk-a	095
+5	RegularizationTest	9	31	2	300										swa-hoi--ftiu	095
+5	RegularizationTest	10	33	3	60										fiti	095
+5	RegularizationTest	11	15	3	150										gtgt--tk-a	095
+5	RegularizationTest	12	18	3	150										gtgt--tk-a	095
+5	RegularizationTest	13	8	2	360										pepepe--ftio	095

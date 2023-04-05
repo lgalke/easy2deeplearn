@@ -1,0 +1,250 @@
+Language learnability experiment
+Logfile written - 07/22/2019 10:11:17
+Participant ID: 063
+Language: B4
+Computer: 5
+
+Round	Task	Trial	Target	Shape	Angle	Distr1	Distr2	Distr3	Distr4	Distr5	Distr6	Distr7	SelectedItem	Correct	Input	Producer
+1	Exposure	1	23	4	300											063
+1	Exposure	2	26	4	225											063
+1	Exposure	3	28	4	30											063
+1	Exposure	4	19	3	240											063
+1	Exposure	5	11	2	45											063
+1	Exposure	6	9	2	90											063
+1	Exposure	7	3	1	360											063
+1	Exposure	8	1	1	150											063
+1	Exposure	9	18	3	180											063
+1	Exposure	10	8	2	270											063
+1	Exposure	11	7	1	315											063
+1	Exposure	12	16	3	135											063
+1	Exposure	1	18	3	180											063
+1	Exposure	2	9	2	90											063
+1	Exposure	3	7	1	315											063
+1	Exposure	4	16	3	135											063
+1	Exposure	5	28	4	30											063
+1	Exposure	6	23	4	300											063
+1	Exposure	7	8	2	270											063
+1	Exposure	8	11	2	45											063
+1	Exposure	9	19	3	240											063
+1	Exposure	10	1	1	150											063
+1	Exposure	11	26	4	225											063
+1	Exposure	12	3	1	360											063
+1	Guessing	1	18	3	180	26	9	7					18	1		063
+1	Guessing	2	19	3	240	9	18	16					19	1		063
+1	Guessing	3	28	4	30	11	19	9					28	1		063
+1	Guessing	4	8	2	270	23	26	9					8	1		063
+1	Guessing	5	7	1	315	3	18	26					7	1		063
+1	Guessing	6	1	1	150	9	19	3					3	0		063
+1	Guessing	7	3	1	360	26	28	11					3	1		063
+1	Guessing	8	11	2	45	3	8	19					19	0		063
+1	Guessing	9	23	4	300	28	18	9					28	0		063
+1	Guessing	10	9	2	90	18	3	11					18	0		063
+1	Guessing	11	26	4	225	1	9	28					28	0		063
+1	Guessing	12	16	3	135	3	19	9					3	0		063
+1	Guessing	1	23	4	300	28	9	19					23	1		063
+1	Guessing	2	19	3	240	18	3	16					3	0		063
+1	Guessing	3	3	1	360	8	18	11					3	1		063
+1	Guessing	4	9	2	90	16	11	8					9	1		063
+1	Guessing	5	8	2	270	7	18	11					8	1		063
+1	Guessing	6	28	4	30	23	9	7					9	0		063
+1	Guessing	7	11	2	45	9	7	26					11	1		063
+1	Guessing	8	7	1	315	19	9	26					19	0		063
+1	Guessing	9	26	4	225	11	16	7					26	1		063
+1	Guessing	10	18	3	180	16	28	9					18	1		063
+1	Guessing	11	1	1	150	23	3	28					1	1		063
+1	Guessing	12	16	3	135	23	7	3					16	1		063
+1	Production	1	19	3	240									0	muifa	063
+1	Production	2	9	2	90									0	fok-a	063
+1	Production	3	3	1	360									0	fas-a	063
+1	Production	4	26	4	225									0	fak-i	063
+1	Production	5	7	1	315									0	fas-ii	063
+1	Production	6	23	4	300									0	muif-huif	063
+1	Production	7	16	3	135									0	muif-huif	063
+1	Production	8	18	3	180									0	fas-ii	063
+1	Production	9	28	4	30									0	fak-huif	063
+1	Production	10	11	2	45									0	fas-a	063
+1	Production	11	1	1	150									0	fas-a	063
+1	Production	12	8	2	270									0	pok-i	063
+1	Production	1	1	1	150									0	fas-i	063
+1	Production	2	19	3	240									0	muif-i	063
+1	Production	3	16	3	135									0	muif-a	063
+1	Production	4	26	4	225									1	fak-huif	063
+1	Production	5	9	2	90									0	pok-e	063
+1	Production	6	28	4	30									0	fak-ii	063
+1	Production	7	8	2	270									0	pok-iii	063
+1	Production	8	11	2	45									0	pok-huif	063
+1	Production	9	23	4	300									0	fak-i	063
+1	Production	10	18	3	180									0	muif-u	063
+1	Production	11	7	1	315									0	pas-a	063
+1	Production	12	3	1	360									1	fas-i	063
+2	Exposure	1	21	3	270											063
+2	Exposure	2	13	2	330											063
+2	Exposure	3	5	1	60											063
+2	Exposure	4	4	1	210											063
+2	Exposure	5	14	2	180											063
+2	Exposure	6	15	3	45											063
+2	Exposure	7	6	1	240											063
+2	Exposure	8	10	2	210											063
+2	Exposure	9	25	4	120											063
+2	Exposure	10	12	2	135											063
+2	Exposure	11	20	3	315											063
+2	Exposure	1	12	2	135											063
+2	Exposure	2	14	2	180											063
+2	Exposure	3	21	3	270											063
+2	Exposure	4	5	1	60											063
+2	Exposure	5	6	1	240											063
+2	Exposure	6	15	3	45											063
+2	Exposure	7	13	2	330											063
+2	Exposure	8	4	1	210											063
+2	Exposure	9	10	2	210											063
+2	Exposure	10	25	4	120											063
+2	Exposure	11	20	3	315											063
+2	Guessing	1	15	3	45	21	14	12					15	1		063
+2	Guessing	2	21	3	270	5	6	14					21	1		063
+2	Guessing	3	5	1	60	12	10	15					5	1		063
+2	Guessing	4	20	3	315	14	5	15					15	0		063
+2	Guessing	5	13	2	330	10	12	14					14	0		063
+2	Guessing	6	4	1	210	6	25	20					6	0		063
+2	Guessing	7	14	2	180	6	20	25					14	1		063
+2	Guessing	8	6	1	240	21	12	14					6	1		063
+2	Guessing	9	10	2	210	13	20	6					10	1		063
+2	Guessing	10	25	4	120	15	10	21					25	1		063
+2	Guessing	11	12	2	135	20	14	25					12	1		063
+2	Guessing	1	25	4	120	21	5	15					25	1		063
+2	Guessing	2	14	2	180	5	15	20					5	0		063
+2	Guessing	3	6	1	240	14	20	10					6	1		063
+2	Guessing	4	4	1	210	5	14	25					4	1		063
+2	Guessing	5	20	3	315	10	25	4					20	1		063
+2	Guessing	6	13	2	330	6	14	15					13	1		063
+2	Guessing	7	5	1	60	20	15	6					15	0		063
+2	Guessing	8	15	3	45	25	6	5					15	1		063
+2	Guessing	9	10	2	210	13	15	5					10	1		063
+2	Guessing	10	12	2	135	15	6	25					12	1		063
+2	Guessing	11	21	3	270	5	20	25					21	1		063
+2	Production	1	10	2	210									0	pas	063
+2	Production	2	20	3	315									0	pok-u	063
+2	Production	3	5	1	60									0	pas-u	063
+2	Production	4	4	1	210									1	fas-w-w-huif	063
+2	Production	5	21	3	270									1	muif-u	063
+2	Production	6	15	3	45									1	muif-a	063
+2	Production	7	25	4	120									0	fak-i	063
+2	Production	8	6	1	240									0	fas-w	063
+2	Production	9	13	2	330									0	pak-u	063
+2	Production	10	14	2	180									1	pok-w	063
+2	Production	11	12	2	135									1	pok-e	063
+2	Production	1	6	1	240									0	fas-w-w-huif	063
+2	Production	2	10	2	210									0	pok-w-w-huif	063
+2	Production	3	20	3	315									0	muif-a	063
+2	Production	4	14	2	180									0	pok-u	063
+2	Production	5	12	2	135									0	pok-u	063
+2	Production	6	25	4	120									1	fak-e	063
+2	Production	7	13	2	330									0	pas	063
+2	Production	8	4	1	210									1	fas-w-w-huif	063
+2	Production	9	5	1	60									0	fas-u	063
+2	Production	10	15	3	45									1	muif-a	063
+2	Production	11	21	3	270									0	muif-w	063
+3	Exposure	1	9	2	90											063
+3	Exposure	2	23	4	300											063
+3	Exposure	3	5	1	60											063
+3	Exposure	4	12	2	135											063
+3	Exposure	5	3	1	360											063
+3	Exposure	6	6	1	240											063
+3	Exposure	7	11	2	45											063
+3	Exposure	8	18	3	180											063
+3	Exposure	9	20	3	315											063
+3	Exposure	10	7	1	315											063
+3	Exposure	11	1	1	150											063
+3	Exposure	12	15	3	45											063
+3	Exposure	13	25	4	120											063
+3	Exposure	14	26	4	225											063
+3	Exposure	15	28	4	30											063
+3	Exposure	16	16	3	135											063
+3	Exposure	17	14	2	180											063
+3	Exposure	18	4	1	210											063
+3	Exposure	19	13	2	330											063
+3	Exposure	20	8	2	270											063
+3	Exposure	21	10	2	210											063
+3	Exposure	22	19	3	240											063
+3	Exposure	23	21	3	270											063
+3	Guessing	1	13	2	330	11	8	15	28	10	12	25	13	1		063
+3	Guessing	2	14	2	180	19	28	5	1	10	6	25	14	1		063
+3	Guessing	3	12	2	135	25	9	18	19	6	14	21	12	1		063
+3	Guessing	4	8	2	270	9	19	5	28	20	23	10	8	1		063
+3	Guessing	5	25	4	120	1	16	23	10	5	26	6	25	1		063
+3	Guessing	6	18	3	180	11	7	21	28	12	14	8	18	1		063
+3	Guessing	7	9	2	90	14	1	25	28	21	13	7	13	0		063
+3	Guessing	8	20	3	315	28	5	4	25	18	12	9	20	1		063
+3	Guessing	9	7	1	315	28	25	10	18	1	21	3	7	1		063
+3	Guessing	10	26	4	225	20	6	18	14	13	11	19	26	1		063
+3	Guessing	11	15	3	45	8	18	13	23	16	28	3	15	1		063
+3	Guessing	12	19	3	240	25	9	14	1	8	28	3	19	1		063
+3	Guessing	13	5	1	60	11	20	4	10	26	16	7	5	1		063
+3	Guessing	14	28	4	30	21	20	6	7	9	15	10	6	0		063
+3	Guessing	15	1	1	150	4	18	12	3	20	26	19	4	0		063
+3	Guessing	16	23	4	300	3	9	14	18	28	10	13	23	1		063
+3	Guessing	17	3	1	360	5	28	23	8	19	15	25	5	0		063
+3	Guessing	18	11	2	45	14	18	3	16	9	28	10	11	1		063
+3	Guessing	19	16	3	135	25	8	26	18	14	11	4	18	0		063
+3	Guessing	20	4	1	210	3	1	11	28	10	16	7	4	1		063
+3	Guessing	21	10	2	210	1	26	7	3	8	14	15	10	1		063
+3	Guessing	22	21	3	270	9	10	16	15	11	1	12	15	0		063
+3	Guessing	23	6	1	240	15	16	12	7	3	23	13	6	1		063
+3	Production	1	21	3	270									0	muif-i	063
+3	Production	2	13	2	330									1	pok	063
+3	Production	3	12	2	135									0	pok-	063
+3	Production	4	19	3	240									1	muif-huif	063
+3	Production	5	23	4	300									0	fak-u	063
+3	Production	6	8	2	270									1	pok-u	063
+3	Production	7	28	4	30									1	fak-a	063
+3	Production	8	5	1	60									1	fas-a	063
+3	Production	9	15	3	45									1	muif-a	063
+3	Production	10	16	3	135									1	muif-e	063
+3	Production	11	3	1	360									1	fas-i	063
+3	Production	12	7	1	315									0	fas-i	063
+3	Production	13	6	1	240									0	pok-huif	063
+3	Production	14	4	1	210									1	fas-w-w-huif	063
+3	Production	15	14	2	180									0	pok-u	063
+3	Production	16	10	2	210									0	pok-w-w-huif	063
+3	Production	17	26	4	225									1	fak-huif	063
+3	Production	18	11	2	45									1	pok-a	063
+3	Production	19	18	3	180									0	huif-u	063
+3	Production	20	1	1	150									0	pas-e	063
+3	Production	21	9	2	90									0	pok-u	063
+3	Production	22	25	4	120									1	fak-e	063
+3	Production	23	20	3	315									0	muif-huif	063
+5	MemorizationTest	1	8	2	270									0	pok-w	063
+5	MemorizationTest	2	16	3	135									0	muif-a	063
+5	MemorizationTest	3	5	1	60									0	pas-a	063
+5	MemorizationTest	4	23	4	300									0	fak-huif	063
+5	MemorizationTest	5	1	1	150									0	pas-a	063
+5	MemorizationTest	6	21	3	270									0	muif-w	063
+5	MemorizationTest	7	4	1	210									0	pas-w-w-huif	063
+5	MemorizationTest	8	3	1	360									0	pas-i	063
+5	MemorizationTest	9	14	2	180									0	muif-w	063
+5	MemorizationTest	10	28	4	30									1	fak-a	063
+5	MemorizationTest	11	7	1	315									0	pas-huif	063
+5	MemorizationTest	12	9	2	90									0	pok-a	063
+5	MemorizationTest	13	11	2	45									1	pok-a	063
+5	MemorizationTest	14	13	2	330									0	pok-pok	063
+5	MemorizationTest	15	26	4	225									0	fak-w-w-huif	063
+5	MemorizationTest	16	12	2	135									1	pok-e	063
+5	MemorizationTest	17	25	4	120									1	fak-e	063
+5	MemorizationTest	18	15	3	45									1	muif-a	063
+5	MemorizationTest	19	20	3	315									1	muif-pok	063
+5	MemorizationTest	20	18	3	180									0	muif-i	063
+5	MemorizationTest	21	10	2	210									0	pok-w-w-huif	063
+5	MemorizationTest	22	6	1	240									0	pas-huif	063
+5	MemorizationTest	23	19	3	240									1	muif-huif	063
+5	RegularizationTest	1	34	3	60										muif-a	063
+5	RegularizationTest	2	24	4	90										fak-u	063
+5	RegularizationTest	3	32	2	300										pok	063
+5	RegularizationTest	4	17	3	225										muif-huif	063
+5	RegularizationTest	5	35	4	60										fak-a	063
+5	RegularizationTest	6	22	4	330										fak-i	063
+5	RegularizationTest	7	30	1	225										pas-huif	063
+5	RegularizationTest	8	29	1	120										pas-e	063
+5	RegularizationTest	9	31	2	360										pok-w	063
+5	RegularizationTest	10	33	3	360										huif-w	063
+5	RegularizationTest	11	2	1	30										pas-a	063
+5	RegularizationTest	12	36	4	150										fak-e	063
+5	RegularizationTest	13	27	4	150										fak-e	063

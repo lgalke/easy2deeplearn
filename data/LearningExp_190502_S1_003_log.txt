@@ -1,0 +1,250 @@
+Language learnability experiment
+Logfile written - 05/02/2019 11:12:59
+Participant ID: 003
+Language: S1
+Computer: 5
+
+Round	Task	Trial	Target	Shape	Angle	Distr1	Distr2	Distr3	Distr4	Distr5	Distr6	Distr7	SelectedItem	Correct	Input	Producer
+1	Exposure	1	10	2	210											003
+1	Exposure	2	21	3	270											003
+1	Exposure	3	4	1	210											003
+1	Exposure	4	25	4	120											003
+1	Exposure	5	26	4	225											003
+1	Exposure	6	7	1	315											003
+1	Exposure	7	16	3	135											003
+1	Exposure	8	14	2	180											003
+1	Exposure	9	28	4	30											003
+1	Exposure	10	20	3	315											003
+1	Exposure	11	9	2	90											003
+1	Exposure	12	3	1	360											003
+1	Exposure	1	21	3	270											003
+1	Exposure	2	9	2	90											003
+1	Exposure	3	14	2	180											003
+1	Exposure	4	28	4	30											003
+1	Exposure	5	26	4	225											003
+1	Exposure	6	7	1	315											003
+1	Exposure	7	3	1	360											003
+1	Exposure	8	10	2	210											003
+1	Exposure	9	25	4	120											003
+1	Exposure	10	20	3	315											003
+1	Exposure	11	16	3	135											003
+1	Exposure	12	4	1	210											003
+1	Guessing	1	9	2	90	7	3	26					9	1		003
+1	Guessing	2	26	4	225	3	20	16					26	1		003
+1	Guessing	3	20	3	315	7	28	9					20	1		003
+1	Guessing	4	10	2	210	7	9	20					10	1		003
+1	Guessing	5	25	4	120	9	26	10					9	0		003
+1	Guessing	6	21	3	270	25	26	28					21	1		003
+1	Guessing	7	7	1	315	9	16	28					7	1		003
+1	Guessing	8	14	2	180	10	28	7					7	0		003
+1	Guessing	9	3	1	360	20	26	21					21	0		003
+1	Guessing	10	4	1	210	20	14	25					4	1		003
+1	Guessing	11	16	3	135	20	28	21					16	1		003
+1	Guessing	12	28	4	30	21	7	4					28	1		003
+1	Guessing	1	20	3	315	9	4	3					20	1		003
+1	Guessing	2	28	4	30	16	25	7					7	0		003
+1	Guessing	3	9	2	90	14	28	21					9	1		003
+1	Guessing	4	21	3	270	4	26	16					21	1		003
+1	Guessing	5	25	4	120	21	20	26					25	1		003
+1	Guessing	6	10	2	210	26	7	14					10	1		003
+1	Guessing	7	4	1	210	16	9	7					4	1		003
+1	Guessing	8	14	2	180	28	10	26					14	1		003
+1	Guessing	9	16	3	135	7	25	26					16	1		003
+1	Guessing	10	7	1	315	25	20	26					7	1		003
+1	Guessing	11	26	4	225	10	4	21					26	1		003
+1	Guessing	12	3	1	360	4	20	26					20	0		003
+1	Production	1	25	4	120									1	wafk	003
+1	Production	2	20	3	315									0	kuim	003
+1	Production	3	16	3	135									1	spuut	003
+1	Production	4	10	2	210									0	muif	003
+1	Production	5	28	4	30									1	keuw	003
+1	Production	6	21	3	270									0	ophuif	003
+1	Production	7	4	1	210									0	kuim	003
+1	Production	8	14	2	180									0	kuim	003
+1	Production	9	26	4	225									0	kuim	003
+1	Production	10	3	1	360									1	kuim	003
+1	Production	11	9	2	90									0	koof	003
+1	Production	12	7	1	315									1	goom	003
+1	Production	1	10	2	210									0	pohuif	003
+1	Production	2	20	3	315									0	kamf	003
+1	Production	3	7	1	315									1	goom	003
+1	Production	4	21	3	270									0	kamf	003
+1	Production	5	28	4	30									1	keuw	003
+1	Production	6	9	2	90									1	moof	003
+1	Production	7	26	4	225									0	pohuif	003
+1	Production	8	4	1	210									1	pohuif	003
+1	Production	9	3	1	360									1	kuim	003
+1	Production	10	25	4	120									0	sgaf	003
+1	Production	11	16	3	135									1	spuut	003
+1	Production	12	14	2	180									0	huif	003
+2	Exposure	1	5	1	60											003
+2	Exposure	2	13	2	330											003
+2	Exposure	3	19	3	240											003
+2	Exposure	4	8	2	270											003
+2	Exposure	5	11	2	45											003
+2	Exposure	6	23	4	300											003
+2	Exposure	7	15	3	45											003
+2	Exposure	8	12	2	135											003
+2	Exposure	9	6	1	240											003
+2	Exposure	10	18	3	180											003
+2	Exposure	11	1	1	150											003
+2	Exposure	1	8	2	270											003
+2	Exposure	2	11	2	45											003
+2	Exposure	3	23	4	300											003
+2	Exposure	4	13	2	330											003
+2	Exposure	5	1	1	150											003
+2	Exposure	6	19	3	240											003
+2	Exposure	7	18	3	180											003
+2	Exposure	8	6	1	240											003
+2	Exposure	9	15	3	45											003
+2	Exposure	10	5	1	60											003
+2	Exposure	11	12	2	135											003
+2	Guessing	1	18	3	180	23	12	13					18	1		003
+2	Guessing	2	13	2	330	8	5	11					13	1		003
+2	Guessing	3	1	1	150	15	18	13					1	1		003
+2	Guessing	4	12	2	135	8	6	19					12	1		003
+2	Guessing	5	23	4	300	5	8	15					23	1		003
+2	Guessing	6	5	1	60	18	11	13					5	1		003
+2	Guessing	7	11	2	45	23	13	6					11	1		003
+2	Guessing	8	19	3	240	11	23	1					19	1		003
+2	Guessing	9	8	2	270	13	11	6					8	1		003
+2	Guessing	10	6	1	240	8	5	11					6	1		003
+2	Guessing	11	15	3	45	6	11	8					15	1		003
+2	Guessing	1	18	3	180	19	13	1					18	1		003
+2	Guessing	2	11	2	45	5	23	12					11	1		003
+2	Guessing	3	13	2	330	19	15	8					13	1		003
+2	Guessing	4	15	3	45	8	12	6					15	1		003
+2	Guessing	5	5	1	60	23	15	19					5	1		003
+2	Guessing	6	8	2	270	6	5	13					8	1		003
+2	Guessing	7	19	3	240	1	6	5					19	1		003
+2	Guessing	8	6	1	240	15	13	18					6	1		003
+2	Guessing	9	12	2	135	8	18	13					12	1		003
+2	Guessing	10	1	1	150	11	19	18					1	1		003
+2	Guessing	11	23	4	300	11	5	13					23	1		003
+2	Production	1	1	1	150									1	woop	003
+2	Production	2	12	2	135									1	heegt	003
+2	Production	3	13	2	330									0	waft	003
+2	Production	4	5	1	60									1	koof	003
+2	Production	5	6	1	240									1	smoogg	003
+2	Production	6	8	2	270									1	waft	003
+2	Production	7	15	3	45									1	pofs	003
+2	Production	8	19	3	240									1	fogt	003
+2	Production	9	23	4	300									1	suith	003
+2	Production	10	18	3	180									1	hauft	003
+2	Production	11	11	2	45									1	wuit	003
+2	Production	1	15	3	45									1	pofs	003
+2	Production	2	19	3	240									1	fogt	003
+2	Production	3	8	2	270									1	waft	003
+2	Production	4	5	1	60									1	koof	003
+2	Production	5	12	2	135									1	heegt	003
+2	Production	6	23	4	300									1	suith	003
+2	Production	7	6	1	240									1	smoogg	003
+2	Production	8	18	3	180									1	hauft	003
+2	Production	9	11	2	45									1	wuit	003
+2	Production	10	13	2	330									1	weft	003
+2	Production	11	1	1	150									1	woop	003
+3	Exposure	1	10	2	210											003
+3	Exposure	2	4	1	210											003
+3	Exposure	3	9	2	90											003
+3	Exposure	4	18	3	180											003
+3	Exposure	5	12	2	135											003
+3	Exposure	6	8	2	270											003
+3	Exposure	7	5	1	60											003
+3	Exposure	8	19	3	240											003
+3	Exposure	9	14	2	180											003
+3	Exposure	10	25	4	120											003
+3	Exposure	11	26	4	225											003
+3	Exposure	12	21	3	270											003
+3	Exposure	13	6	1	240											003
+3	Exposure	14	28	4	30											003
+3	Exposure	15	1	1	150											003
+3	Exposure	16	23	4	300											003
+3	Exposure	17	11	2	45											003
+3	Exposure	18	3	1	360											003
+3	Exposure	19	7	1	315											003
+3	Exposure	20	15	3	45											003
+3	Exposure	21	16	3	135											003
+3	Exposure	22	20	3	315											003
+3	Exposure	23	13	2	330											003
+3	Guessing	1	23	4	300	19	10	1	7	12	28	25	23	1		003
+3	Guessing	2	10	2	210	1	6	12	16	21	23	8	10	1		003
+3	Guessing	3	28	4	30	23	18	13	11	5	1	15	28	1		003
+3	Guessing	4	19	3	240	21	26	18	25	28	11	14	19	1		003
+3	Guessing	5	1	1	150	6	8	11	28	26	23	7	1	1		003
+3	Guessing	6	16	3	135	21	6	10	18	19	20	13	16	1		003
+3	Guessing	7	20	3	315	12	11	9	7	15	18	28	7	0		003
+3	Guessing	8	14	2	180	4	26	9	11	15	10	12	14	1		003
+3	Guessing	9	12	2	135	6	23	16	21	3	11	4	12	1		003
+3	Guessing	10	8	2	270	16	13	20	21	11	18	19	8	1		003
+3	Guessing	11	13	2	330	16	9	18	1	14	5	11	13	1		003
+3	Guessing	12	6	1	240	26	12	13	15	4	16	5	6	1		003
+3	Guessing	13	21	3	270	20	23	26	1	12	16	6	21	1		003
+3	Guessing	14	25	4	120	9	21	14	15	7	18	8	25	1		003
+3	Guessing	15	7	1	315	15	12	8	1	28	21	14	7	1		003
+3	Guessing	16	15	3	45	8	5	10	9	28	12	1	15	1		003
+3	Guessing	17	3	1	360	10	9	21	4	8	25	26	3	1		003
+3	Guessing	18	11	2	45	20	5	21	10	13	12	18	11	1		003
+3	Guessing	19	5	1	60	19	13	4	25	9	26	15	9	0		003
+3	Guessing	20	26	4	225	12	3	23	25	8	15	11	26	1		003
+3	Guessing	21	18	3	180	14	10	21	8	7	15	13	18	1		003
+3	Guessing	22	4	1	210	20	25	7	14	26	21	13	4	1		003
+3	Guessing	23	9	2	90	6	25	11	10	26	13	1	9	1		003
+3	Production	1	5	1	60									1	koof	003
+3	Production	2	11	2	45									0	wuif	003
+3	Production	3	18	3	180									1	hauft	003
+3	Production	4	14	2	180									1	muif	003
+3	Production	5	28	4	30									1	keuw	003
+3	Production	6	16	3	135									1	spuut	003
+3	Production	7	12	2	135									1	heegt	003
+3	Production	8	23	4	300									1	suith	003
+3	Production	9	3	1	360									0	muik	003
+3	Production	10	13	2	330									1	weft	003
+3	Production	11	6	1	240									0	pohuif	003
+3	Production	12	25	4	120									0	waft	003
+3	Production	13	7	1	315									0	suith	003
+3	Production	14	4	1	210									1	pohuif	003
+3	Production	15	10	2	210									0	segt	003
+3	Production	16	20	3	315									0	kuim	003
+3	Production	17	8	2	270									1	waft	003
+3	Production	18	19	3	240									1	fogt	003
+3	Production	19	1	1	150									0	moof	003
+3	Production	20	15	3	45									1	pofs	003
+3	Production	21	26	4	225									0	kumf	003
+3	Production	22	21	3	270									0	fuit	003
+3	Production	23	9	2	90									1	moof	003
+5	MemorizationTest	1	20	3	315									0	sgeuft	003
+5	MemorizationTest	2	19	3	240									1	fogt	003
+5	MemorizationTest	3	11	2	45									1	wuit	003
+5	MemorizationTest	4	25	4	120									1	wafk	003
+5	MemorizationTest	5	3	1	360									1	kuim	003
+5	MemorizationTest	6	14	2	180									1	muif	003
+5	MemorizationTest	7	21	3	270									1	huipt	003
+5	MemorizationTest	8	7	1	315									1	goom	003
+5	MemorizationTest	9	6	1	240									1	smoogg	003
+5	MemorizationTest	10	10	2	210									0	segt	003
+5	MemorizationTest	11	4	1	210									1	pohuif	003
+5	MemorizationTest	12	28	4	30									1	keuw	003
+5	MemorizationTest	13	5	1	60									1	koof	003
+5	MemorizationTest	14	9	2	90									1	moof	003
+5	MemorizationTest	15	13	2	330									1	weft	003
+5	MemorizationTest	16	8	2	270									1	waft	003
+5	MemorizationTest	17	1	1	150									0	koof	003
+5	MemorizationTest	18	12	2	135									1	heegt	003
+5	MemorizationTest	19	23	4	300									1	suith	003
+5	MemorizationTest	20	18	3	180									1	hauft	003
+5	MemorizationTest	21	16	3	135									1	spuut	003
+5	MemorizationTest	22	26	4	225									0	wuft	003
+5	MemorizationTest	23	15	3	45									1	pofs	003
+5	RegularizationTest	1	36	4	150										waft	003
+5	RegularizationTest	2	17	3	225										pohuif	003
+5	RegularizationTest	3	33	3	360										muik	003
+5	RegularizationTest	4	35	4	60										keuw	003
+5	RegularizationTest	5	2	1	30										koof	003
+5	RegularizationTest	6	24	4	90										moof	003
+5	RegularizationTest	7	30	1	225										smoogg	003
+5	RegularizationTest	8	27	4	150										wafk	003
+5	RegularizationTest	9	34	3	60										pofs	003
+5	RegularizationTest	10	31	2	360										muik	003
+5	RegularizationTest	11	29	1	120										hauft	003
+5	RegularizationTest	12	22	4	330										suith	003
+5	RegularizationTest	13	32	2	300										huipt	003

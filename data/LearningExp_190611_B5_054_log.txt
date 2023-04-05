@@ -1,0 +1,250 @@
+Language learnability experiment
+Logfile written - 06/11/2019 12:45:44
+Participant ID: 054
+Language: B5
+Computer: 5
+
+Round	Task	Trial	Target	Shape	Angle	Distr1	Distr2	Distr3	Distr4	Distr5	Distr6	Distr7	SelectedItem	Correct	Input	Producer
+1	Exposure	1	28	4	30											054
+1	Exposure	2	21	3	270											054
+1	Exposure	3	3	1	360											054
+1	Exposure	4	26	4	225											054
+1	Exposure	5	7	1	315											054
+1	Exposure	6	23	4	300											054
+1	Exposure	7	10	2	210											054
+1	Exposure	8	15	3	45											054
+1	Exposure	9	1	1	150											054
+1	Exposure	10	18	3	180											054
+1	Exposure	11	9	2	90											054
+1	Exposure	12	12	2	135											054
+1	Exposure	1	9	2	90											054
+1	Exposure	2	10	2	210											054
+1	Exposure	3	12	2	135											054
+1	Exposure	4	1	1	150											054
+1	Exposure	5	7	1	315											054
+1	Exposure	6	23	4	300											054
+1	Exposure	7	21	3	270											054
+1	Exposure	8	15	3	45											054
+1	Exposure	9	26	4	225											054
+1	Exposure	10	18	3	180											054
+1	Exposure	11	3	1	360											054
+1	Exposure	12	28	4	30											054
+1	Guessing	1	15	3	45	26	23	1					15	1		054
+1	Guessing	2	9	2	90	1	26	28					9	1		054
+1	Guessing	3	26	4	225	23	10	21					26	1		054
+1	Guessing	4	10	2	210	23	12	18					10	1		054
+1	Guessing	5	7	1	315	12	28	21					7	1		054
+1	Guessing	6	21	3	270	12	10	3					21	1		054
+1	Guessing	7	1	1	150	15	7	23					1	1		054
+1	Guessing	8	3	1	360	26	21	10					21	0		054
+1	Guessing	9	12	2	135	10	3	21					12	1		054
+1	Guessing	10	23	4	300	21	1	26					23	1		054
+1	Guessing	11	28	4	30	23	9	10					28	1		054
+1	Guessing	12	18	3	180	23	26	12					26	0		054
+1	Guessing	1	23	4	300	10	26	28					23	1		054
+1	Guessing	2	10	2	210	18	1	23					10	1		054
+1	Guessing	3	3	1	360	23	18	12					3	1		054
+1	Guessing	4	28	4	30	21	7	9					28	1		054
+1	Guessing	5	18	3	180	1	26	21					18	1		054
+1	Guessing	6	12	2	135	7	18	1					12	1		054
+1	Guessing	7	7	1	315	28	15	12					7	1		054
+1	Guessing	8	26	4	225	15	18	21					26	1		054
+1	Guessing	9	15	3	45	23	9	3					15	1		054
+1	Guessing	10	21	3	270	9	28	18					21	1		054
+1	Guessing	11	9	2	90	23	21	26					9	1		054
+1	Guessing	12	1	1	150	3	10	28					1	1		054
+1	Production	1	1	1	150									1	festoa	054
+1	Production	2	9	2	90									1	tupoo	054
+1	Production	3	21	3	270									0	gasuu	054
+1	Production	4	23	4	300									1	wasuui	054
+1	Production	5	10	2	210									0	festua	054
+1	Production	6	12	2	135									1	tupoa	054
+1	Production	7	15	3	45									1	guasoi	054
+1	Production	8	18	3	180									1	guasaa	054
+1	Production	9	3	1	360									1	festii	054
+1	Production	10	28	4	30									0	wasoi	054
+1	Production	11	26	4	225									1	wasua	054
+1	Production	12	7	1	315									1	festui	054
+1	Production	1	26	4	225									1	wasua	054
+1	Production	2	7	1	315									1	festui	054
+1	Production	3	23	4	300									1	wasuui	054
+1	Production	4	18	3	180									1	guasaa	054
+1	Production	5	21	3	270									1	guasuu	054
+1	Production	6	28	4	30									1	wasio	054
+1	Production	7	10	2	210									0	tupau	054
+1	Production	8	12	2	135									1	tupoa	054
+1	Production	9	9	2	90									1	tupoo	054
+1	Production	10	15	3	45									1	guasoi	054
+1	Production	11	1	1	150									0	festaao	054
+1	Production	12	3	1	360									1	festii	054
+2	Exposure	1	8	2	270											054
+2	Exposure	2	13	2	330											054
+2	Exposure	3	16	3	135											054
+2	Exposure	4	6	1	240											054
+2	Exposure	5	19	3	240											054
+2	Exposure	6	11	2	45											054
+2	Exposure	7	4	1	210											054
+2	Exposure	8	20	3	315											054
+2	Exposure	9	5	1	60											054
+2	Exposure	10	14	2	180											054
+2	Exposure	11	25	4	120											054
+2	Exposure	1	20	3	315											054
+2	Exposure	2	11	2	45											054
+2	Exposure	3	8	2	270											054
+2	Exposure	4	4	1	210											054
+2	Exposure	5	13	2	330											054
+2	Exposure	6	14	2	180											054
+2	Exposure	7	19	3	240											054
+2	Exposure	8	16	3	135											054
+2	Exposure	9	25	4	120											054
+2	Exposure	10	6	1	240											054
+2	Exposure	11	5	1	60											054
+2	Guessing	1	16	3	135	8	14	25					16	1		054
+2	Guessing	2	11	2	45	4	25	20					11	1		054
+2	Guessing	3	13	2	330	20	5	19					13	1		054
+2	Guessing	4	6	1	240	14	25	4					6	1		054
+2	Guessing	5	5	1	60	19	4	14					5	1		054
+2	Guessing	6	4	1	210	13	11	5					4	1		054
+2	Guessing	7	20	3	315	4	19	25					20	1		054
+2	Guessing	8	8	2	270	25	19	13					8	1		054
+2	Guessing	9	25	4	120	20	11	5					25	1		054
+2	Guessing	10	14	2	180	6	16	8					14	1		054
+2	Guessing	11	19	3	240	14	4	11					19	1		054
+2	Guessing	1	25	4	120	13	16	4					25	1		054
+2	Guessing	2	16	3	135	20	14	5					16	1		054
+2	Guessing	3	5	1	60	6	4	20					5	1		054
+2	Guessing	4	8	2	270	4	19	14					8	1		054
+2	Guessing	5	19	3	240	6	20	11					19	1		054
+2	Guessing	6	4	1	210	5	14	11					4	1		054
+2	Guessing	7	13	2	330	25	16	14					13	1		054
+2	Guessing	8	11	2	45	8	13	20					11	1		054
+2	Guessing	9	14	2	180	25	4	8					14	1		054
+2	Guessing	10	6	1	240	5	16	20					6	1		054
+2	Guessing	11	20	3	315	25	6	19					20	1		054
+2	Production	1	20	3	315									1	guasui	054
+2	Production	2	19	3	240									1	guasuua	054
+2	Production	3	6	1	240									1	festuua	054
+2	Production	4	14	2	180									1	tupaa	054
+2	Production	5	16	3	135									1	guasoa	054
+2	Production	6	25	4	120									0	wasooa	054
+2	Production	7	11	2	45									1	tupoi	054
+2	Production	8	4	1	210									1	festaau	054
+2	Production	9	8	2	270									1	tupuu	054
+2	Production	10	13	2	330									1	tupiiu	054
+2	Production	11	5	1	60									1	festoi	054
+2	Production	1	5	1	60									1	festoi	054
+2	Production	2	8	2	270									1	tupuu	054
+2	Production	3	6	1	240									1	festuua	054
+2	Production	4	14	2	180									1	tupaa	054
+2	Production	5	25	4	120									1	wasoa	054
+2	Production	6	4	1	210									1	festaau	054
+2	Production	7	19	3	240									1	guasuua	054
+2	Production	8	16	3	135									1	guasoa	054
+2	Production	9	11	2	45									1	tupoi	054
+2	Production	10	20	3	315									1	guasui	054
+2	Production	11	13	2	330									1	tupiiu	054
+3	Exposure	1	6	1	240											054
+3	Exposure	2	4	1	210											054
+3	Exposure	3	26	4	225											054
+3	Exposure	4	25	4	120											054
+3	Exposure	5	5	1	60											054
+3	Exposure	6	23	4	300											054
+3	Exposure	7	7	1	315											054
+3	Exposure	8	13	2	330											054
+3	Exposure	9	11	2	45											054
+3	Exposure	10	15	3	45											054
+3	Exposure	11	10	2	210											054
+3	Exposure	12	16	3	135											054
+3	Exposure	13	21	3	270											054
+3	Exposure	14	20	3	315											054
+3	Exposure	15	3	1	360											054
+3	Exposure	16	8	2	270											054
+3	Exposure	17	19	3	240											054
+3	Exposure	18	14	2	180											054
+3	Exposure	19	12	2	135											054
+3	Exposure	20	9	2	90											054
+3	Exposure	21	28	4	30											054
+3	Exposure	22	1	1	150											054
+3	Exposure	23	18	3	180											054
+3	Guessing	1	16	3	135	14	10	28	6	15	20	8	15	0		054
+3	Guessing	2	28	4	30	10	16	21	11	6	3	7	3	0		054
+3	Guessing	3	12	2	135	18	8	1	7	26	11	6	12	1		054
+3	Guessing	4	14	2	180	3	4	21	25	6	11	9	14	1		054
+3	Guessing	5	6	1	240	8	4	11	10	25	26	3	6	1		054
+3	Guessing	6	5	1	60	7	8	28	6	12	4	15	5	1		054
+3	Guessing	7	23	4	300	7	19	3	1	25	18	20	23	1		054
+3	Guessing	8	21	3	270	11	13	18	23	16	8	3	21	1		054
+3	Guessing	9	8	2	270	3	7	4	9	23	6	12	8	1		054
+3	Guessing	10	7	1	315	21	3	26	5	1	18	19	7	1		054
+3	Guessing	11	18	3	180	6	5	25	23	1	4	13	18	1		054
+3	Guessing	12	13	2	330	8	25	16	10	12	21	7	13	1		054
+3	Guessing	13	25	4	120	3	20	15	9	10	6	18	25	1		054
+3	Guessing	14	11	2	45	5	15	12	26	8	28	25	11	1		054
+3	Guessing	15	26	4	225	8	15	21	10	23	25	3	26	1		054
+3	Guessing	16	4	1	210	26	10	3	18	16	6	23	4	1		054
+3	Guessing	17	3	1	360	19	25	8	20	13	15	12	3	1		054
+3	Guessing	18	1	1	150	12	28	8	5	19	14	7	12	0		054
+3	Guessing	19	20	3	315	6	28	15	7	19	21	9	19	0		054
+3	Guessing	20	19	3	240	18	11	5	13	1	20	10	19	1		054
+3	Guessing	21	9	2	90	8	13	21	20	18	26	19	9	1		054
+3	Guessing	22	15	3	45	4	3	20	26	21	6	23	15	1		054
+3	Guessing	23	10	2	210	14	9	3	11	18	25	28	10	1		054
+3	Production	1	25	4	120									1	wasoa	054
+3	Production	2	10	2	210									1	tupaau	054
+3	Production	3	11	2	45									1	tupoi	054
+3	Production	4	23	4	300									1	wasuui	054
+3	Production	5	28	4	30									0	wasoi	054
+3	Production	6	19	3	240									0	guasuui	054
+3	Production	7	14	2	180									1	tupaa	054
+3	Production	8	12	2	135									1	tupoa	054
+3	Production	9	1	1	150									1	festoa	054
+3	Production	10	7	1	315									1	festui	054
+3	Production	11	3	1	360									1	festii	054
+3	Production	12	21	3	270									1	guasuu	054
+3	Production	13	5	1	60									1	festoi	054
+3	Production	14	15	3	45									1	guasoi	054
+3	Production	15	20	3	315									1	guasui	054
+3	Production	16	18	3	180									1	guasaa	054
+3	Production	17	13	2	330									1	tupiiu	054
+3	Production	18	16	3	135									1	guasoa	054
+3	Production	19	9	2	90									1	tupoo	054
+3	Production	20	4	1	210									1	festaau	054
+3	Production	21	6	1	240									0	festuui	054
+3	Production	22	8	2	270									1	tupuu	054
+3	Production	23	26	4	225									1	wasua	054
+5	MemorizationTest	1	12	2	135									1	tupoa	054
+5	MemorizationTest	2	28	4	30									1	wasio	054
+5	MemorizationTest	3	8	2	270									1	tupuu	054
+5	MemorizationTest	4	14	2	180									1	tupaa	054
+5	MemorizationTest	5	3	1	360									1	festii	054
+5	MemorizationTest	6	15	3	45									1	guasoi	054
+5	MemorizationTest	7	9	2	90									1	tupoo	054
+5	MemorizationTest	8	4	1	210									1	festaau	054
+5	MemorizationTest	9	26	4	225									1	wasua	054
+5	MemorizationTest	10	1	1	150									1	festoa	054
+5	MemorizationTest	11	19	3	240									1	guasuua	054
+5	MemorizationTest	12	6	1	240									1	festuua	054
+5	MemorizationTest	13	23	4	300									1	wasuui	054
+5	MemorizationTest	14	20	3	315									1	guasui	054
+5	MemorizationTest	15	16	3	135									1	guasoa	054
+5	MemorizationTest	16	18	3	180									1	guasaa	054
+5	MemorizationTest	17	25	4	120									1	wasoa	054
+5	MemorizationTest	18	7	1	315									1	festui	054
+5	MemorizationTest	19	5	1	60									1	festoi	054
+5	MemorizationTest	20	21	3	270									1	guasuu	054
+5	MemorizationTest	21	11	2	45									1	tupoi	054
+5	MemorizationTest	22	10	2	210									1	tupaau	054
+5	MemorizationTest	23	13	2	330									1	tupiiu	054
+5	RegularizationTest	1	32	2	300										tupuui	054
+5	RegularizationTest	2	35	4	60										wasooi	054
+5	RegularizationTest	3	22	4	330										wasiiu	054
+5	RegularizationTest	4	29	1	120										festooa	054
+5	RegularizationTest	5	27	4	150										wasaao	054
+5	RegularizationTest	6	24	4	90										wasoo	054
+5	RegularizationTest	7	36	4	150										wasaao	054
+5	RegularizationTest	8	34	3	60										guasooi	054
+5	RegularizationTest	9	2	1	30										festiio	054
+5	RegularizationTest	10	33	3	360										guasii	054
+5	RegularizationTest	11	17	3	225										guasua	054
+5	RegularizationTest	12	30	1	225										festua	054
+5	RegularizationTest	13	31	2	360										tupii	054

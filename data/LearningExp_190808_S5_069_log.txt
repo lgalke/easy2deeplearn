@@ -1,0 +1,250 @@
+Language learnability experiment
+Logfile written - 08/08/2019 09:35:30
+Participant ID: 069
+Language: S5
+Computer: 5
+
+Round	Task	Trial	Target	Shape	Angle	Distr1	Distr2	Distr3	Distr4	Distr5	Distr6	Distr7	SelectedItem	Correct	Input	Producer
+1	Exposure	1	8	2	120											069
+1	Exposure	2	26	4	270											069
+1	Exposure	3	13	2	180											069
+1	Exposure	4	6	1	360											069
+1	Exposure	5	5	1	300											069
+1	Exposure	6	15	3	60											069
+1	Exposure	7	24	4	210											069
+1	Exposure	8	17	3	315											069
+1	Exposure	9	22	4	90											069
+1	Exposure	10	9	2	45											069
+1	Exposure	11	21	3	240											069
+1	Exposure	12	3	1	210											069
+1	Exposure	1	17	3	315											069
+1	Exposure	2	5	1	300											069
+1	Exposure	3	22	4	90											069
+1	Exposure	4	6	1	360											069
+1	Exposure	5	26	4	270											069
+1	Exposure	6	8	2	120											069
+1	Exposure	7	15	3	60											069
+1	Exposure	8	24	4	210											069
+1	Exposure	9	13	2	180											069
+1	Exposure	10	3	1	210											069
+1	Exposure	11	21	3	240											069
+1	Exposure	12	9	2	45											069
+1	Guessing	1	24	4	210	15	26	9					24	1		069
+1	Guessing	2	6	1	360	22	17	21					6	1		069
+1	Guessing	3	17	3	315	3	8	21					21	0		069
+1	Guessing	4	15	3	60	22	26	6					15	1		069
+1	Guessing	5	5	1	300	9	13	21					5	1		069
+1	Guessing	6	9	2	45	21	17	6					9	1		069
+1	Guessing	7	13	2	180	22	8	26					13	1		069
+1	Guessing	8	22	4	90	3	17	21					22	1		069
+1	Guessing	9	8	2	120	26	17	3					8	1		069
+1	Guessing	10	26	4	270	6	9	3					26	1		069
+1	Guessing	11	21	3	240	9	6	15					21	1		069
+1	Guessing	12	3	1	210	9	24	5					3	1		069
+1	Guessing	1	17	3	315	8	9	22					17	1		069
+1	Guessing	2	13	2	180	8	15	9					13	1		069
+1	Guessing	3	6	1	360	13	24	15					6	1		069
+1	Guessing	4	9	2	45	26	21	22					9	1		069
+1	Guessing	5	8	2	120	21	26	13					8	1		069
+1	Guessing	6	21	3	240	5	15	3					21	1		069
+1	Guessing	7	24	4	210	13	5	8					24	1		069
+1	Guessing	8	3	1	210	21	26	15					3	1		069
+1	Guessing	9	15	3	60	8	21	26					15	1		069
+1	Guessing	10	5	1	300	17	26	9					5	1		069
+1	Guessing	11	22	4	90	6	5	9					22	1		069
+1	Guessing	12	26	4	270	22	5	21					26	1		069
+1	Production	1	5	1	300									0	wef-ssk	069
+1	Production	2	17	3	315									0	pti-kss	069
+1	Production	3	6	1	360									1	wef-k	069
+1	Production	4	9	2	45									0	pti-kks	069
+1	Production	5	22	4	90									0	wef-t	069
+1	Production	6	26	4	270									1	smut-s	069
+1	Production	7	13	2	180									0	wef-a	069
+1	Production	8	8	2	120									0	nif-aat	069
+1	Production	9	24	4	210									0	wef-aas	069
+1	Production	10	3	1	210									1	wef-aas	069
+1	Production	11	15	3	60									1	pti-ttk	069
+1	Production	12	21	3	240									1	pti-ssa	069
+1	Production	1	13	2	180									0	wef-a	069
+1	Production	2	6	1	360									1	wef-k	069
+1	Production	3	15	3	60									0	nti-ttk	069
+1	Production	4	26	4	270									1	smut-s	069
+1	Production	5	8	2	120									0	wef-tta	069
+1	Production	6	5	1	300									0	wef-kks	069
+1	Production	7	22	4	90									1	smut-t	069
+1	Production	8	3	1	210									1	wef-aas	069
+1	Production	9	9	2	45									0	pti-ttk	069
+1	Production	10	17	3	315									1	pti-kks	069
+1	Production	11	24	4	210									1	smut-aas	069
+1	Production	12	21	3	240									1	pti-ssa	069
+2	Exposure	1	2	1	30											069
+2	Exposure	2	10	2	225											069
+2	Exposure	3	16	3	180											069
+2	Exposure	4	25	4	45											069
+2	Exposure	5	11	2	300											069
+2	Exposure	6	28	4	330											069
+2	Exposure	7	1	1	150											069
+2	Exposure	8	4	1	90											069
+2	Exposure	9	14	2	330											069
+2	Exposure	10	7	1	240											069
+2	Exposure	11	23	4	135											069
+2	Exposure	1	14	2	330											069
+2	Exposure	2	1	1	150											069
+2	Exposure	3	10	2	225											069
+2	Exposure	4	2	1	30											069
+2	Exposure	5	4	1	90											069
+2	Exposure	6	23	4	135											069
+2	Exposure	7	7	1	240											069
+2	Exposure	8	16	3	180											069
+2	Exposure	9	11	2	300											069
+2	Exposure	10	28	4	330											069
+2	Exposure	11	25	4	45											069
+2	Guessing	1	14	2	330	28	1	11					14	1		069
+2	Guessing	2	16	3	180	14	23	11					16	1		069
+2	Guessing	3	4	1	90	7	1	23					4	1		069
+2	Guessing	4	7	1	240	1	25	2					7	1		069
+2	Guessing	5	11	2	300	7	4	28					11	1		069
+2	Guessing	6	2	1	30	11	4	23					2	1		069
+2	Guessing	7	10	2	225	16	14	23					10	1		069
+2	Guessing	8	1	1	150	25	7	4					1	1		069
+2	Guessing	9	23	4	135	16	28	11					23	1		069
+2	Guessing	10	25	4	45	23	14	16					25	1		069
+2	Guessing	11	28	4	330	11	16	14					28	1		069
+2	Guessing	1	25	4	45	14	2	11					2	0		069
+2	Guessing	2	23	4	135	11	10	16					23	1		069
+2	Guessing	3	14	2	330	7	1	11					14	1		069
+2	Guessing	4	4	1	90	25	16	7					4	1		069
+2	Guessing	5	16	3	180	23	11	28					16	1		069
+2	Guessing	6	10	2	225	23	4	11					10	1		069
+2	Guessing	7	2	1	30	14	11	10					2	1		069
+2	Guessing	8	7	1	240	25	14	11					7	1		069
+2	Guessing	9	1	1	150	16	28	23					23	0		069
+2	Guessing	10	11	2	300	28	23	25					23	0		069
+2	Guessing	11	28	4	330	7	25	1					28	1		069
+2	Production	1	23	4	135									1	smut-at	069
+2	Production	2	10	2	225									1	nif-as	069
+2	Production	3	4	1	90									1	wef-t	069
+2	Production	4	2	1	30									0	wef-kkt	069
+2	Production	5	1	1	150									1	wef-aat	069
+2	Production	6	7	1	240									0	wef-ass	069
+2	Production	7	11	2	300									1	nif-ssk	069
+2	Production	8	14	2	330									1	nif-kks	069
+2	Production	9	25	4	45									0	smut-kkt	069
+2	Production	10	28	4	330									1	smut-kks	069
+2	Production	11	16	3	180									1	pti-a	069
+2	Production	1	28	4	330									1	smut-kks	069
+2	Production	2	2	1	30									0	wef-kkt	069
+2	Production	3	4	1	90									0	smut-t	069
+2	Production	4	10	2	225									1	nif-as	069
+2	Production	5	1	1	150									1	wef-aat	069
+2	Production	6	14	2	330									1	nif-kks	069
+2	Production	7	7	1	240									1	wef-ssa	069
+2	Production	8	23	4	135									0	smut-tta	069
+2	Production	9	11	2	300									1	nif-ssk	069
+2	Production	10	25	4	45									1	smut-tk	069
+2	Production	11	16	3	180									1	pti-a	069
+3	Exposure	1	17	3	315											069
+3	Exposure	2	21	3	240											069
+3	Exposure	3	3	1	210											069
+3	Exposure	4	5	1	300											069
+3	Exposure	5	10	2	225											069
+3	Exposure	6	14	2	330											069
+3	Exposure	7	25	4	45											069
+3	Exposure	8	22	4	90											069
+3	Exposure	9	13	2	180											069
+3	Exposure	10	24	4	210											069
+3	Exposure	11	23	4	135											069
+3	Exposure	12	28	4	330											069
+3	Exposure	13	6	1	360											069
+3	Exposure	14	1	1	150											069
+3	Exposure	15	4	1	90											069
+3	Exposure	16	26	4	270											069
+3	Exposure	17	16	3	180											069
+3	Exposure	18	15	3	60											069
+3	Exposure	19	8	2	120											069
+3	Exposure	20	2	1	30											069
+3	Exposure	21	7	1	240											069
+3	Exposure	22	11	2	300											069
+3	Exposure	23	9	2	45											069
+3	Guessing	1	3	1	210	22	28	4	26	25	11	15	3	1		069
+3	Guessing	2	9	2	45	1	17	10	6	14	16	26	9	1		069
+3	Guessing	3	1	1	150	3	28	15	9	21	13	25	1	1		069
+3	Guessing	4	7	1	240	11	10	4	25	17	3	24	7	1		069
+3	Guessing	5	10	2	225	17	8	9	21	28	1	4	10	1		069
+3	Guessing	6	22	4	90	28	14	23	17	1	26	11	22	1		069
+3	Guessing	7	6	1	360	28	13	15	3	9	26	23	6	1		069
+3	Guessing	8	25	4	45	4	14	13	24	5	28	17	25	1		069
+3	Guessing	9	23	4	135	22	9	28	8	7	3	6	23	1		069
+3	Guessing	10	4	1	90	14	28	22	3	13	9	24	4	1		069
+3	Guessing	11	28	4	330	1	9	25	3	8	13	7	25	0		069
+3	Guessing	12	24	4	210	15	13	2	1	25	22	17	24	1		069
+3	Guessing	13	15	3	60	17	7	9	21	8	24	25	15	1		069
+3	Guessing	14	11	2	300	9	15	16	3	6	7	10	11	1		069
+3	Guessing	15	2	1	30	16	24	26	14	5	3	28	2	1		069
+3	Guessing	16	16	3	180	15	11	5	9	6	3	10	16	1		069
+3	Guessing	17	17	3	315	1	22	11	16	26	7	24	17	1		069
+3	Guessing	18	14	2	330	3	15	23	5	7	25	26	14	1		069
+3	Guessing	19	13	2	180	14	26	17	11	25	4	3	13	1		069
+3	Guessing	20	26	4	270	3	6	25	24	13	10	1	26	1		069
+3	Guessing	21	5	1	300	16	28	15	1	10	4	26	5	1		069
+3	Guessing	22	21	3	240	4	7	28	15	25	23	3	21	1		069
+3	Guessing	23	8	2	120	2	28	6	11	3	9	1	8	1		069
+3	Production	1	16	3	180									1	pti-a	069
+3	Production	2	3	1	210									1	wef-aas	069
+3	Production	3	1	1	150									1	wef-aat	069
+3	Production	4	25	4	45									1	smut-tk	069
+3	Production	5	21	3	240									1	pti-ssa	069
+3	Production	6	7	1	240									0	wef-s	069
+3	Production	7	13	2	180									0	npi-a	069
+3	Production	8	23	4	135									1	smut-at	069
+3	Production	9	9	2	45									0	wef-tk	069
+3	Production	10	11	2	300									1	nif-ssk	069
+3	Production	11	14	2	330									1	nif-kks	069
+3	Production	12	22	4	90									1	smut-t	069
+3	Production	13	4	1	90									1	wef-t	069
+3	Production	14	10	2	225									1	nif-as	069
+3	Production	15	8	2	120									0	nif-tta	069
+3	Production	16	28	4	330									1	smut-kks	069
+3	Production	17	24	4	210									1	smut-aas	069
+3	Production	18	26	4	270									1	smut-s	069
+3	Production	19	17	3	315									0	npi-kks	069
+3	Production	20	6	1	360									1	wef-k	069
+3	Production	21	15	3	60									1	pti-ttk	069
+3	Production	22	2	1	30									0	wef-kkt	069
+3	Production	23	5	1	300									0	wef-ssk	069
+5	MemorizationTest	1	3	1	210									1	wef-aas	069
+5	MemorizationTest	2	9	2	45									0	pti-tk	069
+5	MemorizationTest	3	25	4	45									1	smut-tk	069
+5	MemorizationTest	4	7	1	240									1	wef-ssa	069
+5	MemorizationTest	5	26	4	270									1	smut-s	069
+5	MemorizationTest	6	8	2	120									1	nif-att	069
+5	MemorizationTest	7	6	1	360									1	wef-k	069
+5	MemorizationTest	8	17	3	315									0	pti-sk	069
+5	MemorizationTest	9	15	3	60									1	pti-ttk	069
+5	MemorizationTest	10	2	1	30									0	wef-kkt	069
+5	MemorizationTest	11	16	3	180									1	pti-a	069
+5	MemorizationTest	12	11	2	300									1	nif-ssk	069
+5	MemorizationTest	13	4	1	90									1	wef-t	069
+5	MemorizationTest	14	23	4	135									1	smut-at	069
+5	MemorizationTest	15	10	2	225									1	nif-as	069
+5	MemorizationTest	16	21	3	240									1	pti-ssa	069
+5	MemorizationTest	17	1	1	150									1	wef-aat	069
+5	MemorizationTest	18	14	2	330									1	nif-kks	069
+5	MemorizationTest	19	28	4	330									1	smut-kks	069
+5	MemorizationTest	20	22	4	90									1	smut-t	069
+5	MemorizationTest	21	13	2	180									1	nif-a	069
+5	MemorizationTest	22	5	1	300									0	wef-ssk	069
+5	MemorizationTest	23	24	4	210									1	smut-aas	069
+5	RegularizationTest	1	35	4	225										smut-as	069
+5	RegularizationTest	2	30	1	315										wef-ks	069
+5	RegularizationTest	3	29	1	135										wef-at	069
+5	RegularizationTest	4	31	2	360										nif-k	069
+5	RegularizationTest	5	20	3	120										pti-tta	069
+5	RegularizationTest	6	19	3	30										pti-kkt	069
+5	RegularizationTest	7	33	3	150										pti-aat	069
+5	RegularizationTest	8	27	4	60										smut-ttk	069
+5	RegularizationTest	9	36	4	360										smut-k	069
+5	RegularizationTest	10	34	3	150										pti-aat	069
+5	RegularizationTest	11	32	2	60										nif-ttk	069
+5	RegularizationTest	12	12	2	270										nif-s	069
+5	RegularizationTest	13	18	3	225										pti-as	069

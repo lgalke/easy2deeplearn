@@ -1,0 +1,250 @@
+Language learnability experiment
+Logfile written - 05/17/2019 15:40:11
+Participant ID: 045
+Language: S4
+Computer: 5
+
+Round	Task	Trial	Target	Shape	Angle	Distr1	Distr2	Distr3	Distr4	Distr5	Distr6	Distr7	SelectedItem	Correct	Input	Producer
+1	Exposure	1	23	4	135											045
+1	Exposure	2	10	2	225											045
+1	Exposure	3	5	1	300											045
+1	Exposure	4	15	3	60											045
+1	Exposure	5	22	4	90											045
+1	Exposure	6	1	1	150											045
+1	Exposure	7	21	3	240											045
+1	Exposure	8	26	4	270											045
+1	Exposure	9	17	3	315											045
+1	Exposure	10	9	2	45											045
+1	Exposure	11	13	2	180											045
+1	Exposure	12	6	1	360											045
+1	Exposure	1	22	4	90											045
+1	Exposure	2	5	1	300											045
+1	Exposure	3	21	3	240											045
+1	Exposure	4	10	2	225											045
+1	Exposure	5	23	4	135											045
+1	Exposure	6	1	1	150											045
+1	Exposure	7	15	3	60											045
+1	Exposure	8	13	2	180											045
+1	Exposure	9	9	2	45											045
+1	Exposure	10	26	4	270											045
+1	Exposure	11	6	1	360											045
+1	Exposure	12	17	3	315											045
+1	Guessing	1	13	2	180	17	26	9					13	1		045
+1	Guessing	2	1	1	150	13	15	10					1	1		045
+1	Guessing	3	26	4	270	9	1	13					26	1		045
+1	Guessing	4	10	2	225	21	1	22					10	1		045
+1	Guessing	5	15	3	60	23	17	1					17	0		045
+1	Guessing	6	21	3	240	22	9	6					21	1		045
+1	Guessing	7	6	1	360	15	5	1					6	1		045
+1	Guessing	8	9	2	45	10	17	6					9	1		045
+1	Guessing	9	23	4	135	9	1	6					23	1		045
+1	Guessing	10	5	1	300	10	22	9					5	1		045
+1	Guessing	11	22	4	90	10	6	5					22	1		045
+1	Guessing	12	17	3	315	5	21	1					17	1		045
+1	Guessing	1	17	3	315	26	23	21					17	1		045
+1	Guessing	2	13	2	180	10	23	9					13	1		045
+1	Guessing	3	21	3	240	26	5	23					21	1		045
+1	Guessing	4	5	1	300	23	17	6					5	1		045
+1	Guessing	5	1	1	150	23	5	21					1	1		045
+1	Guessing	6	23	4	135	21	13	9					23	1		045
+1	Guessing	7	10	2	225	13	6	1					10	1		045
+1	Guessing	8	26	4	270	10	21	1					26	1		045
+1	Guessing	9	6	1	360	10	5	9					6	1		045
+1	Guessing	10	22	4	90	13	1	17					22	1		045
+1	Guessing	11	9	2	45	5	23	13					9	1		045
+1	Guessing	12	15	3	60	17	13	1					15	1		045
+1	Production	1	13	2	180									1	geuh-neg	045
+1	Production	2	9	2	45									1	geuh-si	045
+1	Production	3	17	3	315									1	tas-sa	045
+1	Production	4	5	1	300									1	pio-sa	045
+1	Production	5	22	4	90									1	wes-sip	045
+1	Production	6	26	4	270									1	wes-uu	045
+1	Production	7	23	4	135									1	wes-noeg	045
+1	Production	8	6	1	360									0	pio-fag	045
+1	Production	9	21	3	240									1	tas-noi	045
+1	Production	10	15	3	60									1	tas-si	045
+1	Production	11	10	2	225									1	geuh-noi	045
+1	Production	12	1	1	150									1	pio-noeg	045
+1	Production	1	5	1	300									1	pio-sa	045
+1	Production	2	13	2	180									1	geuh-neg	045
+1	Production	3	1	1	150									1	pio-noeg	045
+1	Production	4	21	3	240									1	tas-noi	045
+1	Production	5	23	4	135									1	wes-noeg	045
+1	Production	6	10	2	225									1	geuh-noi	045
+1	Production	7	17	3	315									1	tas-sa	045
+1	Production	8	26	4	270									1	wes-uu	045
+1	Production	9	22	4	90									1	wes-sip	045
+1	Production	10	6	1	360									1	pio-fap	045
+1	Production	11	15	3	60									1	tas-si	045
+1	Production	12	9	2	45									1	geuh-si	045
+2	Exposure	1	25	4	45											045
+2	Exposure	2	11	2	300											045
+2	Exposure	3	4	1	90											045
+2	Exposure	4	16	3	180											045
+2	Exposure	5	2	1	30											045
+2	Exposure	6	3	1	210											045
+2	Exposure	7	7	1	240											045
+2	Exposure	8	24	4	210											045
+2	Exposure	9	14	2	330											045
+2	Exposure	10	28	4	330											045
+2	Exposure	11	8	2	120											045
+2	Exposure	1	14	2	330											045
+2	Exposure	2	7	1	240											045
+2	Exposure	3	4	1	90											045
+2	Exposure	4	8	2	120											045
+2	Exposure	5	3	1	210											045
+2	Exposure	6	24	4	210											045
+2	Exposure	7	28	4	330											045
+2	Exposure	8	25	4	45											045
+2	Exposure	9	16	3	180											045
+2	Exposure	10	2	1	30											045
+2	Exposure	11	11	2	300											045
+2	Guessing	1	24	4	210	16	11	28					24	1		045
+2	Guessing	2	3	1	210	16	8	7					3	1		045
+2	Guessing	3	14	2	330	28	4	2					14	1		045
+2	Guessing	4	16	3	180	7	3	25					7	0		045
+2	Guessing	5	4	1	90	24	11	14					14	0		045
+2	Guessing	6	7	1	240	4	16	8					7	1		045
+2	Guessing	7	28	4	330	24	3	4					28	1		045
+2	Guessing	8	25	4	45	8	16	28					25	1		045
+2	Guessing	9	8	2	120	14	4	25					8	1		045
+2	Guessing	10	2	1	30	3	28	4					2	1		045
+2	Guessing	11	11	2	300	28	24	14					11	1		045
+2	Guessing	1	16	3	180	25	4	2					16	1		045
+2	Guessing	2	28	4	330	8	24	25					28	1		045
+2	Guessing	3	3	1	210	28	8	4					3	1		045
+2	Guessing	4	14	2	330	8	4	2					14	1		045
+2	Guessing	5	24	4	210	8	7	16					24	1		045
+2	Guessing	6	11	2	300	25	28	4					11	1		045
+2	Guessing	7	2	1	30	3	25	11					2	1		045
+2	Guessing	8	25	4	45	8	4	11					25	1		045
+2	Guessing	9	8	2	120	7	28	11					8	1		045
+2	Guessing	10	7	1	240	11	8	28					7	1		045
+2	Guessing	11	4	1	90	3	8	25					4	1		045
+2	Production	1	4	1	90									1	pio-sip	045
+2	Production	2	2	1	30									1	pio-si	045
+2	Production	3	25	4	45									1	wes-si	045
+2	Production	4	24	4	210									1	weg-noi	045
+2	Production	5	11	2	300									1	geuh-sai	045
+2	Production	6	3	1	210									1	pio-neg	045
+2	Production	7	8	2	120									1	geuh-noeg	045
+2	Production	8	7	1	240									1	pio-noi	045
+2	Production	9	16	3	180									1	tas-neg	045
+2	Production	10	14	2	330									1	geuh-sa	045
+2	Production	11	28	4	330									1	wes-sa	045
+2	Production	1	2	1	30									1	pio-si	045
+2	Production	2	8	2	120									1	geuh-noeg	045
+2	Production	3	24	4	210									1	weg-noi	045
+2	Production	4	25	4	45									1	wes-si	045
+2	Production	5	28	4	330									1	wes-sa	045
+2	Production	6	16	3	180									1	tas-neg	045
+2	Production	7	11	2	300									1	geuh-sai	045
+2	Production	8	3	1	210									1	pio-neg	045
+2	Production	9	4	1	90									1	pio-sip	045
+2	Production	10	14	2	330									1	geuh-sa	045
+2	Production	11	7	1	240									1	pio-noi	045
+3	Exposure	1	17	3	315											045
+3	Exposure	2	24	4	210											045
+3	Exposure	3	6	1	360											045
+3	Exposure	4	9	2	45											045
+3	Exposure	5	22	4	90											045
+3	Exposure	6	2	1	30											045
+3	Exposure	7	23	4	135											045
+3	Exposure	8	3	1	210											045
+3	Exposure	9	5	1	300											045
+3	Exposure	10	7	1	240											045
+3	Exposure	11	15	3	60											045
+3	Exposure	12	10	2	225											045
+3	Exposure	13	1	1	150											045
+3	Exposure	14	16	3	180											045
+3	Exposure	15	28	4	330											045
+3	Exposure	16	8	2	120											045
+3	Exposure	17	13	2	180											045
+3	Exposure	18	21	3	240											045
+3	Exposure	19	26	4	270											045
+3	Exposure	20	11	2	300											045
+3	Exposure	21	25	4	45											045
+3	Exposure	22	14	2	330											045
+3	Exposure	23	4	1	90											045
+3	Guessing	1	24	4	210	28	14	10	8	2	25	6	24	1		045
+3	Guessing	2	3	1	210	22	1	2	7	11	23	28	3	1		045
+3	Guessing	3	1	1	150	2	23	9	5	16	13	17	1	1		045
+3	Guessing	4	23	4	135	16	4	15	13	1	7	3	23	1		045
+3	Guessing	5	4	1	90	1	6	7	5	10	25	17	4	1		045
+3	Guessing	6	17	3	315	5	21	15	4	23	28	13	17	1		045
+3	Guessing	7	5	1	300	15	26	22	28	14	2	11	5	1		045
+3	Guessing	8	21	3	240	11	17	2	7	13	1	26	21	1		045
+3	Guessing	9	16	3	180	6	23	14	11	24	8	1	16	1		045
+3	Guessing	10	15	3	60	28	11	4	17	22	10	3	15	1		045
+3	Guessing	11	9	2	45	10	3	15	25	14	13	22	9	1		045
+3	Guessing	12	25	4	45	24	14	5	23	16	8	17	25	1		045
+3	Guessing	13	11	2	300	15	14	5	9	2	17	3	11	1		045
+3	Guessing	14	22	4	90	6	7	14	21	17	5	23	22	1		045
+3	Guessing	15	2	1	30	13	26	28	21	1	11	14	2	1		045
+3	Guessing	16	26	4	270	21	7	23	1	22	17	14	26	1		045
+3	Guessing	17	8	2	120	11	7	10	1	13	14	25	8	1		045
+3	Guessing	18	28	4	330	24	23	16	21	6	8	7	28	1		045
+3	Guessing	19	13	2	180	9	14	6	24	16	15	7	13	1		045
+3	Guessing	20	10	2	225	25	14	17	21	2	7	13	10	1		045
+3	Guessing	21	14	2	330	17	3	24	15	13	8	7	14	1		045
+3	Guessing	22	6	1	360	3	14	13	17	10	25	22	6	1		045
+3	Guessing	23	7	1	240	25	11	14	23	9	24	17	7	1		045
+3	Production	1	6	1	360									1	pio-fap	045
+3	Production	2	28	4	330									1	wes-sa	045
+3	Production	3	22	4	90									1	wes-sip	045
+3	Production	4	10	2	225									1	geuh-noi	045
+3	Production	5	16	3	180									1	tas-neg	045
+3	Production	6	8	2	120									1	geuh-noeg	045
+3	Production	7	9	2	45									1	geuh-si	045
+3	Production	8	25	4	45									1	wes-si	045
+3	Production	9	11	2	300									1	geuh-sai	045
+3	Production	10	26	4	270									1	wes-uu	045
+3	Production	11	7	1	240									1	pio-noi	045
+3	Production	12	2	1	30									1	pio-si	045
+3	Production	13	23	4	135									1	wes-noeg	045
+3	Production	14	21	3	240									1	tas-noi	045
+3	Production	15	5	1	300									1	pio-sa	045
+3	Production	16	1	1	150									1	pio-noeg	045
+3	Production	17	24	4	210									0	wes-noi	045
+3	Production	18	13	2	180									1	geuh-neg	045
+3	Production	19	4	1	90									1	pio-sip	045
+3	Production	20	3	1	210									1	pio-neg	045
+3	Production	21	17	3	315									1	tas-sa	045
+3	Production	22	15	3	60									1	tas-si	045
+3	Production	23	14	2	330									1	geuh-sa	045
+5	MemorizationTest	1	9	2	45									1	geuh-si	045
+5	MemorizationTest	2	23	4	135									1	wes-noeg	045
+5	MemorizationTest	3	1	1	150									1	pio-noeg	045
+5	MemorizationTest	4	17	3	315									1	tas-sa	045
+5	MemorizationTest	5	21	3	240									1	tas-noi	045
+5	MemorizationTest	6	10	2	225									1	geuh-noi	045
+5	MemorizationTest	7	5	1	300									1	pio-sa	045
+5	MemorizationTest	8	4	1	90									1	pio-sip	045
+5	MemorizationTest	9	2	1	30									1	pio-si	045
+5	MemorizationTest	10	25	4	45									1	wes-si	045
+5	MemorizationTest	11	7	1	240									1	pio-noi	045
+5	MemorizationTest	12	8	2	120									1	geuh-noeg	045
+5	MemorizationTest	13	11	2	300									1	geuh-sai	045
+5	MemorizationTest	14	22	4	90									1	wes-sip	045
+5	MemorizationTest	15	3	1	210									1	pio-neg	045
+5	MemorizationTest	16	6	1	360									1	pio-fap	045
+5	MemorizationTest	17	24	4	210									0	wes-noi	045
+5	MemorizationTest	18	16	3	180									1	tas-neg	045
+5	MemorizationTest	19	26	4	270									1	wes-uu	045
+5	MemorizationTest	20	15	3	60									1	tas-si	045
+5	MemorizationTest	21	14	2	330									1	geuh-sa	045
+5	MemorizationTest	22	28	4	330									1	wes-sa	045
+5	MemorizationTest	23	13	2	180									1	geuh-neg	045
+5	RegularizationTest	1	32	2	60										geuh-si	045
+5	RegularizationTest	2	35	4	225										weg-noi	045
+5	RegularizationTest	3	20	3	120										tas-noeg	045
+5	RegularizationTest	4	30	1	315										pio-sa	045
+5	RegularizationTest	5	19	3	30										tas-si	045
+5	RegularizationTest	6	33	3	150										tas-noeg	045
+5	RegularizationTest	7	12	2	270										geuh-uu	045
+5	RegularizationTest	8	31	2	360										geuh-fap	045
+5	RegularizationTest	9	27	4	60										wes-si	045
+5	RegularizationTest	10	29	1	135										pio-noeg	045
+5	RegularizationTest	11	18	3	225										tas-noi	045
+5	RegularizationTest	12	36	4	360										wes-fap	045
+5	RegularizationTest	13	34	3	150										tas-noeg	045

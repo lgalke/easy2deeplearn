@@ -1,0 +1,250 @@
+Language learnability experiment																
+Logfile written - 05/22/2019 10:15:47																
+Participant ID: 046																
+Language: B2																
+Computer: 5																
+																
+Round	Task	Trial	Target	Shape	Angle	Distr1	Distr2	Distr3	Distr4	Distr5	Distr6	Distr7	SelectedItem	Correct	Input	Producer
+1	Exposure	1	4	1	90											46
+1	Exposure	2	16	3	180											46
+1	Exposure	3	8	2	120											46
+1	Exposure	4	15	3	60											46
+1	Exposure	5	24	4	210											46
+1	Exposure	6	9	2	45											46
+1	Exposure	7	21	3	240											46
+1	Exposure	8	6	1	360											46
+1	Exposure	9	5	1	300											46
+1	Exposure	10	26	4	270											46
+1	Exposure	11	23	4	135											46
+1	Exposure	12	11	2	300											46
+1	Exposure	1	11	2	300											46
+1	Exposure	2	16	3	180											46
+1	Exposure	3	21	3	240											46
+1	Exposure	4	4	1	90											46
+1	Exposure	5	15	3	60											46
+1	Exposure	6	6	1	360											46
+1	Exposure	7	26	4	270											46
+1	Exposure	8	8	2	120											46
+1	Exposure	9	24	4	210											46
+1	Exposure	10	23	4	135											46
+1	Exposure	11	9	2	45											46
+1	Exposure	12	5	1	300											46
+1	Guessing	1	8	2	120	9	16	6					8	1		46
+1	Guessing	2	11	2	300	9	6	26					9	0		46
+1	Guessing	3	4	1	90	15	9	5					5	0		46
+1	Guessing	4	16	3	180	21	24	8					8	0		46
+1	Guessing	5	24	4	210	4	26	5					26	0		46
+1	Guessing	6	6	1	360	16	5	15					5	0		46
+1	Guessing	7	15	3	60	5	11	8					15	1		46
+1	Guessing	8	9	2	45	21	4	24					21	0		46
+1	Guessing	9	26	4	270	23	15	4					26	1		46
+1	Guessing	10	21	3	240	23	6	15					15	0		46
+1	Guessing	11	5	1	300	6	21	24					5	1		46
+1	Guessing	12	23	4	135	24	9	8					24	0		46
+1	Guessing	1	9	2	45	26	15	23					15	0		46
+1	Guessing	2	16	3	180	24	8	9					8	0		46
+1	Guessing	3	11	2	300	9	5	23					23	0		46
+1	Guessing	4	4	1	90	23	16	21					4	1		46
+1	Guessing	5	15	3	60	26	11	9					9	0		46
+1	Guessing	6	6	1	360	16	11	15					6	1		46
+1	Guessing	7	21	3	240	23	4	15					4	0		46
+1	Guessing	8	8	2	120	6	24	23					8	1		46
+1	Guessing	9	26	4	270	5	24	8					24	0		46
+1	Guessing	10	5	1	300	4	23	11					4	0		46
+1	Guessing	11	24	4	210	5	15	6					15	0		46
+1	Guessing	12	23	4	135	26	5	16					26	0		46
+1	Production	1	4	1	90									0	sketus	46
+1	Production	2	15	3	60									0	sketus	46
+1	Production	3	24	4	210									0	wangsu	46
+1	Production	4	8	2	120									1	wangsus	46
+1	Production	5	11	2	300									1	wangsu	46
+1	Production	6	6	1	360									0	sketu	46
+1	Production	7	9	2	45									0	wangsu	46
+1	Production	8	23	4	135									0	sketus	46
+1	Production	9	21	3	240									0	gnts	46
+1	Production	10	5	1	300									0	sketus	46
+1	Production	11	26	4	270									0	wangsu	46
+1	Production	12	16	3	180									0	gnt	46
+1	Production	1	8	2	120									0	wangsu	46
+1	Production	2	26	4	270									1	gnt	46
+1	Production	3	16	3	180									0	wangsu	46
+1	Production	4	6	1	360									0	sketus	46
+1	Production	5	5	1	300									0	sketus	46
+1	Production	6	24	4	210									0	wangsu	46
+1	Production	7	23	4	135									0	gntu	46
+1	Production	8	11	2	300									1	wangsu	46
+1	Production	9	9	2	45									0	wangsus	46
+1	Production	10	4	1	90									0	sketus	46
+1	Production	11	21	3	240									0	sket	46
+1	Production	12	15	3	60									0	gst	46
+2	Exposure	1	3	1	210											46
+2	Exposure	2	10	2	225											46
+2	Exposure	3	17	3	315											46
+2	Exposure	4	14	2	330											46
+2	Exposure	5	25	4	45											46
+2	Exposure	6	22	4	90											46
+2	Exposure	7	28	4	330											46
+2	Exposure	8	2	1	30											46
+2	Exposure	9	7	1	240											46
+2	Exposure	10	13	2	180											46
+2	Exposure	11	1	1	150											46
+2	Exposure	1	25	4	45											46
+2	Exposure	2	13	2	180											46
+2	Exposure	3	7	1	240											46
+2	Exposure	4	22	4	90											46
+2	Exposure	5	28	4	330											46
+2	Exposure	6	14	2	330											46
+2	Exposure	7	2	1	30											46
+2	Exposure	8	1	1	150											46
+2	Exposure	9	3	1	210											46
+2	Exposure	10	17	3	315											46
+2	Exposure	11	10	2	225											46
+2	Guessing	1	28	4	330	7	13	2					13	0		46
+2	Guessing	2	10	2	225	14	2	1					14	0		46
+2	Guessing	3	1	1	150	22	3	10					1	1		46
+2	Guessing	4	14	2	330	3	1	2					1	0		46
+2	Guessing	5	2	1	30	10	17	3					2	1		46
+2	Guessing	6	22	4	90	13	7	14					22	1		46
+2	Guessing	7	3	1	210	7	28	13					13	0		46
+2	Guessing	8	25	4	45	10	14	2					2	0		46
+2	Guessing	9	17	3	315	2	28	13					17	1		46
+2	Guessing	10	7	1	240	10	3	13					3	0		46
+2	Guessing	11	13	2	180	14	17	2					13	1		46
+2	Guessing	1	2	1	30	3	17	7					2	1		46
+2	Guessing	2	10	2	225	28	7	14					14	0		46
+2	Guessing	3	7	1	240	10	2	17					2	0		46
+2	Guessing	4	1	1	150	25	14	17					25	0		46
+2	Guessing	5	28	4	330	3	7	22					22	0		46
+2	Guessing	6	13	2	180	7	17	28					17	0		46
+2	Guessing	7	3	1	210	25	1	17					17	0		46
+2	Guessing	8	17	3	315	2	22	28					22	0		46
+2	Guessing	9	14	2	330	7	2	1					14	1		46
+2	Guessing	10	22	4	90	10	7	3					22	1		46
+2	Guessing	11	25	4	45	13	10	3					25	1		46
+2	Production	1	2	1	30									0	skek	46
+2	Production	2	22	4	90									0	gnoi	46
+2	Production	3	10	2	225									0	wangsuu	46
+2	Production	4	3	1	210									0	sketu	46
+2	Production	5	7	1	240									0	tgs	46
+2	Production	6	13	2	180									0	wangsuu	46
+2	Production	7	25	4	45									0	wangsu	46
+2	Production	8	28	4	330									0	skeku	46
+2	Production	9	14	2	330									0	wangsuus	46
+2	Production	10	17	3	315									0	gnosi	46
+2	Production	11	1	1	150									0	sketu	46
+2	Production	1	28	4	330									0	tsgt	46
+2	Production	2	7	1	240									0	sketu	46
+2	Production	3	22	4	90									0	gnossi	46
+2	Production	4	3	1	210									0	sketus	46
+2	Production	5	2	1	30									0	sketus	46
+2	Production	6	10	2	225									0	wangsu	46
+2	Production	7	1	1	150									0	sket	46
+2	Production	8	14	2	330									0	sket	46
+2	Production	9	13	2	180									0	wangsuus	46
+2	Production	10	17	3	315									0	wangsuus	46
+2	Production	11	25	4	45									0	gnotta	46
+3	Exposure	1	26	4	270											46
+3	Exposure	2	15	3	60											46
+3	Exposure	3	2	1	30											46
+3	Exposure	4	17	3	315											46
+3	Exposure	5	22	4	90											46
+3	Exposure	6	13	2	180											46
+3	Exposure	7	28	4	330											46
+3	Exposure	8	25	4	45											46
+3	Exposure	9	5	1	300											46
+3	Exposure	10	8	2	120											46
+3	Exposure	11	7	1	240											46
+3	Exposure	12	11	2	300											46
+3	Exposure	13	23	4	135											46
+3	Exposure	14	21	3	240											46
+3	Exposure	15	3	1	210											46
+3	Exposure	16	9	2	45											46
+3	Exposure	17	16	3	180											46
+3	Exposure	18	6	1	360											46
+3	Exposure	19	4	1	90											46
+3	Exposure	20	1	1	150											46
+3	Exposure	21	10	2	225											46
+3	Exposure	22	14	2	330											46
+3	Exposure	23	24	4	210											46
+3	Guessing	1	8	2	120	1	22	9	5	28	15	25	22	0		46
+3	Guessing	2	6	1	360	5	1	9	10	26	11	24	6	1		46
+3	Guessing	3	22	4	90	9	1	13	25	4	2	8	22	1		46
+3	Guessing	4	26	4	270	21	15	4	8	13	3	23	15	0		46
+3	Guessing	5	24	4	210	4	5	8	25	16	26	7	26	0		46
+3	Guessing	6	13	2	180	28	3	11	21	7	1	6	21	0		46
+3	Guessing	7	4	1	90	13	21	7	14	9	3	6	4	1		46
+3	Guessing	8	23	4	135	5	10	24	16	21	11	13	21	0		46
+3	Guessing	9	25	4	45	10	17	3	21	2	1	16	1	0		46
+3	Guessing	10	21	3	240	5	2	25	11	14	28	10	11	0		46
+3	Guessing	11	17	3	315	10	24	28	5	8	13	16	17	1		46
+3	Guessing	12	15	3	60	11	8	10	17	24	2	9	15	1		46
+3	Guessing	13	16	3	180	21	6	22	3	2	24	25	21	0		46
+3	Guessing	14	2	1	30	22	28	24	10	14	5	4	4	0		46
+3	Guessing	15	9	2	45	2	11	25	28	13	8	17	11	0		46
+3	Guessing	16	11	2	300	10	28	22	9	24	2	17	9	0		46
+3	Guessing	17	10	2	225	14	26	3	9	28	25	21	14	0		46
+3	Guessing	18	14	2	330	23	1	16	28	25	13	2	16	0		46
+3	Guessing	19	5	1	300	24	14	6	17	7	13	28	5	1		46
+3	Guessing	20	28	4	330	1	16	6	10	22	11	23	23	0		46
+3	Guessing	21	3	1	210	11	6	23	8	14	10	28	28	0		46
+3	Guessing	22	7	1	240	23	15	22	6	16	8	2	2	0		46
+3	Guessing	23	1	1	150	13	6	10	22	15	7	4	22	0		46
+3	Production	1	23	4	135									0	gossa	46
+3	Production	2	15	3	60									0	gnt	46
+3	Production	3	1	1	150									0	sketus	46
+3	Production	4	13	2	180									0	wangsus	46
+3	Production	5	9	2	45									0	sku	46
+3	Production	6	14	2	330									0	wangsus	46
+3	Production	7	6	1	360									0	wangsu	46
+3	Production	8	25	4	45									0	gnossi	46
+3	Production	9	3	1	210									0	sket	46
+3	Production	10	4	1	90									1	sketu	46
+3	Production	11	11	2	300									0	wangsuus	46
+3	Production	12	16	3	180									0	wangsu	46
+3	Production	13	26	4	270									0	wangsi	46
+3	Production	14	10	2	225									1	wangsuus	46
+3	Production	15	28	4	330									0	gnotta	46
+3	Production	16	21	3	240									0	wangsi	46
+3	Production	17	5	1	300									0	sketa	46
+3	Production	18	8	2	120									0	wangsoe	46
+3	Production	19	22	4	90									1	gnotta	46
+3	Production	20	2	1	30									0	sketu	46
+3	Production	21	7	1	240									0	sketu	46
+3	Production	22	24	4	210									0	gnotti	46
+3	Production	23	17	3	315									1	wangsuu	46
+5	MemorizationTest	1	5	1	300									0	sketu	46
+5	MemorizationTest	2	8	2	120									0	wangsu	46
+5	MemorizationTest	3	28	4	330									0	gnt	46
+5	MemorizationTest	4	1	1	150									0	sketus	46
+5	MemorizationTest	5	23	4	135									0	gnotti	46
+5	MemorizationTest	6	26	4	270									0	gnotta	46
+5	MemorizationTest	7	16	3	180									0	wangsoe	46
+5	MemorizationTest	8	10	2	225									0	wangsus	46
+5	MemorizationTest	9	17	3	315									0	wangsi	46
+5	MemorizationTest	10	24	4	210									0	gnotti	46
+5	MemorizationTest	11	15	3	60									0	wangsus	46
+5	MemorizationTest	12	14	2	330									0	wangsuus	46
+5	MemorizationTest	13	9	2	45									0	wangsu	46
+5	MemorizationTest	14	3	1	210									0	sket	46
+5	MemorizationTest	15	25	4	45									0	gnotta	46
+5	MemorizationTest	16	22	4	90									1	gnotta	46
+5	MemorizationTest	17	21	3	240									0	wangsi	46
+5	MemorizationTest	18	13	2	180									0	wangsoe	46
+5	MemorizationTest	19	6	1	360									1	sket	46
+5	MemorizationTest	20	2	1	30									0	sketu	46
+5	MemorizationTest	21	11	2	300									0	gmt	46
+5	MemorizationTest	22	7	1	240									0	wangsi	46
+5	MemorizationTest	23	4	1	90									1	sketu	46
+5	RegularizationTest	1	32	2	60										wangsoe	46
+5	RegularizationTest	2	30	1	315										sketuus	46
+5	RegularizationTest	3	20	3	120										wangsi	46
+5	RegularizationTest	4	34	3	150										wangsoe	46
+5	RegularizationTest	5	36	4	360										gnotti	46
+5	RegularizationTest	6	33	3	150										wangsi	46
+5	RegularizationTest	7	27	4	60										gnotta	46
+5	RegularizationTest	8	29	1	135										sketu	46
+5	RegularizationTest	9	35	4	225										wangsu	46
+5	RegularizationTest	10	31	2	360										wangsu	46
+5	RegularizationTest	11	12	2	270										wangsoes	46
+5	RegularizationTest	12	18	3	225										wangsi	46
+5	RegularizationTest	13	19	3	30										sketu	46

@@ -1,0 +1,250 @@
+Language learnability experiment																
+Logfile written - 05/02/2019 12:21:59																
+Participant ID: 004																
+Language: B3																
+Computer: 5																
+																
+Round	Task	Trial	Target	Shape	Angle	Distr1	Distr2	Distr3	Distr4	Distr5	Distr6	Distr7	SelectedItem	Correct	Input	Producer
+1	Exposure	1	24	4	210											4
+1	Exposure	2	21	3	240											4
+1	Exposure	3	8	2	120											4
+1	Exposure	4	17	3	315											4
+1	Exposure	5	25	4	45											4
+1	Exposure	6	5	1	300											4
+1	Exposure	7	26	4	270											4
+1	Exposure	8	15	3	60											4
+1	Exposure	9	6	1	360											4
+1	Exposure	10	13	2	180											4
+1	Exposure	11	9	2	45											4
+1	Exposure	12	4	1	90											4
+1	Exposure	1	24	4	210											4
+1	Exposure	2	17	3	315											4
+1	Exposure	3	25	4	45											4
+1	Exposure	4	8	2	120											4
+1	Exposure	5	5	1	300											4
+1	Exposure	6	9	2	45											4
+1	Exposure	7	13	2	180											4
+1	Exposure	8	15	3	60											4
+1	Exposure	9	26	4	270											4
+1	Exposure	10	21	3	240											4
+1	Exposure	11	6	1	360											4
+1	Exposure	12	4	1	90											4
+1	Guessing	1	4	1	90	9	17	24					4	1		4
+1	Guessing	2	8	2	120	26	6	21					8	1		4
+1	Guessing	3	17	3	315	9	26	13					13	0		4
+1	Guessing	4	15	3	60	24	13	9					15	1		4
+1	Guessing	5	24	4	210	5	13	17					24	1		4
+1	Guessing	6	9	2	45	5	17	4					9	1		4
+1	Guessing	7	25	4	45	17	5	21					25	1		4
+1	Guessing	8	21	3	240	24	8	5					8	0		4
+1	Guessing	9	6	1	360	9	25	5					6	1		4
+1	Guessing	10	26	4	270	25	4	9					25	0		4
+1	Guessing	11	5	1	300	21	15	24					5	1		4
+1	Guessing	12	13	2	180	26	21	24					13	1		4
+1	Guessing	1	17	3	315	4	15	26					17	1		4
+1	Guessing	2	21	3	240	6	13	25					21	1		4
+1	Guessing	3	15	3	60	21	13	17					15	1		4
+1	Guessing	4	9	2	45	15	21	24					9	1		4
+1	Guessing	5	25	4	45	6	15	21					25	1		4
+1	Guessing	6	4	1	90	24	5	21					4	1		4
+1	Guessing	7	24	4	210	4	8	15					24	1		4
+1	Guessing	8	5	1	300	25	4	13					4	0		4
+1	Guessing	9	8	2	120	6	4	21					8	1		4
+1	Guessing	10	26	4	270	17	9	8					26	1		4
+1	Guessing	11	6	1	360	5	17	13					6	1		4
+1	Guessing	12	13	2	180	15	8	6					8	0		4
+1	Production	1	9	2	45									0	komtuk	4
+1	Production	2	6	1	360									1	momethk	4
+1	Production	3	13	2	180									0	pnuukaaa	4
+1	Production	4	26	4	270									0	woesikii	4
+1	Production	5	24	4	210									0	woesiko	4
+1	Production	6	5	1	300									1	mometuk	4
+1	Production	7	21	3	240									0	koemaka	4
+1	Production	8	15	3	60									1	kome	4
+1	Production	9	8	2	120									0	pnuuna	4
+1	Production	10	4	1	90									1	mometki	4
+1	Production	11	17	3	315									0	koematuk	4
+1	Production	12	25	4	45									0	woesii	4
+1	Production	1	25	4	45									1	woesiko	4
+1	Production	2	21	3	240									0	mometuk	4
+1	Production	3	5	1	300									1	mometuk	4
+1	Production	4	13	2	180									1	pnuunaaa	4
+1	Production	5	4	1	90									1	mometki	4
+1	Production	6	9	2	45									0	kome	4
+1	Production	7	24	4	210									1	woesiok	4
+1	Production	8	17	3	315									0	mometuk	4
+1	Production	9	26	4	270									0	woesiiok	4
+1	Production	10	15	3	60									1	kome	4
+1	Production	11	6	1	360									1	momethk	4
+1	Production	12	8	2	120									0	pnuumaaa	4
+2	Exposure	1	2	1	30											4
+2	Exposure	2	10	2	225											4
+2	Exposure	3	28	4	330											4
+2	Exposure	4	23	4	135											4
+2	Exposure	5	3	1	210											4
+2	Exposure	6	11	2	300											4
+2	Exposure	7	7	1	240											4
+2	Exposure	8	1	1	150											4
+2	Exposure	9	22	4	90											4
+2	Exposure	10	16	3	180											4
+2	Exposure	11	14	2	330											4
+2	Exposure	1	3	1	210											4
+2	Exposure	2	28	4	330											4
+2	Exposure	3	11	2	300											4
+2	Exposure	4	22	4	90											4
+2	Exposure	5	2	1	30											4
+2	Exposure	6	10	2	225											4
+2	Exposure	7	7	1	240											4
+2	Exposure	8	16	3	180											4
+2	Exposure	9	23	4	135											4
+2	Exposure	10	14	2	330											4
+2	Exposure	11	1	1	150											4
+2	Guessing	1	1	1	150	11	23	14					1	1		4
+2	Guessing	2	3	1	210	16	23	11					3	1		4
+2	Guessing	3	11	2	300	7	23	14					14	0		4
+2	Guessing	4	14	2	330	16	1	28					14	1		4
+2	Guessing	5	16	3	180	28	7	23					16	1		4
+2	Guessing	6	22	4	90	28	2	14					22	1		4
+2	Guessing	7	23	4	135	28	1	22					23	1		4
+2	Guessing	8	7	1	240	10	14	28					10	0		4
+2	Guessing	9	10	2	225	28	23	1					10	1		4
+2	Guessing	10	2	1	30	22	11	14					2	1		4
+2	Guessing	11	28	4	330	1	10	14					28	1		4
+2	Guessing	1	7	1	240	11	3	14					3	0		4
+2	Guessing	2	11	2	300	3	10	7					11	1		4
+2	Guessing	3	14	2	330	16	28	10					10	0		4
+2	Guessing	4	28	4	330	3	16	11					28	1		4
+2	Guessing	5	16	3	180	22	1	28					16	1		4
+2	Guessing	6	10	2	225	2	11	3					10	1		4
+2	Guessing	7	23	4	135	14	11	3					23	1		4
+2	Guessing	8	1	1	150	16	10	28					1	1		4
+2	Guessing	9	2	1	30	3	16	22					3	0		4
+2	Guessing	10	22	4	90	11	16	23					22	1		4
+2	Guessing	11	3	1	210	10	23	22					3	1		4
+2	Production	1	1	1	150									0	mometko	4
+2	Production	2	22	4	90									1	woesiki	4
+2	Production	3	7	1	240									0	mometfo	4
+2	Production	4	16	3	180									1	oe	4
+2	Production	5	3	1	210									0	mometfo	4
+2	Production	6	14	2	330									0	pnuunko	4
+2	Production	7	10	2	225									1	pnuunok	4
+2	Production	8	28	4	330									0	woesii	4
+2	Production	9	2	1	30									0	momethk	4
+2	Production	10	23	4	135									1	woesiku	4
+2	Production	11	11	2	300									0	pnuunok	4
+2	Production	1	2	1	30									1	mometko	4
+2	Production	2	11	2	300									0	pnuunuk	4
+2	Production	3	22	4	90									1	woesiki	4
+2	Production	4	28	4	330									1	woesiik	4
+2	Production	5	1	1	150									1	mometuk	4
+2	Production	6	7	1	240									0	mometku	4
+2	Production	7	3	1	210									0	mometfo	4
+2	Production	8	16	3	180									1	oe	4
+2	Production	9	10	2	225									0	pnuunuk	4
+2	Production	10	14	2	330									1	pnuunuk	4
+2	Production	11	23	4	135									1	woesiku	4
+3	Exposure	1	23	4	135											4
+3	Exposure	2	14	2	330											4
+3	Exposure	3	28	4	330											4
+3	Exposure	4	9	2	45											4
+3	Exposure	5	7	1	240											4
+3	Exposure	6	4	1	90											4
+3	Exposure	7	8	2	120											4
+3	Exposure	8	13	2	180											4
+3	Exposure	9	1	1	150											4
+3	Exposure	10	26	4	270											4
+3	Exposure	11	22	4	90											4
+3	Exposure	12	24	4	210											4
+3	Exposure	13	3	1	210											4
+3	Exposure	14	6	1	360											4
+3	Exposure	15	16	3	180											4
+3	Exposure	16	21	3	240											4
+3	Exposure	17	25	4	45											4
+3	Exposure	18	10	2	225											4
+3	Exposure	19	2	1	30											4
+3	Exposure	20	11	2	300											4
+3	Exposure	21	17	3	315											4
+3	Exposure	22	15	3	60											4
+3	Exposure	23	5	1	300											4
+3	Guessing	1	7	1	240	16	10	11	5	9	22	1	7	1		4
+3	Guessing	2	11	2	300	1	13	5	15	3	17	14	11	1		4
+3	Guessing	3	10	2	225	6	25	3	5	14	28	8	10	1		4
+3	Guessing	4	5	1	300	3	26	16	6	22	1	11	5	1		4
+3	Guessing	5	17	3	315	1	21	2	4	24	25	3	17	1		4
+3	Guessing	6	8	2	120	22	28	7	13	6	10	9	8	1		4
+3	Guessing	7	3	1	210	17	23	14	5	6	4	10	3	1		4
+3	Guessing	8	14	2	330	8	9	28	21	7	24	4	14	1		4
+3	Guessing	9	9	2	45	13	23	15	10	28	1	22	10	0		4
+3	Guessing	10	2	1	30	15	5	10	1	25	4	17	2	1		4
+3	Guessing	11	21	3	240	5	17	8	7	25	6	13	21	1		4
+3	Guessing	12	13	2	180	6	10	2	28	16	5	9	13	1		4
+3	Guessing	13	6	1	360	9	3	22	13	28	14	1	6	1		4
+3	Guessing	14	26	4	270	28	23	4	11	10	9	16	26	1		4
+3	Guessing	15	23	4	135	28	6	1	9	4	15	11	28	0		4
+3	Guessing	16	4	1	90	22	26	6	3	13	28	15	22	0		4
+3	Guessing	17	22	4	90	3	9	11	28	17	21	7	22	1		4
+3	Guessing	18	1	1	150	8	28	15	11	6	4	21	1	1		4
+3	Guessing	19	15	3	60	16	24	23	5	4	6	14	15	1		4
+3	Guessing	20	28	4	330	3	9	13	14	25	15	5	28	1		4
+3	Guessing	21	25	4	45	28	21	14	13	2	15	9	9	0		4
+3	Guessing	22	16	3	180	6	21	23	28	3	9	13	16	1		4
+3	Guessing	23	24	4	210	5	4	13	26	25	17	22	24	1		4
+3	Production	1	24	4	210									1	woesiok	4
+3	Production	2	13	2	180									1	pnuunaaa	4
+3	Production	3	25	4	45									1	woesiko	4
+3	Production	4	23	4	135									1	woesiku	4
+3	Production	5	16	3	180									1	oe	4
+3	Production	6	21	3	240									1	koemetuk	4
+3	Production	7	10	2	225									0	pnuunku	4
+3	Production	8	2	1	30									1	mometko	4
+3	Production	9	9	2	45									0	pnuunku	4
+3	Production	10	17	3	315									0	koemetok	4
+3	Production	11	4	1	90									0	mometko	4
+3	Production	12	14	2	330									0	pnuunok	4
+3	Production	13	26	4	270									1	woesiik	4
+3	Production	14	8	2	120									1	koemetaaa	4
+3	Production	15	6	1	360									1	momethk	4
+3	Production	16	28	4	330									1	woesiik	4
+3	Production	17	11	2	300									0	pnuunuk	4
+3	Production	18	3	1	210									1	mometfe	4
+3	Production	19	7	1	240									0	mometfo	4
+3	Production	20	22	4	90									1	woesiki	4
+3	Production	21	15	3	60									1	kome	4
+3	Production	22	1	1	150									0	mometku	4
+3	Production	23	5	1	300									0	mometku	4
+5	MemorizationTest	1	14	2	330									1	pnuunuk	4
+5	MemorizationTest	2	11	2	300									1	pnuunku	4
+5	MemorizationTest	3	28	4	330									0	woesiko	4
+5	MemorizationTest	4	25	4	45									0	woesiok	4
+5	MemorizationTest	5	23	4	135									1	woesiku	4
+5	MemorizationTest	6	4	1	90									1	mometki	4
+5	MemorizationTest	7	3	1	210									1	mometfe	4
+5	MemorizationTest	8	17	3	315									1	koemetuk	4
+5	MemorizationTest	9	6	1	360									1	momethk	4
+5	MemorizationTest	10	2	1	30									1	mometko	4
+5	MemorizationTest	11	13	2	180									0	pnuumaaa	4
+5	MemorizationTest	12	16	3	180									1	oe	4
+5	MemorizationTest	13	8	2	120									1	koemetaaa	4
+5	MemorizationTest	14	1	1	150									0	mometki	4
+5	MemorizationTest	15	5	1	300									0	mometok	4
+5	MemorizationTest	16	9	2	45									0	pnuuntuk	4
+5	MemorizationTest	17	24	4	210									1	woesiok	4
+5	MemorizationTest	18	21	3	240									1	koemetuk	4
+5	MemorizationTest	19	26	4	270									1	woesiik	4
+5	MemorizationTest	20	7	1	240									0	mometfe	4
+5	MemorizationTest	21	15	3	60									1	kome	4
+5	MemorizationTest	22	22	4	90									1	woesiki	4
+5	MemorizationTest	23	10	2	225									1	pnuunok	4
+5	RegularizationTest	1	33	3	150										koemetok	4
+5	RegularizationTest	2	31	2	360										pnuunthk	4
+5	RegularizationTest	3	29	1	135										mometaaa	4
+5	RegularizationTest	4	12	2	270										pnuunik	4
+5	RegularizationTest	5	34	3	150										koemuk	4
+5	RegularizationTest	6	36	4	360										woesithk	4
+5	RegularizationTest	7	19	3	30										kome	4
+5	RegularizationTest	8	32	2	60										pnuun	4
+5	RegularizationTest	9	20	3	120										komemetaaa	4
+5	RegularizationTest	10	18	3	225										koemok	4
+5	RegularizationTest	11	30	1	315										memetuk	4
+5	RegularizationTest	12	27	4	60										woesie	4
+5	RegularizationTest	13	35	4	225										woesiok	4

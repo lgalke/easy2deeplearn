@@ -1,0 +1,250 @@
+Language learnability experiment
+Logfile written - 08/01/2019 09:54:10
+Participant ID: 064
+Language: B2
+Computer: 5
+
+Round	Task	Trial	Target	Shape	Angle	Distr1	Distr2	Distr3	Distr4	Distr5	Distr6	Distr7	SelectedItem	Correct	Input	Producer
+1	Exposure	1	9	2	45											064
+1	Exposure	2	21	3	240											064
+1	Exposure	3	6	1	360											064
+1	Exposure	4	16	3	180											064
+1	Exposure	5	4	1	90											064
+1	Exposure	6	15	3	60											064
+1	Exposure	7	11	2	300											064
+1	Exposure	8	8	2	120											064
+1	Exposure	9	26	4	270											064
+1	Exposure	10	23	4	135											064
+1	Exposure	11	5	1	300											064
+1	Exposure	12	24	4	210											064
+1	Exposure	1	21	3	240											064
+1	Exposure	2	6	1	360											064
+1	Exposure	3	16	3	180											064
+1	Exposure	4	15	3	60											064
+1	Exposure	5	23	4	135											064
+1	Exposure	6	8	2	120											064
+1	Exposure	7	5	1	300											064
+1	Exposure	8	24	4	210											064
+1	Exposure	9	11	2	300											064
+1	Exposure	10	9	2	45											064
+1	Exposure	11	4	1	90											064
+1	Exposure	12	26	4	270											064
+1	Guessing	1	6	1	360	9	24	23					23	0		064
+1	Guessing	2	24	4	210	26	21	4					26	0		064
+1	Guessing	3	8	2	120	26	16	9					16	0		064
+1	Guessing	4	23	4	135	6	15	11					23	1		064
+1	Guessing	5	5	1	300	8	6	26					5	1		064
+1	Guessing	6	16	3	180	6	5	23					16	1		064
+1	Guessing	7	4	1	90	24	26	15					4	1		064
+1	Guessing	8	15	3	60	24	8	5					15	1		064
+1	Guessing	9	21	3	240	15	5	23					21	1		064
+1	Guessing	10	9	2	45	11	4	23					23	0		064
+1	Guessing	11	11	2	300	5	23	9					9	0		064
+1	Guessing	12	26	4	270	23	8	5					26	1		064
+1	Guessing	1	5	1	300	23	24	8					5	1		064
+1	Guessing	2	26	4	270	21	24	4					26	1		064
+1	Guessing	3	21	3	240	4	9	15					9	0		064
+1	Guessing	4	23	4	135	16	24	5					24	0		064
+1	Guessing	5	6	1	360	8	23	9					6	1		064
+1	Guessing	6	4	1	90	9	26	16					4	1		064
+1	Guessing	7	24	4	210	9	26	6					24	1		064
+1	Guessing	8	11	2	300	9	5	21					21	0		064
+1	Guessing	9	15	3	60	8	6	21					21	0		064
+1	Guessing	10	16	3	180	4	8	15					16	1		064
+1	Guessing	11	9	2	45	24	11	8					24	0		064
+1	Guessing	12	8	2	120	15	11	16					8	1		064
+1	Production	1	21	3	240									1	wangsoe	064
+1	Production	2	4	1	90									0	skekti	064
+1	Production	3	11	2	300									1	wangsu	064
+1	Production	4	24	4	210									0	gekt	064
+1	Production	5	5	1	300									0	sketu	064
+1	Production	6	16	3	180									1	wangsi	064
+1	Production	7	15	3	60									0	gemt	064
+1	Production	8	6	1	360									0	sketu	064
+1	Production	9	9	2	45									0	wangsu	064
+1	Production	10	8	2	120									0	wangsuu	064
+1	Production	11	23	4	135									0	gntu	064
+1	Production	12	26	4	270									1	gnt	064
+1	Production	1	24	4	210									0	gnti	064
+1	Production	2	8	2	120									1	wangsus	064
+1	Production	3	6	1	360									1	sket	064
+1	Production	4	4	1	90									0	sketi	064
+1	Production	5	26	4	270									1	gnt	064
+1	Production	6	16	3	180									1	wangsi	064
+1	Production	7	5	1	300									0	sketu	064
+1	Production	8	21	3	240									0	wangsu	064
+1	Production	9	15	3	60									0	wangsus	064
+1	Production	10	11	2	300									0	wangsuu	064
+1	Production	11	23	4	135									0	gntuu	064
+1	Production	12	9	2	45									0	wangsu	064
+2	Exposure	1	14	2	330											064
+2	Exposure	2	10	2	225											064
+2	Exposure	3	25	4	45											064
+2	Exposure	4	28	4	330											064
+2	Exposure	5	3	1	210											064
+2	Exposure	6	2	1	30											064
+2	Exposure	7	22	4	90											064
+2	Exposure	8	13	2	180											064
+2	Exposure	9	1	1	150											064
+2	Exposure	10	17	3	315											064
+2	Exposure	11	7	1	240											064
+2	Exposure	1	7	1	240											064
+2	Exposure	2	13	2	180											064
+2	Exposure	3	3	1	210											064
+2	Exposure	4	14	2	330											064
+2	Exposure	5	1	1	150											064
+2	Exposure	6	22	4	90											064
+2	Exposure	7	28	4	330											064
+2	Exposure	8	25	4	45											064
+2	Exposure	9	2	1	30											064
+2	Exposure	10	10	2	225											064
+2	Exposure	11	17	3	315											064
+2	Guessing	1	22	4	90	14	13	7					7	0		064
+2	Guessing	2	2	1	30	14	22	25					2	1		064
+2	Guessing	3	14	2	330	3	7	13					7	0		064
+2	Guessing	4	28	4	330	10	17	1					28	1		064
+2	Guessing	5	7	1	240	3	2	17					3	0		064
+2	Guessing	6	1	1	150	13	14	22					1	1		064
+2	Guessing	7	3	1	210	1	13	25					3	1		064
+2	Guessing	8	10	2	225	1	7	14					10	1		064
+2	Guessing	9	17	3	315	13	3	22					17	1		064
+2	Guessing	10	25	4	45	7	28	3					7	0		064
+2	Guessing	11	13	2	180	17	14	1					14	0		064
+2	Guessing	1	7	1	240	28	13	3					7	1		064
+2	Guessing	2	22	4	90	25	17	1					25	0		064
+2	Guessing	3	13	2	180	10	17	22					13	1		064
+2	Guessing	4	3	1	210	2	22	28					3	1		064
+2	Guessing	5	17	3	315	10	28	3					10	0		064
+2	Guessing	6	2	1	30	7	3	1					1	0		064
+2	Guessing	7	25	4	45	1	17	13					25	1		064
+2	Guessing	8	1	1	150	28	2	13					1	1		064
+2	Guessing	9	10	2	225	22	1	28					10	1		064
+2	Guessing	10	28	4	330	13	10	17					28	1		064
+2	Guessing	11	14	2	330	28	22	25					25	0		064
+2	Production	1	3	1	210									0	wangsuus	064
+2	Production	2	17	3	315									0	wangsi	064
+2	Production	3	1	1	150									1	gesh	064
+2	Production	4	25	4	45									1	skek	064
+2	Production	5	28	4	330									0	skektu	064
+2	Production	6	7	1	240									0	wangsu	064
+2	Production	7	14	2	330									0	wangsu	064
+2	Production	8	10	2	225									0	gmpsi	064
+2	Production	9	22	4	90									0	gnt	064
+2	Production	10	13	2	180									0	gnti	064
+2	Production	11	2	1	30									0	skektu	064
+2	Production	1	1	1	150									1	gesh	064
+2	Production	2	10	2	225									1	wangsuus	064
+2	Production	3	17	3	315									1	wangsuu	064
+2	Production	4	2	1	30									1	sket	064
+2	Production	5	7	1	240									0	skektu	064
+2	Production	6	3	1	210									0	sketus	064
+2	Production	7	28	4	330									0	gmpsu	064
+2	Production	8	13	2	180									0	gmpi	064
+2	Production	9	22	4	90									1	gnotta	064
+2	Production	10	14	2	330									0	gntsi	064
+2	Production	11	25	4	45									0	gmpu	064
+3	Exposure	1	10	2	225											064
+3	Exposure	2	4	1	90											064
+3	Exposure	3	21	3	240											064
+3	Exposure	4	11	2	300											064
+3	Exposure	5	23	4	135											064
+3	Exposure	6	3	1	210											064
+3	Exposure	7	6	1	360											064
+3	Exposure	8	5	1	300											064
+3	Exposure	9	25	4	45											064
+3	Exposure	10	2	1	30											064
+3	Exposure	11	26	4	270											064
+3	Exposure	12	24	4	210											064
+3	Exposure	13	22	4	90											064
+3	Exposure	14	13	2	180											064
+3	Exposure	15	1	1	150											064
+3	Exposure	16	16	3	180											064
+3	Exposure	17	9	2	45											064
+3	Exposure	18	7	1	240											064
+3	Exposure	19	15	3	60											064
+3	Exposure	20	17	3	315											064
+3	Exposure	21	14	2	330											064
+3	Exposure	22	28	4	330											064
+3	Exposure	23	8	2	120											064
+3	Guessing	1	14	2	330	25	1	6	4	15	13	28	28	0		064
+3	Guessing	2	2	1	30	23	26	7	16	8	13	14	2	1		064
+3	Guessing	3	10	2	225	14	8	5	13	21	16	11	10	1		064
+3	Guessing	4	5	1	300	11	21	2	7	3	17	4	7	0		064
+3	Guessing	5	26	4	270	7	8	16	13	4	14	9	26	1		064
+3	Guessing	6	11	2	300	10	8	3	14	13	25	24	11	1		064
+3	Guessing	7	6	1	360	4	1	3	11	21	26	16	4	0		064
+3	Guessing	8	4	1	90	7	13	25	21	24	1	5	5	0		064
+3	Guessing	9	21	3	240	10	25	16	4	1	15	17	21	1		064
+3	Guessing	10	22	4	90	10	3	13	15	11	28	17	22	1		064
+3	Guessing	11	17	3	315	3	5	2	24	22	4	16	17	1		064
+3	Guessing	12	25	4	45	15	28	24	10	26	16	3	25	1		064
+3	Guessing	13	24	4	210	21	22	2	13	6	15	23	24	1		064
+3	Guessing	14	3	1	210	14	15	9	21	6	25	26	15	0		064
+3	Guessing	15	28	4	330	3	17	23	8	24	13	5	23	0		064
+3	Guessing	16	9	2	45	14	3	10	21	8	28	5	28	0		064
+3	Guessing	17	15	3	60	5	1	8	16	17	7	25	17	0		064
+3	Guessing	18	23	4	135	4	9	21	24	11	8	3	21	0		064
+3	Guessing	19	8	2	120	3	26	5	11	1	16	9	11	0		064
+3	Guessing	20	1	1	150	23	17	6	4	26	13	8	1	1		064
+3	Guessing	21	16	3	180	22	11	4	26	2	15	28	16	1		064
+3	Guessing	22	7	1	240	6	17	22	4	11	25	21	7	1		064
+3	Guessing	23	13	2	180	16	15	2	22	26	3	10	26	0		064
+3	Production	1	22	4	90									1	gnotta	064
+3	Production	2	10	2	225									1	wangsuus	064
+3	Production	3	25	4	45									0	gmpsu	064
+3	Production	4	2	1	30									0	sketu	064
+3	Production	5	24	4	210									0	gmpsuu	064
+3	Production	6	26	4	270									0	gmp	064
+3	Production	7	23	4	135									0	gntsi	064
+3	Production	8	13	2	180									0	gntsi	064
+3	Production	9	8	2	120									0	wangsi	064
+3	Production	10	14	2	330									0	wangsus	064
+3	Production	11	11	2	300									0	wangsus	064
+3	Production	12	9	2	45									0	gmp	064
+3	Production	13	16	3	180									1	wangsi	064
+3	Production	14	7	1	240									0	sketu	064
+3	Production	15	17	3	315									0	sketuu	064
+3	Production	16	15	3	60									1	wangsu	064
+3	Production	17	5	1	300									0	sketu	064
+3	Production	18	6	1	360									0	sketsu	064
+3	Production	19	3	1	210									0	sketsoe	064
+3	Production	20	28	4	330									0	gntu	064
+3	Production	21	4	1	90									0	skek	064
+3	Production	22	21	3	240									0	wangsuus	064
+3	Production	23	1	1	150									1	gesh	064
+5	MemorizationTest	1	1	1	150									1	gesh	064
+5	MemorizationTest	2	11	2	300									1	wangsu	064
+5	MemorizationTest	3	23	4	135									0	gntsu	064
+5	MemorizationTest	4	28	4	330									1	gntsi	064
+5	MemorizationTest	5	13	2	180									0	wangsi	064
+5	MemorizationTest	6	7	1	240									0	sketsuu	064
+5	MemorizationTest	7	3	1	210									0	sketsoe	064
+5	MemorizationTest	8	10	2	225									0	wangsoe	064
+5	MemorizationTest	9	25	4	45									0	gmpsu	064
+5	MemorizationTest	10	15	3	60									1	wangsu	064
+5	MemorizationTest	11	24	4	210									0	gtnsi	064
+5	MemorizationTest	12	8	2	120									0	gmpsi	064
+5	MemorizationTest	13	16	3	180									1	wangsi	064
+5	MemorizationTest	14	5	1	300									0	sketsu	064
+5	MemorizationTest	15	6	1	360									0	skek	064
+5	MemorizationTest	16	17	3	315									0	wangsu	064
+5	MemorizationTest	17	22	4	90									1	gnotta	064
+5	MemorizationTest	18	21	3	240									0	wangsuu	064
+5	MemorizationTest	19	9	2	45									0	wangsu	064
+5	MemorizationTest	20	26	4	270									0	gmpsu	064
+5	MemorizationTest	21	2	1	30									0	skek	064
+5	MemorizationTest	22	4	1	90									0	sketsi	064
+5	MemorizationTest	23	14	2	330									0	wangsu	064
+5	RegularizationTest	1	32	2	60										wangsu	064
+5	RegularizationTest	2	33	3	150										wangsi	064
+5	RegularizationTest	3	29	1	135										sketsi	064
+5	RegularizationTest	4	27	4	60										gmpsi	064
+5	RegularizationTest	5	20	3	120										wang	064
+5	RegularizationTest	6	31	2	360										wang	064
+5	RegularizationTest	7	30	1	315										sketsuu	064
+5	RegularizationTest	8	18	3	225										wangsuus	064
+5	RegularizationTest	9	36	4	360										gnt	064
+5	RegularizationTest	10	12	2	270										wng	064
+5	RegularizationTest	11	35	4	225										gntsoe	064
+5	RegularizationTest	12	19	3	30										wangsu	064
+5	RegularizationTest	13	34	3	150										wangsi	064

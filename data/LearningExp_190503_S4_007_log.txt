@@ -1,0 +1,250 @@
+Language learnability experiment
+Logfile written - 05/03/2019 10:02:19
+Participant ID: 007
+Language: S4
+Computer: 5
+
+Round	Task	Trial	Target	Shape	Angle	Distr1	Distr2	Distr3	Distr4	Distr5	Distr6	Distr7	SelectedItem	Correct	Input	Producer
+1	Exposure	1	17	3	315											007
+1	Exposure	2	10	2	225											007
+1	Exposure	3	23	4	135											007
+1	Exposure	4	6	1	360											007
+1	Exposure	5	13	2	180											007
+1	Exposure	6	15	3	60											007
+1	Exposure	7	9	2	45											007
+1	Exposure	8	1	1	150											007
+1	Exposure	9	5	1	300											007
+1	Exposure	10	22	4	90											007
+1	Exposure	11	26	4	270											007
+1	Exposure	12	21	3	240											007
+1	Exposure	1	13	2	180											007
+1	Exposure	2	26	4	270											007
+1	Exposure	3	15	3	60											007
+1	Exposure	4	9	2	45											007
+1	Exposure	5	6	1	360											007
+1	Exposure	6	23	4	135											007
+1	Exposure	7	22	4	90											007
+1	Exposure	8	1	1	150											007
+1	Exposure	9	10	2	225											007
+1	Exposure	10	17	3	315											007
+1	Exposure	11	21	3	240											007
+1	Exposure	12	5	1	300											007
+1	Guessing	1	1	1	150	6	13	21					1	1		007
+1	Guessing	2	21	3	240	23	26	17					21	1		007
+1	Guessing	3	6	1	360	21	13	9					6	1		007
+1	Guessing	4	17	3	315	1	23	26					23	0		007
+1	Guessing	5	10	2	225	9	5	13					10	1		007
+1	Guessing	6	5	1	300	17	22	6					5	1		007
+1	Guessing	7	26	4	270	9	10	6					26	1		007
+1	Guessing	8	23	4	135	5	13	6					23	1		007
+1	Guessing	9	9	2	45	10	6	22					9	1		007
+1	Guessing	10	15	3	60	13	10	17					15	1		007
+1	Guessing	11	13	2	180	10	9	1					13	1		007
+1	Guessing	12	22	4	90	23	17	6					22	1		007
+1	Guessing	1	1	1	150	26	21	15					1	1		007
+1	Guessing	2	22	4	90	5	1	23					22	1		007
+1	Guessing	3	13	2	180	6	26	23					13	1		007
+1	Guessing	4	5	1	300	13	22	17					5	1		007
+1	Guessing	5	23	4	135	17	1	13					23	1		007
+1	Guessing	6	6	1	360	21	23	9					6	1		007
+1	Guessing	7	10	2	225	17	15	6					10	1		007
+1	Guessing	8	17	3	315	10	23	13					17	1		007
+1	Guessing	9	21	3	240	1	23	17					21	1		007
+1	Guessing	10	9	2	45	26	15	5					9	1		007
+1	Guessing	11	26	4	270	6	15	9					26	1		007
+1	Guessing	12	15	3	60	22	17	6					15	1		007
+1	Production	1	6	1	360									0	pion-neug	007
+1	Production	2	22	4	90									1	wes-sip	007
+1	Production	3	13	2	180									0	neug-fap	007
+1	Production	4	17	3	315									1	tas-sa	007
+1	Production	5	1	1	150									0	pio-noi	007
+1	Production	6	23	4	135									0	wes-noi	007
+1	Production	7	5	1	300									1	pio-sa	007
+1	Production	8	26	4	270									1	wes-uu	007
+1	Production	9	10	2	225									1	geuh-noi	007
+1	Production	10	9	2	45									0	geuh-noeg	007
+1	Production	11	15	3	60									1	tas-si	007
+1	Production	12	21	3	240									0	tas-noeg	007
+1	Production	1	26	4	270									1	wes-uu	007
+1	Production	2	6	1	360									1	pio-fap	007
+1	Production	3	5	1	300									1	pio-sa	007
+1	Production	4	9	2	45									1	geuh-si	007
+1	Production	5	13	2	180									0	geuh-noeg	007
+1	Production	6	10	2	225									1	geuh-noi	007
+1	Production	7	1	1	150									1	pio-noeg	007
+1	Production	8	21	3	240									1	tas-noi	007
+1	Production	9	15	3	60									1	tas-si	007
+1	Production	10	17	3	315									1	tas-sa	007
+1	Production	11	22	4	90									1	wes-sip	007
+1	Production	12	23	4	135									0	wes-noi	007
+2	Exposure	1	4	1	90											007
+2	Exposure	2	2	1	30											007
+2	Exposure	3	11	2	300											007
+2	Exposure	4	3	1	210											007
+2	Exposure	5	28	4	330											007
+2	Exposure	6	7	1	240											007
+2	Exposure	7	14	2	330											007
+2	Exposure	8	16	3	180											007
+2	Exposure	9	25	4	45											007
+2	Exposure	10	24	4	210											007
+2	Exposure	11	8	2	120											007
+2	Exposure	1	3	1	210											007
+2	Exposure	2	16	3	180											007
+2	Exposure	3	14	2	330											007
+2	Exposure	4	8	2	120											007
+2	Exposure	5	4	1	90											007
+2	Exposure	6	11	2	300											007
+2	Exposure	7	28	4	330											007
+2	Exposure	8	2	1	30											007
+2	Exposure	9	25	4	45											007
+2	Exposure	10	7	1	240											007
+2	Exposure	11	24	4	210											007
+2	Guessing	1	7	1	240	11	4	16					7	1		007
+2	Guessing	2	2	1	30	7	14	3					2	1		007
+2	Guessing	3	14	2	330	3	8	2					14	1		007
+2	Guessing	4	8	2	120	16	3	25					8	1		007
+2	Guessing	5	24	4	210	2	14	25					24	1		007
+2	Guessing	6	28	4	330	8	3	7					28	1		007
+2	Guessing	7	11	2	300	24	7	28					11	1		007
+2	Guessing	8	25	4	45	16	8	28					25	1		007
+2	Guessing	9	4	1	90	7	3	24					4	1		007
+2	Guessing	10	16	3	180	14	24	2					24	0		007
+2	Guessing	11	3	1	210	25	16	11					3	1		007
+2	Guessing	1	14	2	330	7	11	25					14	1		007
+2	Guessing	2	3	1	210	25	28	24					3	1		007
+2	Guessing	3	8	2	120	2	4	16					8	1		007
+2	Guessing	4	28	4	330	8	16	4					28	1		007
+2	Guessing	5	25	4	45	11	3	28					25	1		007
+2	Guessing	6	7	1	240	24	2	4					7	1		007
+2	Guessing	7	2	1	30	8	3	24					2	1		007
+2	Guessing	8	24	4	210	4	11	2					24	1		007
+2	Guessing	9	11	2	300	8	2	7					11	1		007
+2	Guessing	10	16	3	180	4	25	24					16	1		007
+2	Guessing	11	4	1	90	2	28	7					4	1		007
+2	Production	1	11	2	300									1	geuh-sai	007
+2	Production	2	4	1	90									1	pio-sip	007
+2	Production	3	24	4	210									1	weg-noi	007
+2	Production	4	3	1	210									0	pio-noi	007
+2	Production	5	25	4	45									0	weg-si	007
+2	Production	6	2	1	30									1	pio-si	007
+2	Production	7	7	1	240									1	pio-noi	007
+2	Production	8	28	4	330									1	wes-sa	007
+2	Production	9	16	3	180									1	tas-neg	007
+2	Production	10	14	2	330									0	pio-sa	007
+2	Production	11	8	2	120									1	geuh-noeg	007
+2	Production	1	24	4	210									0	wes-noi	007
+2	Production	2	14	2	330									1	geuh-sa	007
+2	Production	3	11	2	300									1	geuh-sai	007
+2	Production	4	25	4	45									1	wes-si	007
+2	Production	5	2	1	30									1	pio-si	007
+2	Production	6	7	1	240									1	pio-noi	007
+2	Production	7	8	2	120									0	pio-noeg	007
+2	Production	8	16	3	180									1	tas-neg	007
+2	Production	9	4	1	90									1	pio-sip	007
+2	Production	10	28	4	330									1	wes-sa	007
+2	Production	11	3	1	210									0	pio-noi	007
+3	Exposure	1	7	1	240											007
+3	Exposure	2	24	4	210											007
+3	Exposure	3	8	2	120											007
+3	Exposure	4	1	1	150											007
+3	Exposure	5	14	2	330											007
+3	Exposure	6	26	4	270											007
+3	Exposure	7	23	4	135											007
+3	Exposure	8	2	1	30											007
+3	Exposure	9	28	4	330											007
+3	Exposure	10	4	1	90											007
+3	Exposure	11	9	2	45											007
+3	Exposure	12	10	2	225											007
+3	Exposure	13	16	3	180											007
+3	Exposure	14	25	4	45											007
+3	Exposure	15	6	1	360											007
+3	Exposure	16	11	2	300											007
+3	Exposure	17	17	3	315											007
+3	Exposure	18	3	1	210											007
+3	Exposure	19	5	1	300											007
+3	Exposure	20	15	3	60											007
+3	Exposure	21	13	2	180											007
+3	Exposure	22	22	4	90											007
+3	Exposure	23	21	3	240											007
+3	Guessing	1	14	2	330	5	28	24	10	25	6	11	14	1		007
+3	Guessing	2	17	3	315	21	10	5	24	16	1	8	17	1		007
+3	Guessing	3	3	1	210	1	28	2	25	6	22	16	3	1		007
+3	Guessing	4	8	2	120	2	4	28	25	14	17	6	8	1		007
+3	Guessing	5	4	1	90	8	9	10	3	25	15	21	4	1		007
+3	Guessing	6	23	4	135	26	3	24	7	4	17	25	24	0		007
+3	Guessing	7	9	2	45	28	3	24	16	4	8	10	9	1		007
+3	Guessing	8	7	1	240	8	14	25	16	9	3	2	3	0		007
+3	Guessing	9	6	1	360	14	4	21	26	24	3	10	6	1		007
+3	Guessing	10	2	1	30	9	24	21	15	10	7	6	2	1		007
+3	Guessing	11	11	2	300	25	6	22	13	1	9	15	11	1		007
+3	Guessing	12	25	4	45	17	9	21	28	1	13	10	25	1		007
+3	Guessing	13	26	4	270	9	21	17	5	3	23	2	26	1		007
+3	Guessing	14	5	1	300	24	6	10	4	16	11	21	5	1		007
+3	Guessing	15	24	4	210	6	26	8	16	17	4	5	24	1		007
+3	Guessing	16	10	2	225	5	21	13	1	22	11	6	10	1		007
+3	Guessing	17	22	4	90	16	2	8	26	21	11	1	22	1		007
+3	Guessing	18	28	4	330	10	1	25	26	22	6	7	28	1		007
+3	Guessing	19	13	2	180	17	2	11	1	3	7	16	13	1		007
+3	Guessing	20	1	1	150	28	5	14	3	21	15	26	1	1		007
+3	Guessing	21	16	3	180	14	8	2	25	26	5	10	16	1		007
+3	Guessing	22	15	3	60	8	1	17	25	6	7	21	15	1		007
+3	Guessing	23	21	3	240	9	15	25	13	16	14	23	21	1		007
+3	Production	1	2	1	30									1	pio-si	007
+3	Production	2	1	1	150									1	pio-noeg	007
+3	Production	3	4	1	90									1	pio-sip	007
+3	Production	4	21	3	240									1	tas-noi	007
+3	Production	5	14	2	330									0	geuh-sai	007
+3	Production	6	16	3	180									1	tas-neg	007
+3	Production	7	13	2	180									1	geuh-neg	007
+3	Production	8	28	4	330									1	wes-sa	007
+3	Production	9	11	2	300									1	geuh-sai	007
+3	Production	10	3	1	210									0	pio-noi	007
+3	Production	11	10	2	225									1	geuh-noi	007
+3	Production	12	6	1	360									1	pio-fap	007
+3	Production	13	15	3	60									1	tas-si	007
+3	Production	14	17	3	315									1	tas-sa	007
+3	Production	15	9	2	45									1	geuh-si	007
+3	Production	16	24	4	210									1	weg-noi	007
+3	Production	17	22	4	90									1	wes-sip	007
+3	Production	18	26	4	270									1	wes-uu	007
+3	Production	19	25	4	45									1	wes-si	007
+3	Production	20	5	1	300									1	pio-sa	007
+3	Production	21	23	4	135									1	wes-noeg	007
+3	Production	22	8	2	120									1	geuh-noeg	007
+3	Production	23	7	1	240									1	pio-noi	007
+5	MemorizationTest	1	26	4	270									1	wes-uu	007
+5	MemorizationTest	2	14	2	330									1	geuh-sa	007
+5	MemorizationTest	3	16	3	180									0	tes-neg	007
+5	MemorizationTest	4	10	2	225									1	geuh-noi	007
+5	MemorizationTest	5	6	1	360									1	pio-fap	007
+5	MemorizationTest	6	7	1	240									1	pio-noi	007
+5	MemorizationTest	7	5	1	300									1	pio-sa	007
+5	MemorizationTest	8	13	2	180									1	geuh-neg	007
+5	MemorizationTest	9	15	3	60									0	tes-si	007
+5	MemorizationTest	10	21	3	240									0	tes-noi	007
+5	MemorizationTest	11	2	1	30									1	pio-si	007
+5	MemorizationTest	12	24	4	210									1	weg-noi	007
+5	MemorizationTest	13	1	1	150									0	pio-neug	007
+5	MemorizationTest	14	17	3	315									0	tes-sa	007
+5	MemorizationTest	15	4	1	90									1	pio-sip	007
+5	MemorizationTest	16	22	4	90									1	wes-sip	007
+5	MemorizationTest	17	28	4	330									1	wes-sa	007
+5	MemorizationTest	18	9	2	45									0	neug-si	007
+5	MemorizationTest	19	11	2	300									0	neug-sa	007
+5	MemorizationTest	20	23	4	135									0	wes-neug	007
+5	MemorizationTest	21	8	2	120									0	geuh-neug	007
+5	MemorizationTest	22	3	1	210									1	pio-neg	007
+5	MemorizationTest	23	25	4	45									1	wes-si	007
+5	RegularizationTest	1	30	1	315										pio-sa	007
+5	RegularizationTest	2	32	2	60										geuh-si	007
+5	RegularizationTest	3	34	3	150										tas-neug	007
+5	RegularizationTest	4	18	3	225										tas-noi	007
+5	RegularizationTest	5	20	3	120										tas-neug	007
+5	RegularizationTest	6	33	3	150										tas-neu-g	007
+5	RegularizationTest	7	29	1	135										pio-neug	007
+5	RegularizationTest	8	35	4	225										weg-noi	007
+5	RegularizationTest	9	31	2	360										geuh-fap	007
+5	RegularizationTest	10	19	3	30										tas-si	007
+5	RegularizationTest	11	36	4	360										wes-fap	007
+5	RegularizationTest	12	27	4	60										wes-si	007
+5	RegularizationTest	13	12	2	270										geuh-uu	007
