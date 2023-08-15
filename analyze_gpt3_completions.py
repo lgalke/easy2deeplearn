@@ -15,13 +15,9 @@ from stats import calc_generalization_score_for_humans
 # mpl.rcParams["figure.dpi"] = 300
 sns.set_theme(context="paper", style="whitegrid", font_scale=2.0)
 
-GPT3_COMPLETIONS_DIR = (
-    "~/Documents/project-data/paper__LEADS_easy-to-learn/gpt3-completions/"
-)
+GPT3_COMPLETIONS_DIR = "../gpt3-completions/"
 
-NN_RESULTS_DIR = (
-    "~/Documents/project-data/paper__LEADS_easy-to-learn/results-v1-stats-output-v2/"
-)
+NN_RESULTS_DIR = "../results-v1-stats-output-v2/"
 
 ALL_LANGUAGES = ["S1", "S2", "S3", "S4", "S5", "B1", "B2", "B3", "B4", "B5"]
 STRUCTURE_BINS = {
@@ -96,6 +92,39 @@ def analyze_gpt3_results(lang_ids):
         pd.concat(mem_test_frames, ignore_index=True),
         pd.concat(reg_test_frames, ignore_index=True),
     )
+
+
+def compare_gpt3_to_humans(gpt3_results: pd.DataFrame, human_results: pd.DataFrame):
+    sim = []
+    N = 0
+    for __idx, gpt3_row in gpt3_results.iterrows():
+        gpt3_word, lang, shape, angle = (
+            gpt3_row.Input,
+            gpt3_row.InputCondition,
+            gpt3_row.Shape,
+            gpt3_row.Angle,
+        )
+        same_scene = human_results[
+            (human_results.InputCondition == lang)
+            & (human_results.Shape == shape)
+            & (human_results.Angle == angle)
+        ]
+        N_match = len(same_scene)
+        print(f"Found {N_match} matching human generations")
+
+        tmp = []
+        for __idx2, human_production in same_scene.iterrows():
+            human_word = human_production.OrigInput  # OrigInput is human production
+            prodsim = production_similarity(gpt3_word, human_word)
+            tmp.append(prodsim)
+
+        # one result per gpt-3 generation
+        sim.append(sum(tmp) / len(tmp))
+
+        N += N_match
+
+    print(f"---\n{N} total comparisons")
+    return sim
 
 
 def plot_results(mem_results: pd.DataFrame, reg_results: pd.DataFrame, name: str = ""):
@@ -187,7 +216,7 @@ def main():
     )
     kwargs = {
         "x_jitter": 0.02,
-        "y_jitter": 0.00,
+        "y_jitter": 0.02,
         "marker": ".",
         "line_kws": {"color": "r"},
         "scatter_kws": {"alpha": 0.4},
@@ -201,7 +230,7 @@ def main():
         figsize=(12, 6),
         dpi=300,
     )
-    fig.suptitle("Systematic Generalization")
+    # fig.suptitle("Systematic Generalization")
 
     sns.regplot(
         x="StructureScore",
@@ -211,30 +240,10 @@ def main():
         **kwargs,
     )
     N = len(human_genscores)
-    ax1.set_title(f"Humans")
+    ax1.set_title(f"(A) Humans")
     print(f"Sys. Gen.: Humans N={N}")
     ax1.set_ylabel("Gen. Score")
     ax1.set_xlabel("Struct. Score")
-
-    rows = []
-    for seed, group in reg_results.groupby("Producer"):
-        row = pd.DataFrame(
-            {
-                "InputCondition": group["InputCondition"].max(),
-                "StructureScore": group["StructureScore"].mean(),
-                "GenScore": group["GenScore"].mean(),
-            },
-            index=[seed],
-        )
-        rows.append(row)
-    nn_genscores = pd.concat(rows)
-    N = len(nn_genscores)
-    sns.regplot(x="StructureScore", y="GenScore", data=nn_genscores, ax=ax2, **kwargs)
-    ax2.set_title(f"RNNs")
-    print(f"Sys. Gen.: RNNs N={N}")
-    # ax2.set_ylabel("Gen. Score")
-    ax2.set_xlabel("Struct. Score")
-    ax2.set(ylabel=None)
 
     # print(gpt3_reg_results)
     rows = []
@@ -249,9 +258,29 @@ def main():
         rows.append(row)
     gpt3_genscores = pd.concat(rows)
     N = len(gpt3_genscores)
-    sns.regplot(x="StructureScore", y="GenScore", data=gpt3_genscores, ax=ax3, **kwargs)
-    ax3.set_title(f"GPT-3")
+    sns.regplot(x="StructureScore", y="GenScore", data=gpt3_genscores, ax=ax2, **kwargs)
+    ax2.set_title(f"(B) GPT-3")
     print(f"Sys. Gen.: GPT-3 N={N}")
+    # ax2.set_ylabel("Gen. Score")
+    ax2.set_xlabel("Struct. Score")
+    ax2.set(ylabel=None)
+
+    rows = []
+    for seed, group in reg_results.groupby("Producer"):
+        row = pd.DataFrame(
+            {
+                "InputCondition": group["InputCondition"].max(),
+                "StructureScore": group["StructureScore"].mean(),
+                "GenScore": group["GenScore"].mean(),
+            },
+            index=[seed],
+        )
+        rows.append(row)
+    nn_genscores = pd.concat(rows)
+    N = len(nn_genscores)
+    sns.regplot(x="StructureScore", y="GenScore", data=nn_genscores, ax=ax3, **kwargs)
+    ax3.set_title(f"(C) RNNs")
+    print(f"Sys. Gen.: RNNs N={N}")
     # ax3.set_ylabel("Gen. Score")
     ax3.set_xlabel("Struct. Score")
     ax3.set(ylabel=None)
@@ -275,7 +304,7 @@ def main():
         figsize=(12, 6),
         dpi=300,
     )
-    fig.suptitle("Memorization Error Analysis")
+    # fig.suptitle("Memorization Error Analysis")
 
     # Humans
     human_errors = human_mem_results[
@@ -290,7 +319,7 @@ def main():
         **kwargs,
     )
     N = len(human_errors)
-    ax1.set_title(f"Humans")
+    ax1.set_title(f"(A) Humans")
     print(f"Human error rate: {p_error:.2f}% ({N} errors)")
     ax1.set_ylabel("Prod. Sim.")
     ax1.set_xlabel("Struct. Score")
@@ -299,22 +328,6 @@ def main():
     # ax1.set_ylabel("Prod. Sim.")
     # ax1.set_xlabel("Struct. Score")
 
-    # RNNs
-    mem_results_errors = mem_results[mem_results["ProdSim_GroundTruth"] < 1.0]
-    p_error = 100 * (len(mem_results_errors) / len(mem_results))
-    sns.regplot(
-        x="StructureScore",
-        y="ProdSim_GroundTruth",
-        data=mem_results_errors,
-        ax=ax2,
-        **kwargs,
-    )
-    N = len(mem_results_errors)
-    ax2.set_title(f"RNNs")
-    print(f"RNNs error rate: {p_error:.2f}% ({N} errors)")
-    ax2.set_ylabel(None)
-    ax2.set_xlabel("Struct. Score")
-
     # GPT-3
     gpt3_mem_errors = gpt3_mem_results[gpt3_mem_results["ProdSim_GroundTruth"] < 1.0]
     p_error = 100 * (len(gpt3_mem_errors) / len(gpt3_mem_results))
@@ -322,17 +335,78 @@ def main():
         x="StructureScore",
         y="ProdSim_GroundTruth",
         data=gpt3_mem_errors,
-        ax=ax3,
+        ax=ax2,
         **kwargs,
     )
     N = len(gpt3_mem_errors)
-    ax3.set_title(f"GPT-3")
+    ax2.set_title(f"(B) GPT-3")
     print(f"GPT-3 error rate: {p_error:.2f}% ({N} errors)")
+    ax2.set_ylabel(None)
+    ax2.set_xlabel("Struct. Score")
+
+    # RNNs
+    mem_results_errors = mem_results[mem_results["ProdSim_GroundTruth"] < 1.0]
+    p_error = 100 * (len(mem_results_errors) / len(mem_results))
+    sns.regplot(
+        x="StructureScore",
+        y="ProdSim_GroundTruth",
+        data=mem_results_errors,
+        ax=ax3,
+        **kwargs,
+    )
+    N = len(mem_results_errors)
+    ax3.set_title(f"(C) RNNs")
+    print(f"RNNs error rate: {p_error:.2f}% ({N} errors)")
     ax3.set_ylabel(None)
     ax3.set_xlabel("Struct. Score")
 
     fig.tight_layout(pad=1.0)
     plt.savefig("gpt3-error-analysis-plot.png")
+
+    ### Similarity to Humans
+    ## NEW, 2023-08-15, lg
+
+    fig, (ax1, ax2) = plt.subplots(
+        1,
+        2,
+        sharex=True,
+        sharey=True,
+        figsize=(12, 6),
+        dpi=300,
+    )
+    # fig.suptitle("Similarity to Humans during Generalization")
+
+    assert "ProdSim_Humans" not in gpt3_reg_results.columns
+    gpt3_reg_results["ProdSim_Humans"] = compare_gpt3_to_humans(
+        gpt3_reg_results, reg_results
+    )
+
+    sns.regplot(
+        x="StructureScore",
+        y="ProdSim_Humans",
+        data=gpt3_reg_results,
+        ax=ax1,
+        **kwargs,
+    )
+    N = len(gpt3_reg_results)
+    ax1.set_title(f"(A) GPT-3")
+    ax1.set_ylabel("Prod. Sim.")
+    ax1.set_xlabel("Struct. Score")
+
+    sns.regplot(
+        x="StructureScore",
+        y="ProdSim_Humans",
+        data=reg_results,
+        ax=ax2,
+        **kwargs,
+    )
+    N = len(reg_results)
+    ax2.set_title(f"(B) RNNs")
+    ax2.set_ylabel(None)
+    ax2.set_xlabel("Struct. Score")
+
+    fig.tight_layout(pad=1.0)
+    plt.savefig("gpt3-sim2humans-plot.png")
 
 
 if __name__ == "__main__":
