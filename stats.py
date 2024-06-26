@@ -1263,6 +1263,8 @@ def main():
     reg_data["ConvScore_of_Humans"] = calc_convergence_score(
         reg_data, word_column="OrigInput"
     )
+
+
     ### Stats ###
 
     # Reset indices such that we have access to variables on the index
