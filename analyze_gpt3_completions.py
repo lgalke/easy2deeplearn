@@ -9,6 +9,7 @@ import seaborn as sns
 from language import load_input_language
 from measures import production_similarity, generalization_score
 from learning_experiment import scenes
+from tqdm import tqdm
 
 from stats import calc_generalization_score_for_humans
 
@@ -127,6 +128,82 @@ def compare_gpt3_to_humans(gpt3_results: pd.DataFrame, human_results: pd.DataFra
     return sim
 
 
+def compare_humans_to_humans(human_results: pd.DataFrame):
+    """ Added 2024-07-01, lg -- compare human productions to each other
+    
+    Make sure to not compute the same participant with itself.
+    We can reconstruct the human participant id by using the participant id modulo 1000"""
+    sim = []
+    N = 0
+    for __idx, row in human_results.iterrows():
+        word, lang, shape, angle, producer = (
+            row.OrigInput,
+            row.InputCondition,
+            row.Shape,
+            row.Angle,
+            row.Producer
+        )
+        same_scene = human_results[
+            (human_results.InputCondition == lang)
+            & (human_results.Shape == shape)
+            & (human_results.Angle == angle)
+            & ((human_results.Producer % 1000) != (producer % 1000))  # NO SELF COMPARISON!
+        ]
+        N_match = len(same_scene)
+        print(f"Found {N_match} matching human generations")
+
+        tmp = []
+        for __idx2, human_production in same_scene.iterrows():
+            human_word = human_production.OrigInput  # OrigInput is human production
+            prodsim = production_similarity(word, human_word)
+            tmp.append(prodsim)
+
+        # one result per human generation
+        sim.append(sum(tmp) / len(tmp))
+
+        N += N_match
+
+    print(f"---\n{N} total comparisons")
+    return sim
+
+
+def compare_RNNs_to_humans(rnn_results: pd.DataFrame, human_results: pd.DataFrame):
+    """ Added 2024-07-01, lg -- compare RNN productions to each other
+    
+    Make sure to not compute the same participant with itself.
+    We can reconstruct the human participant id by using the participant id modulo 1000"""
+    sim = []
+    N = 0
+    for __idx, row in tqdm(rnn_results.iterrows(), desc="Calculating RNNs2Human similarity"):
+        word, lang, shape, angle = (
+            row.Input,
+            row.InputCondition,
+            row.Shape,
+            row.Angle
+        )
+        same_scene = human_results[
+            (human_results.InputCondition == lang)
+            & (human_results.Shape == shape)
+            & (human_results.Angle == angle)
+        ]
+        N_match = len(same_scene)
+        print(f"Found {N_match} matching human generations")
+
+        tmp = []
+        for __idx2, human_production in same_scene.iterrows():
+            human_word = human_production.OrigInput  # OrigInput is human production
+            prodsim = production_similarity(word, human_word)
+            tmp.append(prodsim)
+
+        # one result per human generation
+        sim.append(sum(tmp) / len(tmp))
+
+        N += N_match
+
+    print(f"---\n{N} total comparisons")
+    return sim
+
+
 def plot_results(mem_results: pd.DataFrame, reg_results: pd.DataFrame, name: str = ""):
     colormap = plt.get_cmap(
         "copper"
@@ -158,7 +235,7 @@ def plot_results(mem_results: pd.DataFrame, reg_results: pd.DataFrame, name: str
         ax=ax2,
     )
     ax2.set_title(f"(b) {name} Generalization")
-    ax2.set_ylabel("Gen. Score")
+    ax2.set_ylabel("Generalization Score")
 
     fig.tight_layout(pad=1.0)
     plt.show()
@@ -182,7 +259,7 @@ def error_analysis(mem_results, name=""):
 def main():
     gpt3_mem_results, gpt3_reg_results = analyze_gpt3_results(ALL_LANGUAGES)
 
-    # plot_results(gpt3_mem_results, gpt3_reg_results, name="GPT-3")
+    # plot_results(gpt3_mem_results, gpt3_reg_results, name="GPT-3.5")
     # error_analysis(gpt3_mem_results)
 
     print(f"Trying to load processed results from '{NN_RESULTS_DIR}'")
@@ -242,7 +319,7 @@ def main():
     N = len(human_genscores)
     ax1.set_title(f"(A) Humans")
     print(f"Sys. Gen.: Humans N={N}")
-    ax1.set_ylabel("Gen. Score")
+    ax1.set_ylabel("Generalization Score")
     ax1.set_xlabel("Struct. Score")
 
     # print(gpt3_reg_results)
@@ -259,8 +336,8 @@ def main():
     gpt3_genscores = pd.concat(rows)
     N = len(gpt3_genscores)
     sns.regplot(x="StructureScore", y="GenScore", data=gpt3_genscores, ax=ax2, **kwargs)
-    ax2.set_title(f"(B) GPT-3")
-    print(f"Sys. Gen.: GPT-3 N={N}")
+    ax2.set_title(f"(B) GPT-3.5")
+    print(f"Sys. Gen.: GPT-3.5 N={N}")
     # ax2.set_ylabel("Gen. Score")
     ax2.set_xlabel("Struct. Score")
     ax2.set(ylabel=None)
@@ -286,7 +363,7 @@ def main():
     ax3.set(ylabel=None)
 
     fig.tight_layout(pad=1.0)
-    plt.savefig("gpt3-generalization-plot.png")
+    plt.savefig("gpt3-generalization-plot.pdf")
 
     ### ERROR ANALYSIS ###
 
@@ -321,14 +398,14 @@ def main():
     N = len(human_errors)
     ax1.set_title(f"(A) Humans")
     print(f"Human error rate: {p_error:.2f}% ({N} errors)")
-    ax1.set_ylabel("Prod. Sim.")
+    ax1.set_ylabel("True Label Similarity")
     ax1.set_xlabel("Struct. Score")
     # sns.regplot(x="StructureScore", y="ProdSim_GroundTruth", data=mem_results, ax=ax1)
     # ax1.set_title(f"Humans")
     # ax1.set_ylabel("Prod. Sim.")
     # ax1.set_xlabel("Struct. Score")
 
-    # GPT-3
+    # GPT-3.5
     gpt3_mem_errors = gpt3_mem_results[gpt3_mem_results["ProdSim_GroundTruth"] < 1.0]
     p_error = 100 * (len(gpt3_mem_errors) / len(gpt3_mem_results))
     sns.regplot(
@@ -339,8 +416,8 @@ def main():
         **kwargs,
     )
     N = len(gpt3_mem_errors)
-    ax2.set_title(f"(B) GPT-3")
-    print(f"GPT-3 error rate: {p_error:.2f}% ({N} errors)")
+    ax2.set_title(f"(B) GPT-3.5")
+    print(f"GPT-3.5 error rate: {p_error:.2f}% ({N} errors)")
     ax2.set_ylabel(None)
     ax2.set_xlabel("Struct. Score")
 
@@ -361,14 +438,18 @@ def main():
     ax3.set_xlabel("Struct. Score")
 
     fig.tight_layout(pad=1.0)
-    plt.savefig("gpt3-error-analysis-plot.png")
+    plt.savefig("gpt3-error-analysis-plot.pdf")
 
-    ### Similarity to Humans
+    ############################
+    ### Similarity to Humans ###
+    ############################
+
     ## NEW, 2023-08-15, lg
+    ## Updated with human/human similarity, 2024-07-01, lg
 
-    fig, (ax1, ax2) = plt.subplots(
+    fig, (ax1, ax2, ax3) = plt.subplots(
         1,
-        2,
+        3,
         sharex=True,
         sharey=True,
         figsize=(12, 6),
@@ -376,37 +457,56 @@ def main():
     )
     # fig.suptitle("Similarity to Humans during Generalization")
 
+
+    assert "ProdSim_Humans2humans" not in reg_results
+    print("Computing human2human similarity")
+    human_reg_results["ProdSim_Humans2humans"] = compare_humans_to_humans(human_reg_results)
+    sns.regplot(
+        x="StructureScore",
+        y="ProdSim_Humans2humans",
+        data=human_reg_results,
+        ax=ax1,
+        **kwargs
+    )
+    ax1.set_title(f"(A) Humans")
+    ax1.set_ylabel("Human Label Similarity")
+    ax1.set_xlabel("Struct. Score")
+
     assert "ProdSim_Humans" not in gpt3_reg_results.columns
     gpt3_reg_results["ProdSim_Humans"] = compare_gpt3_to_humans(
-        gpt3_reg_results, reg_results
+        gpt3_reg_results, human_reg_results
     )
 
     sns.regplot(
         x="StructureScore",
         y="ProdSim_Humans",
         data=gpt3_reg_results,
-        ax=ax1,
-        **kwargs,
-    )
-    N = len(gpt3_reg_results)
-    ax1.set_title(f"(A) GPT-3")
-    ax1.set_ylabel("Prod. Sim.")
-    ax1.set_xlabel("Struct. Score")
-
-    sns.regplot(
-        x="StructureScore",
-        y="ProdSim_Humans",
-        data=reg_results,
         ax=ax2,
         **kwargs,
     )
-    N = len(reg_results)
-    ax2.set_title(f"(B) RNNs")
+    N = len(gpt3_reg_results)
+    ax2.set_title(f"(B) GPT-3.5")
     ax2.set_ylabel(None)
     ax2.set_xlabel("Struct. Score")
 
+
+    assert "Prodsim_RNNs2Humans" not in reg_results
+    reg_results["ProdSim_RNNs2Humans"] = compare_RNNs_to_humans(reg_results, human_reg_results)
+
+    sns.regplot(
+        x="StructureScore",
+        y="ProdSim_RNNs2Humans",
+        data=reg_results,
+        ax=ax3,
+        **kwargs
+    )
+    N = len(reg_results)
+    ax3.set_title(f"(C) RNNs")
+    ax3.set_ylabel(None)
+    ax3.set_xlabel("Struct. Score")
+
     fig.tight_layout(pad=1.0)
-    plt.savefig("gpt3-sim2humans-plot.png")
+    plt.savefig("gpt3-sim2humans-plot.pdf")
 
 
 if __name__ == "__main__":
