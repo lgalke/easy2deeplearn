@@ -259,6 +259,10 @@ def error_analysis(mem_results, name=""):
 def main():
     gpt3_mem_results, gpt3_reg_results = analyze_gpt3_results(ALL_LANGUAGES)
 
+    gpt3_mem_results.to_csv("llm_mem_data.csv", index=False)
+    gpt3_reg_results.to_csv("llm_reg_data.csv", index=False)
+    exit(0)
+
     # plot_results(gpt3_mem_results, gpt3_reg_results, name="GPT-3.5")
     # error_analysis(gpt3_mem_results)
 
@@ -363,7 +367,7 @@ def main():
     ax3.set(ylabel=None)
 
     fig.tight_layout(pad=1.0)
-    plt.savefig("gpt3-generalization-plot.pdf")
+    plt.savefig(f"gpt3-generalization-plot-at-{at_round}.pdf")
 
     ### ERROR ANALYSIS ###
 
@@ -438,7 +442,7 @@ def main():
     ax3.set_xlabel("Struct. Score")
 
     fig.tight_layout(pad=1.0)
-    plt.savefig("gpt3-error-analysis-plot.pdf")
+    plt.savefig(f"gpt3-error-analysis-plot-at-{at_round}.pdf")
 
     ############################
     ### Similarity to Humans ###
@@ -506,7 +510,7 @@ def main():
     ax3.set_xlabel("Struct. Score")
 
     fig.tight_layout(pad=1.0)
-    plt.savefig("gpt3-sim2humans-plot.pdf")
+    plt.savefig(f"gpt3-sim2humans-plot-at-{at_round}.pdf")
 
 
 if __name__ == "__main__":

@@ -35,7 +35,7 @@ def prepare_data(df, epoch=100):
     return subset.drop(unused_columns, axis=1)
 
 
-def select_conditions(data, condition="Producer", criterion="ProdSim_Humans"):
+def select_conditions(data, condition="Producer", criterion="ProdSim_Humans", sample=None):
     """Selects a subset of rows of `df` corresponding to the round number and the criterion
     Returns a dataframe like this:
           ProdSim_Humans  Producer
@@ -58,10 +58,12 @@ def select_conditions(data, condition="Producer", criterion="ProdSim_Humans"):
     selected_conditions = pd.Series(dtype=condition_dtype).reindex_like(quantiles)
     for q, qval in quantiles.items():
         conditions = mean_by_condition[mean_by_condition == qval].index
+        # if sample:
+        #     # Random
+        #     selected_conditions.loc[q] = conditions.sample(sample)
+        # else:
         # Deterministic
         selected_conditions.loc[q] = np.unique(conditions)[0]
-        # Random
-        # selected_conditions.loc[q] = conditions.sample(1)
 
     selected_conditions = selected_conditions.astype(condition_dtype)
 
@@ -97,6 +99,12 @@ def main():
         "--criterion",
         default="ProdSim_Humans",
         help="What criterions to use for quantiles (default: ProdSim_Humans)",
+    )
+    parser.add_argument(
+        "--sample",
+        default=None,
+        type=int,
+        help="Randomly sample k items for each quantile. Default is not to sample.",
     )
     args = parser.parse_args()
 
@@ -168,14 +176,14 @@ def main():
     reg_results.to_csv(osp.join(output_dir, f"reg-{criterion}-quantiles.csv"))
 
     ### Sample even further to put it into table
-    mem_sample = mem_results.groupby(f"{criterion}-mean-by-{condition}").sample(5)
+    mem_sample = mem_results.groupby(f"{criterion}-mean-by-{condition}").sample(args.sample)
     # mem_sample = mem_sample.drop( [f"{criterion}-mean-by-{condition}", f"{condition}"], axis=1)
     mem_sample.rename(column_renaming, axis=1)
     mem_sample.to_latex(
         osp.join(output_dir, f"mem-{criterion}-quantiles-sample.tex"), index=False
     )
 
-    reg_sample = reg_results.groupby(f"{criterion}-mean-by-{condition}").sample(5)
+    reg_sample = reg_results.groupby(f"{criterion}-mean-by-{condition}").sample(args.sample)
     # reg_sample = reg_sample.drop([f"{criterion}-mean-by-{condition}", f"{condition}"], axis=1)
     reg_sample.rename(column_renaming, axis=1)
     reg_sample.to_latex(
