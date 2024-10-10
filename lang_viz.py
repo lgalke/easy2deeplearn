@@ -7,19 +7,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-# def tabularize_languages(mem_data, reg_data, human_data, epoch=100, participant_id=None):
-#     pass
-#
-#
-# def visualize_languages(mem_data, reg_data, epoch=100, participant_id=None):
-#     mem_data_subset = mem_data[(mem_data.Round == epoch) & mem_data.]
-#     reg_data_subset = reg_data[reg_data.Round == epoch]
-#
-#     plt.figure(1)
-#
-#     plt.arrow(0,0, 10, 10)
-#     pass
-
 
 def prepare_data(df, epoch=100):
     subset = df[df.Round == 100]
