@@ -1,1 +1,4 @@
-python3 stats.py --models_subdir models_nested_new -o ~/Documents/project-data/paper__LEADS_easy-to-learn/results-v1-stats-output-v2/ ~/Documents/project-data/paper__LEADS_easy-to-learn/results-v1
+# Helper script to run the stats.py script
+# Adjust the path to the results directory
+RESULTS_DIR=./results
+python3 stats.py -o $RESULTS_DIR --models_subdir statsmodels $RESULTS_DIR

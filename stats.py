@@ -1,3 +1,8 @@
+"""
+This script calculates the statistics for the memorization and regularization results.
+A path to the folder with all results (mem_data.csv and reg_data.csv) is required.
+The script will output the results in a subdirectory of the same folder.
+"""
 import argparse
 import glob
 import os
@@ -6,7 +11,6 @@ from typing import Tuple, Union
 import matplotlib as mpl
 
 mpl.rcParams["figure.dpi"] = 300
-
 
 import matplotlib.pyplot as plt
 
@@ -37,9 +41,6 @@ from measures import (
     production_similarity,
     mean_production_similarity,
 )
-
-# from statsmodels.genmod.bayes_mixed_glm import BinomialBayesMixedGLM
-
 
 # GLOBALS
 COLORMAP = plt.get_cmap(
@@ -285,28 +286,6 @@ def calc_convergence_score(reg_data: pd.DataFrame, word_column="Input"):
         )
 
         convscore_series[group.index] = convscore
-
-    # OLD variant (errornous)
-    # Iterate over items
-    # Items are a function of Trial in convergence
-    # rounds = pd.unique(reg_data.index.get_level_values("Round"))
-    # trials = pd.unique(reg_data.index.get_level_values("Trial"))
-    # Use Target to make sure despite Trial would be faster to access
-    # items = pd.unique(reg_data["Target"])
-    # for i in tqdm(rounds, desc="Calculate convergence score"):
-    #     for j in trials:
-    #         subset = reg_data.loc[:, i, j]
-
-    #         messages = subset["Input"].values
-
-    #         # Exactly as in the orig R script:
-    #         # 1. calc conv score with normalized edit distance
-    #         # 2. then calculate 1 - conv score
-    #         # ( we could also do prodsim right away, but better keep same )
-
-    #         convscore = convergence_score(messages, metric="normalized_editdistance")
-
-    #         convscore_series.loc[:, i, j] = 1 - convscore
 
     return convscore_series
 
@@ -741,7 +720,17 @@ def save_summary_and_plot(number, results, folder, extra_desc: str = ""):
     ) as filehandle:
         print(summary.as_latex(), file=filehandle)
 
+    print("---")
+    print("Making QQ plot to test normality of residuals")
+    qq_path = os.path.join(folder, f"model_{number}{extra_desc}_qq.png")
+    qq_plot = sm.qqplot(results.resid, line="45")
+    plt.tight_layout(pad=1.0)
+    plt.savefig(qq_path)
+    print("---")
+
     with plt.style.context("seaborn-paper"):
+
+
         # Plot partregress grid
         fig = plt.figure(figsize=(8, 6))
         fig = sm.graphics.plot_partregress_grid(results, fig=fig)
@@ -760,32 +749,7 @@ def save_summary_and_plot(number, results, folder, extra_desc: str = ""):
 
 
 def run_model_1(data: pd.DataFrame, epoch=100, outdir="."):
-    """Final Accuracy
-    :data: Dataframe holding memorization data
-    :epoch: The epoch at which the test should be conducted
-    :returns: None
-    :outdir: base directory to write outputs to
-
-    Plot 1 Final Accuracy
-    # model with 1 degree
-    m1<- glmer(Raw_ACC ~
-            c.Structure_Score +
-            (1|Seed)+(1|Target_Item),
-            data=memory_test, family="binomial")
-
-    # model with 2 degree (selected)
-    m1_poly <- glmer(Raw_ACC ~
-                     poly(c.Structure_Score,2) +
-                     (1|Seed)+(1|Target_Item),
-                     data=memory_test, family="binomial")
-
-    """
-    print(f"Running model 1 on data from epoch {epoch}")
-
-    # BinomialBayesMixedGLM needs vc_formulas ? random?
-    # https://www.statsmodels.org/stable/generated/statsmodels.genmod.bayes_mixed_glm.BinomialBayesMixedGLM.html#statsmodels.genmod.bayes_mixed_glm.BinomialBayesMixedGLM
-    # Example from page would translate to (1 + Year | Village)
-
+    """Final Accuracy"""
     subset = data[data.Round == epoch]
 
     random = {"a": "0 + C(Producer)", "b": "0 + C(Target)"}
@@ -802,12 +766,6 @@ def run_model_1(data: pd.DataFrame, epoch=100, outdir="."):
 
 def run_model_2(data: pd.DataFrame, epoch=100, outdir="."):
     """Final Production Similarity (with nested random intercepts)
-
-    :data: Dataframe holding memorization data
-    :epoch: The epoch at which the test should be conducted
-    :returns: None
-    :outdir: base directory to write outputs to
-
     """
     print(f"Running model 2 on data from epoch {epoch}")
     subset = data[data.Round == epoch]
@@ -835,114 +793,22 @@ def make_interaction_plot(
             x=data["Round"],  # x
             trace=data["StructureScore"],  # trace
             response=data[response_variable],  # response
-            # colors=["red", "blue"],
-            # markers=["D", "^"],
             ms=10,
             ax=ax,
             plottype="both",
         )
 
-        # NO RANDOM EFFECTS
         plt.tight_layout(pad=1.0)
         plt.savefig(
             os.path.join(outdir, f"{prefix}{response_variable}_interaction_plot.png")
         )
 
 
-def run_model_3(mem_data: pd.DataFrame):
-    """Learning trajectory"""
-    print("Running model 3 -- Learning trajectory")
-    print(mem_data.columns)
-
-    raise NotImplementedError
-
-
 def nested_group_labels(outer: pd.Series, inner: pd.Series):
     return outer.astype(str) + "_" + inner.astype(str)
 
-
-def run_model_4_with_crossed_random_effects(data: pd.DataFrame, outdir="."):
-    """Learning trajectory PROD SIM to ground truth
-    Adapted from: https://github.com/statsmodels/statsmodels/blob/main/statsmodels/regression/tests/test_lme.py#L284
-    """
-    print(
-        "Running model 4 with more random effects -- Learning trajectory -- PROD SIM to Ground truth "
-    )
-
-    vcf = {"item": "0 + C(Target)", "seed": "0 + C(Producer)"}
-    groups = np.ones(len(data))
-    print(data.columns)
-    model = sm.MixedLM.from_formula(
-        "ProdSim_GroundTruth ~ scale(StructureScore) * scale(np.log(Round))",
-        re_formula="0+C(Target)+C(Producer)",
-        vc_formula=vcf,
-        groups=groups,
-        data=data,
-    )
-    # Killed (Out of memory)
-    results = model.fit()
-
-    save_summary_and_plot(41, results, outdir)
-
-    with plt.style.context("seaborn-paper"):
-        plt.figure(figsize=(8, 6))
-        sns.relplot(
-            x="Round",
-            y="ProdSim_GroundTruth",
-            size="StructureScore",
-            hue="StructureBin",
-            kind="line",
-            data=data,
-            errorbar=ERRORBAR,
-        )
-        plt.tight_layout(pad=1.0)
-        plt.savefig(os.path.join(outdir, "model_41_relplot.png"))
-
-
-def run_model_4_with_nested_random_effects(data: pd.DataFrame, outdir="."):
-    """Learning trajectory PROD SIM to ground truth"""
-    print(
-        "Running model 4 with nested random effects -- Learning trajectory -- PROD SIM to Ground truth "
-    )
-
-    # vcf = {"item": "0 + C(Target)", "seed": "0 + C(Producer)"}
-    # groups = nested_group_labels(data['Producer'], data['Target'])
-    # print(data.columns)
-    # model = sm.MixedLM.from_formula("ProdSim_GroundTruth ~ scale(StructureScore) * scale(np.log(Round))",
-    #             re_formula="0+C(Target)+C(Producer)",
-    #             vc_formula=vcf,
-    #             groups=groups,
-    #             data=data
-    #         )
-    # results = model.fit()
-    # -> killed
-
-    groups = nested_group_labels(data["Producer"], data["Target"])
-    model = sm.MixedLM.from_formula(
-        "ProdSim_GroundTruth ~ scale(StructureScore) * scale(np.log(Round))",
-        groups=groups,
-        data=data,
-    )
-    results = model.fit()
-
-    save_summary_and_plot(42, results, outdir)
-
-    with plt.style.context("seaborn-paper"):
-        plt.figure(figsize=(8, 6))
-        sns.relplot(
-            x="Round",
-            y="ProdSim_GroundTruth",
-            size="StructureScore",
-            kind="line",
-            data=data,
-            errorbar=ERRORBAR,
-        )
-        plt.tight_layout(pad=1.0)
-        plt.savefig(os.path.join(outdir, "model_42_relplot.png"))
-
-
 def run_model_4(data: pd.DataFrame, outdir=".", nested=False):
-    """Learning trajectory PROD SIM to ground truth"""
+    """LME 1: Learning trajectory PROD SIM to ground truth"""
     print("Running model 4 -- Learning trajectory -- PROD SIM to Ground truth ")
 
     endog, exog = dmatrices(
@@ -974,50 +840,8 @@ def run_model_4(data: pd.DataFrame, outdir=".", nested=False):
         plt.tight_layout(pad=1.0)
         plt.savefig(os.path.join(outdir, "model_4_relplot.png"))
 
-
-def run_model_6(data: pd.DataFrame, outdir=".", nested=False):
-    """Learning trajectory GEN SCORE"""
-    print("Running model 6 -- GenScore trajectory")
-
-    print(data.columns)
-    data["GenScore_normalized"] = normalize_genscore(data)
-
-    print("Removing NA values")
-    subset = data[data.GenScore.notna()]
-
-    endog, exog = dmatrices(
-        "GenScore_normalized ~ scale(StructureScore) * scale(np.log(Round))",  # this works
-        data=subset,
-        return_type="dataframe",
-    )
-
-    if nested:
-        groups = nested_group_labels(subset["Producer"], subset["Target"])
-    else:
-        groups = subset["Producer"]
-
-    # model = sm.OLS(endog, exog) # Converges nicely, R^2=0.52 or something
-    model = sm.MixedLM(endog, exog, groups=groups)  # converges with linear round
-    # model = sm.MixedLM(endog, exog, subset["Target"]) # converges with linear round
-    results = model.fit()
-
-    save_summary_and_plot(6, results, outdir)
-    with plt.style.context("seaborn-paper"):
-        plt.figure(figsize=(8, 6))
-        sns.relplot(
-            x="Round",
-            y="GenScore_normalized",
-            size="StructureScore",
-            kind="line",
-            data=data,
-            errorbar=ERRORBAR,
-        )
-        plt.tight_layout(pad=1.0)
-        plt.savefig(os.path.join(outdir, f"model_6_relplot.png"))
-
-
 def run_model_6b(data: pd.DataFrame, outdir=".", nested=False):
-    """Learning trajectory GEN SCORE not normalized"""
+    """LME 3: Learning trajectory of un-normalized Generalization Score"""
     print("Running model 6 -- GenScore trajectory")
     subset = data[data.GenScore.notna()]
 
@@ -1032,9 +856,7 @@ def run_model_6b(data: pd.DataFrame, outdir=".", nested=False):
     else:
         groups = subset["Producer"]
 
-    # model = sm.OLS(endog, exog) # Converges nicely, R^2=0.52 or something
     model = sm.MixedLM(endog, exog, groups=groups)  # converges with linear round
-    # model = sm.MixedLM(endog, exog, subset["Target"]) # converges with linear round
     results = model.fit()
 
     save_summary_and_plot("6b", results, outdir, extra_desc="no-norm")
@@ -1053,7 +875,7 @@ def run_model_6b(data: pd.DataFrame, outdir=".", nested=False):
 
 
 def run_model_7(data: pd.DataFrame, outdir=".", nested=False):
-    """Convergence score ~ Structure"""
+    """LME 4: Convergence score ~ Structure"""
     print("Running model 7 -- ConvScore trajectory")
 
     endog, exog = dmatrices(
@@ -1086,7 +908,7 @@ def run_model_7(data: pd.DataFrame, outdir=".", nested=False):
 
 
 def run_model_8(data: pd.DataFrame, outdir=".", nested=False):
-    """Learning trajectory -- PROD SIM to Humans in Generalization"""
+    """LME 5: Learning trajectory -- PROD SIM to Humans in Generalization"""
     print(
         "Running model 8 -- Learning trajectory -- ProdSim to Humans in Generalization"
     )
@@ -1128,7 +950,7 @@ def run_model_8(data: pd.DataFrame, outdir=".", nested=False):
 
 
 def run_model_9(data: pd.DataFrame, outdir=".", nested=False):
-    """Learning trajectory -- PROD SIM to Humans in Memorization"""
+    """LME 2: Learning trajectory -- PROD SIM to Humans in Memorization"""
     print(
         "Running model 8 -- Learning trajectory -- ProdSim to Humans in Generalization"
     )
@@ -1283,37 +1105,24 @@ def main():
     print("Will save models to", model_output_folder)
     os.makedirs(model_output_folder, exist_ok=True)
 
-    # run_model_4_with_crossed_random_effects(mem_data, outdir='/tmp') # -> Killed (OOM)
-    # run_model_4_with_nested_random_effects(mem_data, outdir='/tmp') # -> With slope per item -> Killed, else ok
-
-    # run_model_1(mem_data)  # Does not work yet
-    # run_model_4(mem_data, outdir=model_output_folder)
-    # run_model_6(reg_data, outdir=model_output_folder)
-    # run_model_7(reg_data, outdir=model_output_folder)
-    # run_model_8(reg_data, outdir=model_output_folder)  # Does not converge with scaling, but centering is ok
-    # run_model_9(mem_data, outdir=model_output_folder)  # Needs scaling to converge
 
     # FINAL MODELS
-    # run_model_1(mem_data, epoch=100)  # not converged
-    # run_model_1(mem_data, epoch=50)   # not converged
+    # Added QQ Plots 2024-10-07
+    run_model_4(mem_data, outdir=model_output_folder, nested=True)
+    # run_model_6(reg_data, outdir=model_output_folder, nested=True)
+    run_model_6b(reg_data, outdir=model_output_folder, nested=True) # Gen score not normalized
 
-    # Added CPPR plots 2022-08-10
+    run_model_7(reg_data, outdir=model_output_folder, nested=True)
+    run_model_8(reg_data, outdir=model_output_folder, nested=True)
+    run_model_9(mem_data, outdir=model_output_folder, nested=True)
+
+    # Supplementary: Prod. Sim to ground truth at a specific epoch
     # run_model_2(mem_data, epoch=10, outdir=model_output_folder)
     # run_model_2(mem_data, epoch=40, outdir=model_output_folder)
     # run_model_2(mem_data, epoch=70, outdir=model_output_folder)
     # run_model_2(mem_data, epoch=100, outdir=model_output_folder)
 
-    # run_model_4(mem_data, outdir=model_output_folder, nested=True)
-    # run_model_6(reg_data, outdir=model_output_folder, nested=True)
-
-    # TODO 6b updated?
-    # run_model_6b(reg_data, outdir=model_output_folder, nested=True)
-
-    # run_model_7(reg_data, outdir=model_output_folder, nested=True)
-    # run_model_8(reg_data, outdir=model_output_folder, nested=True)
-    # run_model_9(mem_data, outdir=model_output_folder, nested=True)
-
-    # old plots
+    # Supplementary: Interaction plots
     # reg_data["GenScore_normalized"] = normalize_genscore(reg_data)
     # make_interaction_plot(mem_data, 'Correct', outdir=model_output_folder, prefix='mem_')
     # make_interaction_plot(mem_data, 'ProdSim_GroundTruth', outdir=model_output_folder, prefix='mem_')
@@ -1326,32 +1135,16 @@ def main():
     print("Calculating human gen scores")
     human_raw_genscores = calc_generalization_score_for_humans(mem_data, reg_data)
 
-    # CUT PLOTS AT 60
+    # Main paper: Plots cut at 60
     cut = 60
     plots_dir = "plots_binned_at_60"
     os.makedirs(plots_dir, exist_ok=True)
-    # make_memorization_plots(mem_data, outdir=plots_dir, cut=cut)
-    # make_memorization_panel(mem_data, outdir=plots_dir, cut=cut)
-    # make_generalization_plots(
-    #     reg_data, outdir=plots_dir, human_raw_genscores=human_raw_genscores, cut=cut
-    # )
-    # make_generalization_panel(
-    #     reg_data, human_raw_genscores=human_raw_genscores, outdir=plots_dir, cut=cut
-    # )
     make_big_panel(mem_data, reg_data, human_raw_genscores, outdir=plots_dir, cut=cut)
 
-    # UNCUT PLOTS (at 100)
+    # Supplementary: Plots uncut
     cut = None
     plots_dir = "plots_binned_at_100"
     os.makedirs(plots_dir, exist_ok=True)
-    # make_memorization_plots(mem_data, outdir=plots_dir, cut=cut)
-    # make_memorization_panel(mem_data, outdir=plots_dir, cut=cut)
-    # make_generalization_plots(
-    #     reg_data, outdir=plots_dir, human_raw_genscores=human_raw_genscores, cut=cut
-    # )
-    # make_generalization_panel(
-    #     reg_data, human_raw_genscores=human_raw_genscores, outdir=plots_dir, cut=cut
-    # )
     make_big_panel(mem_data, reg_data, human_raw_genscores, outdir=plots_dir, cut=cut)
 
 
