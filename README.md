@@ -1,4 +1,23 @@
-# Code for What Makes a Language Easy to Deep-learn?
+# Deep neural networks and humans both benefit from compositional language structure
+
+This repository holds the code for the paper:
+
+Galke, L., Ram, Y. & Raviv, L. Deep neural networks and humans both benefit from compositional language structure. Nat Commun 15, 10816 (2024). https://doi.org/10.1038/s41467-024-55158-1
+
+```bibtex
+@article{galkeDeepNeuralNetworks2024,
+  title = {Deep Neural Networks and Humans Both Benefit from Compositional Language Structure},
+  author = {Galke, Lukas and Ram, Yoav and Raviv, Limor},
+  year = {2024},
+  journal = {Nature Communications},
+  volume = {15},
+  number = {1},
+  pages = {10816},
+  issn = {2041-1723},
+  doi = {10.1038/s41467-024-55158-1}
+}
+```
+
 
 ## Set up
 
